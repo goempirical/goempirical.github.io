@@ -1,0 +1,534 @@
+---
+title: empirical
+---
+
+doctype html
+
+/![if IE 8] <html class="no-js lt-ie9 ie8" lang="en"
+/![if IE 9] <html class="ie9" lang="en"
+/![if IE 10] <html class="ie10" lang="en"
+/![if (gt IE 10)|!(IE)] <html lang="en"
+
+head
+  meta charset="utf-8"
+  meta content="IE=edge" http-equiv="X-UA-Compatible"
+  meta content="width=device-width, initial-scale=1.0" name="viewport"
+  meta content="" name="description"
+  meta content="" name="author"
+  link href="ico/favicon.png" rel="shortcut icon"
+  title Prestige Home
+
+  /! Bootstrap core CSS
+  link href="stylesheets/bootstrap.css" rel="stylesheet"
+  link href="stylesheets/theme.css" rel="stylesheet"
+
+  /! Custom styles for this template
+  link href="stylesheets/magnific-popup.css" rel="stylesheet"
+
+  /! Font Awesome
+  link href="stylesheets/font-awesome.min.css" rel="stylesheet"
+  link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css"
+  link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700" rel="stylesheet" type="text/css"
+
+  /! HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries
+  /![if lt IE 9]
+    | <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script
+    | <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script
+
+  script src="javascripts/modernizr.custom.js"
+
+body
+  .preloader
+    .spinner
+      .bounce1
+      .bounce2
+      .bounce3
+
+  /! NAVBAR
+  /! ==================================================
+  .navbar-wrapper.cbp-af-header
+    .container
+      /! Fixed navbar
+      .navbar.cbp-af-inner role="navigation"
+        .container
+          .navbar-header
+            button.navbar-toggle data-target=".navbar-collapse" data-toggle="collapse" type="button"
+              span.sr-only Toggle navigation
+              span.icon-bar
+              span.icon-bar
+              span.icon-bar
+            h1
+              a.navbar-brand.scroll href="#intro" empirical
+          .navbar-collapse.collapse
+            ul.nav.navbar-nav.pull-right
+              li.dropdown
+                a.dropdown-toggle aria-expanded="false" data-toggle="dropdown" href="#" role="button"
+                  | Home
+                  span.caret
+                ul.dropdown-menu role="menu"
+                  li
+                    a.external href="index-video.html"  Home - Video
+                  li
+                    a.external href="index-app.html"  Home - App
+                  li
+                    a.external href="index-agency.html"  Home - Agency
+              li
+                a href="#about"  About
+              /! li
+              /!  a href="#testimonials"  Testimonials
+              li
+                a href="#projects"  Projects
+              li.hidden-sm
+                a href="#team"  Team
+              li
+                a href="#contact"  Contact
+
+  /! Hero Banner
+  /! ==================================================
+  #intro
+    .item style="background: url('images/bg-featured1.gif')"
+      .container
+        .row
+          .carousel-caption-center.colour-white
+            h2 Ideas are easy.
+            h1 Implementation is hard.
+            p That's where we come in! We help you brainstorm new ideas and deliver first class results.
+            p
+              a.btn.btn-lg.btn-primary.scroll href="#about" role="button"  Learn more
+
+  /! About Section
+  /! ==================================================
+  #intro
+  section#about.content.text-center.light
+    .container
+      /! Three columns of text below the carousel
+      .row
+        .col-lg-12.overlay-text
+          h2 We always deliver more than expected
+      .row
+        .col-sm-4.text-center.overlay-text.icons
+          .icon-wrapper
+            i.fa.fa-cloud.icon-large
+          h3 Sky's the limit
+          p Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.
+        .col-sm-4.text-center.overlay-text.icons
+          .icon-wrapper
+            i.fa.fa-rocket.icon-large
+          h3 Big Ideas
+          p Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.
+        .col-sm-4.text-center.overlay-text.icons
+          .icon-wrapper
+            i.fa.fa-lightbulb-o.icon-large
+          h3 Creative Execution
+          p Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.
+    .overlay-bg.light
+
+  /! Featured Sections
+  /! ==================================================
+  section#featured1.dark.with-bg
+    .container
+      .row
+        .col-sm-5.overlay-text
+          .vertical-align
+            h2 We are devoted to our craft
+            p= lorem.sentence
+    .overlay-bg.black
+  section#featured2.featured
+    .container
+      .row
+        .col-sm-5.text-center
+          img.margin-top.img-responsive alt="Generic placeholder image" data-sr="enter left, hustle 20px" src="images/imac.png" width="429"
+        .col-sm-5.col-sm-offset-1
+          .vertical-align
+            h2 Attention is in the details.
+            p= lorem.sentence
+
+  /! Testimonials
+  /! ==================================================
+  section#testimonials.dark
+    .page-header.text-center
+      h3 Testimonials
+      h2 Our Clients Love Us
+    .container
+      .row
+        .col-md-offset-2.col-md-8
+          #quote-carousel.carousel.slide data-ride="carousel"
+            /! Bottom Carousel Indicators
+            ol.carousel-indicators
+              li.active data-slide-to="0" data-target="#quote-carousel"
+              li data-slide-to="1" data-target="#quote-carousel"
+              li data-slide-to="2" data-target="#quote-carousel"
+            /! Carousel Slides / Quotes
+            .carousel-inner
+              /! Quote 1
+              .item.active
+                blockquote
+                  .row
+                    .col-sm-3.text-center
+                      img.img-circle src="images/user-avatar1.jpg"
+                    .col-sm-9
+                      p "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!"
+                      small
+                        | David Parrelli -
+                        a href="http://www.twitter.com/dparrelli" target="_blank"  @dparrelli
+              /! Quote 2
+              .item
+                blockquote
+                  .row
+                    .col-sm-3.text-center
+                      img.img-circle src="images/user-avatar2.jpg"
+                    .col-sm-9
+                      p "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor nec lacus ut tempor. Mauris."
+                      small
+                        | Working Nomads -
+                        a href="http://www.workingnomads.co" target="_blank"  @workingnomads
+              /! Quote 3
+              .item
+                blockquote
+                  .row
+                    .col-sm-3.text-center
+                      img.img-circle src="images/user-avatar3.jpg"
+                    .col-sm-9
+                      p "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium mauris."
+                      small
+                        | Working Nomads -
+                        a href="http://www.workingnomads.co" target="_blank"  @workingnomads
+            /! Carousel Buttons Next/Prev
+            a.left.carousel-control.visible-md.visible-lg data-slide="prev" href="#quote-carousel"
+              i.fa.fa-chevron-left
+            a.right.carousel-control.visible-md.visible-lg data-slide="next" href="#quote-carousel"
+              i.fa.fa-chevron-right
+  /! Portfolio
+  /! ==================================================
+  section#projects.section-content.section-isotope.separator
+    .page-header.text-center
+      h3 Projects
+      h2 Our latest work
+    .container
+      <!-- #filters.button-group.text-center
+        button.active data-filter-value="*"  show all
+        button data-filter-value=".websites"  websites
+        button data-filter-value=".icons"  icons
+        button data-filter-value=".print"  print
+        button data-filter-value=".mobile"  mobile -->
+      .row.demo-3
+        #portfolio.js-isotope.grid.cs-style-1 data-isotope-options='{"columnWidth": 200, "itemSelector": ".portfolio-item"}'
+          .col-sm-6.col-md-4.portfolio-item.design
+            figure
+              /! Thumb Info
+              .info
+                h3 Lorem ipsum
+                span Design
+              /! Thumbnail
+              img alt="Prestige Portfolio Thumbnail Image" src="images/thumbs/thumb1.jpg"
+              /! Thumb links
+              figcaption
+                a.preview.tooltips.popup-gallery data-placement="bottom" data-toggle="tooltip" href="images/thumbs/thumb1.jpg" title="Preview"
+                  i.fa.fa-plus
+                a.link.tooltips data-placement="bottom" data-toggle="tooltip" href="#" title="Open Website"
+                  i.fa.fa-external-link
+          .col-sm-6.col-md-4.portfolio-item.design
+            figure
+              /! Thumb Info
+              .info
+                h3 Lorem ipsum
+                span Design
+              /! Thumbnail
+              img alt="Prestige Portfolio Thumbnail Image" src="images/thumbs/thumb2.jpg"
+              /! Thumb links
+              figcaption
+                a.preview.tooltips.popup-gallery data-placement="bottom" data-toggle="tooltip" href="images/thumbs/thumb2.jpg" title="Preview"
+                  i.fa.fa-plus
+                a.link.tooltips data-placement="bottom" data-toggle="tooltip" href="#" title="Open Website"
+                  i.fa.fa-external-link
+          .col-sm-6.col-md-4.portfolio-item.websites
+            figure
+              /! Thumb Info
+              .info
+                h3 Lorem ipsum
+                span Websites
+              /! Thumbnail
+              img alt="Prestige Portfolio Thumbnail Image" src="images/thumbs/thumb3.jpg"
+              /! Thumb links
+              figcaption
+                a.preview.tooltips.popup-gallery data-placement="bottom" data-toggle="tooltip" href="images/thumbs/thumb3.jpg" title="Preview"
+                  i.fa.fa-plus
+                a.link.tooltips data-placement="bottom" data-toggle="tooltip" href="#" title="Open Website"
+                  i.fa.fa-external-link
+          .col-sm-6.col-md-4.portfolio-item.websites
+            figure
+              /! Thumb Info
+              .info
+                h3 Lorem ipsum
+                span Websites
+              /! Thumbnail
+              img alt="Prestige Portfolio Thumbnail Image" src="images/thumbs/thumb4.jpg"
+              /! Thumb links
+              figcaption
+                a.preview.tooltips.popup-gallery data-placement="bottom" data-toggle="tooltip" href="images/thumbs/thumb4.jpg" title="Preview"
+                  i.fa.fa-plus
+                a.link.tooltips data-placement="bottom" data-toggle="tooltip" href="#" title="Open Website"
+                  i.fa.fa-external-link
+          .col-sm-6.col-md-4.portfolio-item.websites
+            figure
+              /! Thumb Info
+              .info
+                h3 Lorem ipsum
+                span Websites
+              /! Thumbnail
+              img alt="Prestige Portfolio Thumbnail Image" src="images/thumbs/thumb5.jpg"
+              /! Thumb links
+              figcaption
+                a.preview.tooltips.popup-gallery data-placement="bottom" data-toggle="tooltip" href="images/thumbs/thumb5.jpg" title="Preview"
+                  i.fa.fa-plus
+                a.link.tooltips data-placement="bottom" data-toggle="tooltip" href="#" title="Open Website"
+                  i.fa.fa-external-link
+          .col-sm-6.col-md-4.portfolio-item.icons
+            figure
+              /! Thumb Info
+              .info
+                h3 Lorem ipsum
+                span Icons
+              /! Thumbnail
+              img alt="Prestige Portfolio Thumbnail Image" src="images/thumbs/thumb6.jpg"
+              /! Thumb links
+              figcaption
+                a.preview.tooltips.popup-gallery data-placement="bottom" data-toggle="tooltip" href="images/thumbs/thumb6.jpg" title="Preview"
+                  i.fa.fa-plus
+                a.link.tooltips data-placement="bottom" data-toggle="tooltip" href="#" title="Open Website"
+                  i.fa.fa-external-link
+          .col-sm-6.col-md-4.portfolio-item.icons
+            figure
+              /! Thumb Info
+              .info
+                h3 Lorem ipsum
+                span Icons
+              /! Thumbnail
+              img alt="Prestige Portfolio Thumbnail Image" src="images/thumbs/thumb7.jpg"
+              /! Thumb links
+              figcaption
+                a.preview.tooltips.popup-gallery data-placement="bottom" data-toggle="tooltip" href="images/thumbs/thumb7.jpg" title="Preview"
+                  i.fa.fa-plus
+                a.link.tooltips data-placement="bottom" data-toggle="tooltip" href="#" title="Open Website"
+                  i.fa.fa-external-link
+          .col-sm-6.col-md-4.portfolio-item.print
+            figure
+              /! Thumb Info
+              .info
+                h3 Lorem ipsum
+                span Print
+              /! Thumbnail
+              img alt="Prestige Portfolio Thumbnail Image" src="images/thumbs/thumb8.jpg"
+              /! Thumb links
+              figcaption
+                a.preview.tooltips.popup-gallery data-placement="bottom" data-toggle="tooltip" href="images/thumbs/thumb8.jpg" title="Preview"
+                  i.fa.fa-plus
+                a.link.tooltips data-placement="bottom" data-toggle="tooltip" href="#" title="Open Website"
+                  i.fa.fa-external-link
+          .col-sm-6.col-md-4.portfolio-item.mobile
+            figure
+              /! Thumb Info
+              .info
+                h3 Lorem ipsum
+                span Mobile
+              /! Thumbnail
+              img alt="Prestige Portfolio Thumbnail Image" src="images/thumbs/thumb9.jpg"
+              /! Thumb links
+              figcaption
+                a.preview.tooltips.popup-gallery data-placement="bottom" data-toggle="tooltip" href="images/thumbs/thumb9.jpg" title="Preview"
+                  i.fa.fa-plus
+                a.link.tooltips data-placement="bottom" data-toggle="tooltip" href="#" title="Open Website"
+                  i.fa.fa-external-link
+  /! Team
+  /! ==================================================
+  section#team.dark
+    .page-header.text-center
+      h3 Our Team
+      h2 Our talented team
+    .container
+      .row
+        .col-md-12
+          #owl-example.owl-carousel
+            .item
+              img.display-pic alt="Team Member" src="images/user-avatar4.jpg"
+              h3 David Parrelli
+              h4 Product Manager
+              p
+                | Insatiable appetite for all things digital. Product guy. Founder of
+                = succeed "." do
+                  a href="https://twitter.com/workingnomads" target="blank"  @workingnomads
+                | Footballer and diehard Manchester United fan
+              a.icon href="http://www.twitter.com/dparrelli" target="_blank"
+                i.fa.fa-twitter
+              a.icon href="#" target="_blank"
+                i.fa.fa-facebook
+              a.icon href="http://www.linkedin.com/pub/david-parrelli/17/b22/a11" target="_blank"
+                i.fa.fa-linkedin
+              a.icon href="http://dribbble.com/dparrelli" target="_blank"
+                i.fa.fa-dribbble
+            .item
+              img.display-pic alt="Team Member" src="images/user-avatar5.jpg"
+              h3 Pete Burg
+              h4 UI Designer
+              p Maecenas eu placerat ante. Fusce ut neque justo, et aliquet enim. In hac habitasse platea dictumst. Nullam commodo neque erat.
+              a.icon href="http://www.twitter.com/dparrelli" target="_blank"
+                i.fa.fa-twitter
+              a.icon href="#" target="_blank"
+                i.fa.fa-facebook
+              a.icon href="http://www.linkedin.com/pub/david-parrelli/17/b22/a11" target="_blank"
+                i.fa.fa-linkedin
+              a.icon href="http://dribbble.com/dparrelli" target="_blank"
+                i.fa.fa-dribbble
+            .item
+              img.display-pic alt="Team Member" src="images/user-avatar6.jpg"
+              h3 John Hilton
+              h4 Senior Developer
+              p Maecenas eu placerat ante. Fusce ut neque justo, et aliquet enim. In hac habitasse platea dictumst. Nullam commodo neque erat.
+              a.icon href="http://www.twitter.com/dparrelli" target="_blank"
+                i.fa.fa-twitter
+              a.icon href="#" target="_blank"
+                i.fa.fa-facebook
+              a.icon href="http://www.linkedin.com/pub/david-parrelli/17/b22/a11" target="_blank"
+                i.fa.fa-linkedin
+              a.icon href="http://dribbble.com/dparrelli" target="_blank"
+                i.fa.fa-dribbble
+            .item
+              img.display-pic alt="Team Member" src="images/user-avatar1.jpg"
+              h3 Sarah Miller
+              h4 Creative Director
+              p Maecenas eu placerat ante. Fusce ut neque justo, et aliquet enim. In hac habitasse platea dictumst. Nullam commodo neque erat.
+              a.icon href="http://www.twitter.com/dparrelli" target="_blank"
+                i.fa.fa-twitter
+              a.icon href="#" target="_blank"
+                i.fa.fa-facebook
+              a.icon href="http://www.linkedin.com/pub/david-parrelli/17/b22/a11" target="_blank"
+                i.fa.fa-linkedin
+              a.icon href="http://dribbble.com/dparrelli" target="_blank"
+                i.fa.fa-dribbble
+            .item
+              img.display-pic alt="Team Member" src="images/user-avatar2.jpg"
+              h3 Tracy Wheeler
+              h4 Developer
+              p Maecenas eu placerat ante. Fusce ut neque justo, et aliquet enim. In hac habitasse platea dictumst. Nullam commodo neque erat.
+              a.icon href="http://www.twitter.com/dparrelli" target="_blank"
+                i.fa.fa-twitter
+              a.icon href="#" target="_blank"
+                i.fa.fa-facebook
+              a.icon href="http://www.linkedin.com/pub/david-parrelli/17/b22/a11" target="_blank"
+                i.fa.fa-linkedin
+              a.icon href="http://dribbble.com/dparrelli" target="_blank"
+                i.fa.fa-dribbble
+            .item
+              img.display-pic alt="Team Member" src="images/user-avatar3.jpg"
+              h3 Adrian Filloti
+              h4 Account Manager
+              p Maecenas eu placerat ante. Fusce ut neque justo, et aliquet enim. In hac habitasse platea dictumst. Nullam commodo neque erat.
+              a.icon href="http://www.twitter.com/dparrelli" target="_blank"
+                i.fa.fa-twitter
+              a.icon href="#" target="_blank"
+                i.fa.fa-facebook
+              a.icon href="http://www.linkedin.com/pub/david-parrelli/17/b22/a11" target="_blank"
+                i.fa.fa-linkedin
+              a.icon href="http://dribbble.com/dparrelli" target="_blank"
+                i.fa.fa-dribbble
+  /! Call to Action
+  /! ==================================================
+  section.cta.text-center
+    .container
+      .row
+        .col-lg-12
+          h2
+            | Have a great idea? 
+            span.highlight Let us help!
+          p
+            button.btn.contact-button role="button" type="button"  Contact us
+          .contact-form
+            form#contactForm name="sentMessage"
+              .name
+                input#first_name.form-control.first autofocus="" data-validation-required-message="Please enter your first name" placeholder="First Name" required="" type="text"
+                input#last_name.last data-validation-required-message="Please enter your last name" placeholder="Last Name" required="" type="text"
+              .contact
+                input#email.form-control.email data-validation-required-message="Please enter your email" placeholder="E-mail Address" required="" type="text"
+              .message
+                textarea#message.form-control data-validation-required-message="Please enter your message" maxlength="999" placeholder="Your message" required="" style="resize:none"
+              #success
+              /! For success/fail messages
+              footer.submit-button
+                button type="submit"  Send your message
+  /! Footer
+  /! ==================================================
+  footer#contact.footer
+    .container
+      .row
+        .col-lg-12
+          .col-sm-3.col-md-3
+            .footer-logo
+              h2 Empirical
+              p
+                | San Diego, CA
+                br>/
+                | +1 (123) 456-7890
+              br/
+              p.muted © 2015 Empirical Inc.
+              a href="#"  Terms of Service
+              a href="#"  Privacy
+          .col-sm-3.col-md-3
+            h3 Product
+            ul.list-unstyled
+              li
+                a href="#"  Product for iOS
+              li
+                a href="#"  Product for Android
+              li
+                a href="#"  Product for Windows
+          .col-sm-3.col-md-3
+            h3 Company
+            ul.list-unstyled
+              li
+                a href="#"  About Us
+              li
+                a href="#"  Our Team
+              li
+                a href="#"
+                  | Jobs&emsp;
+                  span.label.label-info Were hiring!
+          .col-sm-3.col-md-3
+            h3 Documentation
+            ul.list-unstyled
+              li
+                a href="#"  Product Help
+              li
+                a href="#"  Developer API
+              li
+                a href="#"  Product Markdown
+      .row
+        .col-lg-12.text-center
+          a.icon href="http://www.twitter.com/dparrelli" target="_blank"
+            i.fa.fa-twitter
+          a.icon href="#" target="_blank"
+            i.fa.fa-facebook
+          a.icon href="http://www.dribbble.com/dparrelli" target="_blank"
+            i.fa.fa-dribbble
+          a.icon href="http://www.davidparrelli.com" target="_blank"
+            i.fa.fa-globe
+
+  /! Bootstrap core JavaScript
+  /! ==================================================
+  script src="javascripts/jquery-1.10.2.min.js"
+  script src="javascripts/bootstrap.min.js"
+  script src="javascripts/classie.js"
+  script src="javascripts/cbpAnimatedHeader.min.js"
+  script src="javascripts/owl.carousel.min.js"
+  script src="javascripts/scrollReveal.js"
+  script defer="defer" src="javascripts/jquery.scrollTo.js"
+  script defer="defer" src="javascripts/jquery.nav.js"
+  script defer="defer" src="javascripts/imagesloaded.pkgd.min.js"
+  script defer="defer" src="javascripts/isotope.min.js"
+  script defer="defer" src="javascripts/jquery.magnific-popup.min.js"
+  script defer="defer" src="javascripts/jqBootstrapValidation.js"
+  script src="javascripts/custom.js"
+  javascript:
+    $(document).ready(function(){
+      isotope();
+    });
+
