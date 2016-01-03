@@ -83,7 +83,7 @@ body
               li
                 a href="#contact"  Contact
               li
-                a.external href="https://medium.com/go-empirical"  Blog
+                a.external href="https://medium.com/go-empirical" target="_blank"  Blog
 
   /! Hero Banner
   /! ==================================================
@@ -443,20 +443,8 @@ body
             | Have a great idea? 
             span.highlight Let us help! You Will be amazed
           p
-            button.btn.contact-button role="button" type="button"  Contact us
-          .contact-form
-            form#contactForm name="sentMessage"
-              .name
-                input#first_name.form-control.first autofocus="" data-validation-required-message="Please enter your first name" placeholder="First Name" required="" type="text"
-                input#last_name.last data-validation-required-message="Please enter your last name" placeholder="Last Name" required="" type="text"
-              .contact
-                input#email.form-control.email data-validation-required-message="Please enter your email" placeholder="E-mail Address" required="" type="text"
-              .message
-                textarea#message.form-control data-validation-required-message="Please enter your message" maxlength="999" placeholder="Your message" required="" style="resize:none"
-              #success
-              /! For success/fail messages
-              footer.submit-button
-                button type="submit"  Send your message
+            button.btn.contact-button.purechat-button-expand role="button" type="button"  Contact us
+
   /! Footer
   /! ==================================================
   footer#contact.footer
@@ -505,13 +493,11 @@ body
                 a href="#"  Product Markdown
       .row
         .col-lg-12.text-center
-          a.icon href="http://www.twitter.com/dparrelli" target="_blank"
+          a.icon href="https://twitter.com/goempirical" target="_blank"
             i.fa.fa-twitter
-          a.icon href="#" target="_blank"
+          a.icon href="https://www.facebook.com/goempirical" target="_blank"
             i.fa.fa-facebook
-          a.icon href="http://www.dribbble.com/dparrelli" target="_blank"
-            i.fa.fa-dribbble
-          a.icon href="http://www.davidparrelli.com" target="_blank"
+          a.icon href="https://medium.com/go-empirical" target="_blank"
             i.fa.fa-globe
 
   /! Bootstrap core JavaScript
@@ -534,5 +520,5 @@ body
       isotope();
     });
 
-  /! PureCHat is free
+  /! PureChat
   <script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: 'f6b39829-5333-4e67-b19a-b1801b9474d3', f: true }); done = true; } }; })();</script>
