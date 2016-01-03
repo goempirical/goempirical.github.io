@@ -1,3 +1,3 @@
 middleman build
 rsync build/** ./
-rm -rf /build
+rm -rf build

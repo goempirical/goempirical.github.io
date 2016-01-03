@@ -7,7 +7,7 @@
 # Ignore bundler config
 /.bundle
 
-# Do not ignore the build directory ?
+# Ignore the build directory
 /build
 
 # Ignore cache
