@@ -1,5 +1,5 @@
 middleman build
-rsync build/** ./
+cp -R build/** ./
 rm -rf build
 git add -A
 git commit -m "publish updates now"
