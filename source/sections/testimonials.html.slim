@@ -1,0 +1,55 @@
+/! Testimonials
+/! ==================================================
+section#testimonials.dark
+  .page-header.text-center
+    h3 Testimonials
+    h2 Our Clients Love Us
+  .container
+    .row
+      .col-md-offset-2.col-md-8
+        #quote-carousel.carousel.slide data-ride="carousel"
+          /! Bottom Carousel Indicators
+          ol.carousel-indicators
+            li.active data-slide-to="0" data-target="#quote-carousel"
+            li data-slide-to="1" data-target="#quote-carousel"
+            li data-slide-to="2" data-target="#quote-carousel"
+          /! Carousel Slides / Quotes
+          .carousel-inner
+            /! Quote 1
+            .item.active
+              blockquote
+                .row
+                  .col-sm-3.text-center
+                    img.img-circle src="images/testimonials/mario_mireles.jpg"
+                  .col-sm-9
+                    p "Strong team. Solid Results! This team has been essential to the success of SouthDoctors."
+                    small
+                      | Mario Mireles -
+                      a href="https://twitter.com/mmirelesv" target="_blank"  @mmirelesv
+            /! Quote 2
+            .item
+              blockquote
+                .row
+                  .col-sm-3.text-center
+                    img.img-circle src="images/testimonials/wes_profile.jpg"
+                  .col-sm-9
+                    p "You guys are rockstars. We couldn't have done it without your support."
+                    small
+                      | Swingby -
+                      a href="https://twitter.com/wesleysoo" target="_blank"  @wesleysoo
+            /! Quote 3
+            /!.item
+              blockquote
+                .row
+                  .col-sm-3.text-center
+                    img.img-circle src="images/user-avatar3.jpg"
+                  .col-sm-9
+                    p "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium mauris."
+                    small
+                      | Working Nomads -
+                      a href="http://www.workingnomads.co" target="_blank"  @workingnomads
+          /! Carousel Buttons Next/Prev
+          a.left.carousel-control.visible-md.visible-lg data-slide="prev" href="#quote-carousel"
+            i.fa.fa-chevron-left
+          a.right.carousel-control.visible-md.visible-lg data-slide="next" href="#quote-carousel"
+            i.fa.fa-chevron-right
