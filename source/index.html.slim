@@ -106,23 +106,24 @@ body
       /! Three columns of text below the carousel
       .row
         .col-lg-12.overlay-text
-          h2 We always deliver more than expected
+          h2 We build web and mobile products
       .row
         .col-sm-4.text-center.overlay-text.icons
           .icon-wrapper
+            i.fa.fa-desktop.icon-large
+          h3 Web Development
+          p We bring web applications ideas to live, or will fix your unfinished project.
+        .col-sm-4.text-center.overlay-text.icons
+          .icon-wrapper
             i.fa.fa-cloud.icon-large
-          h3 Sky's the limit
-          p Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.
+          h3 Cloud & Emerging Tech
+          p We build & deploy your cloud service or explore and implement prototypes with new and emerging technologies.
         .col-sm-4.text-center.overlay-text.icons
           .icon-wrapper
-            i.fa.fa-rocket.icon-large
-          h3 Big Ideas
-          p Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.
-        .col-sm-4.text-center.overlay-text.icons
-          .icon-wrapper
-            i.fa.fa-lightbulb-o.icon-large
-          h3 Creative Execution
-          p Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.
+            i.fa.fa-mobile.icon-large
+          h3 Mobile Development
+          p Pure html5, hybrid or native mobile applications, we’ve got you covered.
+
     .overlay-bg.light
 
   /! Featured Sections
@@ -133,7 +134,7 @@ body
         .col-sm-5.overlay-text
           .vertical-align
             h2 We are devoted to our craft
-            p= lorem.sentence
+            p We are a new software company, but we are not new in the software industry. We have years of experience building applications that are being used by millions of users daily. From video broadcasting to multi-million dollar making mobile video games.
     .overlay-bg.black
   section#featured2.featured
     .container
@@ -207,12 +208,12 @@ body
       h3 Projects
       h2 Our latest work
     .container
-      #filters.button-group.text-center
+      <!-- #filters.button-group.text-center
         button.active data-filter-value="*"  show all
         button data-filter-value=".websites"  websites
         button data-filter-value=".icons"  icons
         button data-filter-value=".print"  print
-        button data-filter-value=".mobile"  mobile
+        button data-filter-value=".mobile"  mobile -->
       .row.demo-3
         #portfolio.js-isotope.grid.cs-style-1 data-isotope-options='{"columnWidth": 200, "itemSelector": ".portfolio-item"}'
           .col-sm-6.col-md-4.portfolio-item.design
@@ -475,10 +476,12 @@ body
             h3 Company
             ul.list-unstyled
               li
-                a href="#"  About Us
+                a href="#about"  About Us
               li
-                a href="#"  Our Team
+                a href="#projects"  Projects
               li
+                a href="#team"  Our Team
+              /! li
                 a href="#"
                   | Jobs&emsp;
                   span.label.label-info Were hiring!
