@@ -8,7 +8,7 @@
 /.bundle
 
 # Do not ignore the build directory ?
-# /build
+/build
 
 # Ignore cache
 /.sass-cache

@@ -1,0 +1,4 @@
+to build
+middleman build
+mv /build ./
+rm -rf /build
