@@ -397,7 +397,7 @@ $(function() {
 	   // firstName = name.split(' ').slice(0, -1).join(' ');
     //      }        
 	 $.ajax({
-                url: "contact_me.php",
+              url: "contact_me.php",
             	type: "POST",
             	data: {first_name: first_name, last_name: last_name, email: email, message: message},
             	cache: false,
