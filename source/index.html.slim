@@ -10,6 +10,10 @@ doctype html
 /![if (gt IE 10)|!(IE)] <html lang="en"
 
 head
+  javascript:
+    var host = "goempirical.com";
+    if ((host == window.location.host) && (window.location.protocol != "https:"))
+      window.location.protocol = "https";
   meta charset="utf-8"
   meta content="IE=edge" http-equiv="X-UA-Compatible"
   meta content="width=device-width, initial-scale=1.0" name="viewport"
