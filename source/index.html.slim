@@ -12,8 +12,9 @@ doctype html
 head
   javascript:
     var host = "goempirical.com";
-    if ((host == window.location.host) && (window.location.protocol != "https:"))
-      window.location.protocol = "https";
+    var host = "www.goempirical.com";
+    if (((host == window.location.host) || (host2 == window.location.host))  && (window.location.protocol != "https:"))
+      window.location = "https://www.goempirical.com";
   meta charset="utf-8"
   meta content="IE=edge" http-equiv="X-UA-Compatible"
   meta content="width=device-width, initial-scale=1.0" name="viewport"
