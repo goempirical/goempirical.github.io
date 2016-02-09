@@ -1765,6 +1765,7 @@ section .overlay-text {
 }
 #portfolio .portfolio-item {
   margin-bottom: 0.15em;
+  margin-top: 20px;
 }
 #filters {
   margin-bottom: 1em;
@@ -1794,7 +1795,7 @@ section .overlay-text {
 }
 .grid .portfolio-item {
   display: inline-block;
-  margin: 0;
+  margin: 50 0 0 0;
   padding: 20px;
   position: relative;
   text-align: left;
