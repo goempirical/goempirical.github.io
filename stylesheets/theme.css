@@ -1228,11 +1228,19 @@ section .login-overlay {
 }
 #intro .carousel-caption-center .btn,
 #intro-video .carousel-caption-center .btn {
-  margin: 1em 0;
+  margin: 1em .5em;
   padding: 1em 2em;
-  background: #88b7b3;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+}
+#intro .carousel-caption-center .btn.btn-primary,
+#intro-video .carousel-caption-center .btn.btn-primary {
+  background: #88b7b3;
+}
+#intro .carousel-caption-center .btn.btn-secondary,
+#intro-video .carousel-caption-center .btn.btn-secondary {
+  background: #5e6065;
+  color: white;
 }
 #intro .carousel-caption-center .btn:hover,
 #intro-video .carousel-caption-center .btn:hover {
@@ -2042,7 +2050,7 @@ section .overlay-text {
   color: rgba(51, 51, 51, 0.7);
 }
 footer.footer {
-  background: #2b2d35;
+  background: #68a49f;
   padding: 5em 0;
   color: white;
 }
