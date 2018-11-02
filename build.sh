@@ -1,4 +1,4 @@
-middleman build
+bundle exec middleman build
 cp -R build/** ./
 rm -rf build
 git add -A
