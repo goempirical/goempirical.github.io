@@ -53,3 +53,10 @@ h1 {
     -webkit-transform: scale(1);
   }
 }
+
+@media (min-width: 1400px) {
+  .container.-wide {
+      width: 95%;
+      max-width: 2000px;
+  }
+}

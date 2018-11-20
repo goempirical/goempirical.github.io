@@ -8,3 +8,7 @@ git commit -m "publish updates now"
 git push origin
 
 # to start middleman locally
+
+middleman
+
+## while running, go to local:4567 or localhost:4567 depending on your local configuration

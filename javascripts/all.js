@@ -130,8 +130,8 @@ function init() {
 
 function owlCarousel() {
     $(".owl-team").owlCarousel({
-      lazyLoad : true,
-      items: 3,
+      lazyLoad : false,
+      items: 1,
       theme: "owl-theme-main"
     }); 
   
