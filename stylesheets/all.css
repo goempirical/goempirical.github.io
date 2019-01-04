@@ -1,4 +1,4 @@
-  @charset "utf-8";
+@charset "utf-8";
 
 body {
   background: #d4d4d4 url("../images/background.png");
@@ -51,5 +51,12 @@ h1 {
   }
   to {
     -webkit-transform: scale(1);
+  }
+}
+
+@media (min-width: 1400px) {
+  .container.-wide {
+      width: 95%;
+      max-width: 2000px;
   }
 }

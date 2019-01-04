@@ -28,11 +28,15 @@ function init() {
 /* --- owlCarousel ------------- */
 
 function owlCarousel() {
-    // $(".owl-team").owlCarousel({
-    //   lazyLoad : true,
-    //   items: 10,
-    //   theme: "owl-theme-main"
-    // }); 
+    //alert("will do some magic here")
+    $(".owl-team").owlCarousel({
+      //lazyLoad : true,
+      items: 2,
+      theme: "owl-theme-main",
+      //autoWidth:true,
+      //singleItem: true
+
+    }); 
   
     // $("#intro").owlCarousel({
     //   lazyLoad: true,
@@ -44,7 +48,6 @@ function owlCarousel() {
     //   pagination: false,
     //   transitionStyle: "fade",
     //   theme: "owl-theme-featured"
-      
     // }); 
 }
 

@@ -129,24 +129,27 @@ function init() {
 /* --- owlCarousel ------------- */
 
 function owlCarousel() {
+    //alert("will do some magic here")
     $(".owl-team").owlCarousel({
-      lazyLoad : false,
-      items: 1,
-      theme: "owl-theme-main"
+      //lazyLoad : true,
+      items: 2,
+      theme: "owl-theme-main",
+      //autoWidth:true,
+      //singleItem: true
+
     }); 
   
-    $("#intro").owlCarousel({
-      lazyLoad: true,
-      lazyEffect: "fade",
-      singleItem: true,
-      navigation: true,
-      navigationText : ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
-      slideSpeed : 450,
-      pagination: false,
-      transitionStyle: "fade",
-      theme: "owl-theme-featured"
-      
-    }); 
+    // $("#intro").owlCarousel({
+    //   lazyLoad: true,
+    //   lazyEffect: "fade",
+    //   singleItem: true,
+    //   navigation: true,
+    //   navigationText : ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+    //   slideSpeed : 450,
+    //   pagination: false,
+    //   transitionStyle: "fade",
+    //   theme: "owl-theme-featured"
+    // }); 
 }
 
 
