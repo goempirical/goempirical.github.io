@@ -59,10 +59,10 @@ body {
   display: block;
 }
 .style-switcher li:nth-child(1) {
-  border-left: 8px solid #88b7b3;
+  border-left: 8px solid #66BFDF;
 }
 .style-switcher li:nth-child(1):hover {
-  border-left: 2em solid #88b7b3;
+  border-left: 2em solid #66BFDF;
 }
 .style-switcher li:nth-child(2) {
   border-left: 8px solid #4aa1db;
@@ -109,10 +109,10 @@ p {
   line-height: 1.75;
 }
 a {
-  color: #88b7b3;
+  color: #66BFDF;
 }
 a:hover {
-  color: #88b7b3;
+  color: #66BFDF;
   text-decoration: underline;
 }
 blockquote {
@@ -122,7 +122,7 @@ blockquote {
   color: white !important;
 }
 .highlight {
-  color: #88b7b3;
+  color: #66BFDF;
 }
 .vertical-align {
   margin: 100px 0;
@@ -144,8 +144,8 @@ blockquote {
 }
 .btn.btn-empty {
   background: none !important;
-  border: 2px solid #88b7b3;
-  color: #88b7b3 !important;
+  border: 2px solid #66BFDF;
+  color: #66BFDF !important;
 }
 .btn.btn-empty:hover {
   background-color: rgba(0, 0, 0, 0.03) !important;
@@ -324,7 +324,7 @@ blockquote {
   padding: 1em 0;
 }
 .navbar .navbar-nav .current > a {
-  color: #88b7b3 !important;
+  color: #66BFDF !important;
 }
 .navbar .nav > li > a:hover,
 .navbar .nav > li > a:focus {
@@ -344,7 +344,7 @@ blockquote {
   font-size: 0.9em;
 }
 .navbar .nav > li ul .dropdown-header {
-  color: #88b7b3;
+  color: #66BFDF;
 }
 .navbar-brand,
 .navbar-nav > li > a {
@@ -420,7 +420,7 @@ blockquote {
 }
 .cbp-af-header .nav li.open > a {
   background: none;
-  color: #88b7b3;
+  color: #66BFDF;
 }
 .cbp-af-header .nav li ul a {
   color: #333333;
@@ -436,10 +436,10 @@ blockquote {
   text-transform: uppercase;
 }
 .cbp-af-header .nav a.signup {
-  color: #88b7b3 !important;
+  color: #66BFDF !important;
 }
 .cbp-af-header .nav a:hover {
-  color: #88b7b3;
+  color: #66BFDF;
   background: none;
 }
 /* Transitions and class for reduced height */
@@ -571,10 +571,10 @@ blockquote {
   border-radius: 4px;
 }
 .login-part input:focus {
-  border-color: #88b7b3;
+  border-color: #66BFDF;
 }
 .login-part button[type='submit'] {
-  background: #88b7b3;
+  background: #66BFDF;
   padding: 17px;
 }
 .login-part button[type='submit']:hover {
@@ -599,7 +599,7 @@ blockquote {
   padding: 0 1.5em;
 }
 .login-part p.disclaimer a {
-  color: #88b7b3;
+  color: #66BFDF;
 }
 #signup .login-part {
   height: 362px;
@@ -1239,7 +1239,7 @@ section .login-overlay {
 }
 #intro .carousel-caption-center .btn.btn-primary,
 #intro-video .carousel-caption-center .btn.btn-primary {
-  background: #88b7b3;
+  background: #66BFDF;
 }
 #intro .carousel-caption-center .btn.btn-secondary,
 #intro-video .carousel-caption-center .btn.btn-secondary {
@@ -1248,7 +1248,7 @@ section .login-overlay {
 }
 #intro .carousel-caption-center .btn:hover,
 #intro-video .carousel-caption-center .btn:hover {
-  background: #68a49f;
+  background: #66BFDF;
 }
 #intro .carousel-caption-left,
 #intro-video .carousel-caption-left {
@@ -1281,13 +1281,13 @@ section .login-overlay {
 #intro-video .carousel-caption-left .btn {
   margin: 1em 0;
   padding: 1em 2em;
-  background: #88b7b3;
+  background: #66BFDF;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 #intro .carousel-caption-left .btn:hover,
 #intro-video .carousel-caption-left .btn:hover {
-  background: #68a49f;
+  background: #66BFDF;
 }
 .overlay-bg {
   position: absolute;
@@ -1545,7 +1545,7 @@ section h3 {
   font-size: 1em;
   font-weight: 600;
   text-transform: uppercase;
-  color: #88b7b3;
+  color: #66BFDF;
   letter-spacing: 1px;
 }
 section p {
@@ -1633,17 +1633,17 @@ section.cta p:last-child {
   padding-bottom: 0;
 }
 section.cta .btn {
-  background: #88b7b3;
+  background: #66BFDF;
   color: white;
   padding: 0.5em 2em;
   font-size: 1em;
   margin: 0 1em;
-  border: 2px solid #88b7b3;
+  border: 2px solid #66BFDF;
   text-transform: uppercase;
 }
 section.cta .btn:hover {
-  background: #6fa8a3;
-  border-color: #6fa8a3;
+  background: #66BFDF;
+  border-color: #66BFDF;
 }
 section .overlay-text {
   z-index: 10;
@@ -1743,14 +1743,14 @@ section .overlay-text {
   margin: 2em 0;
 }
 #pricing .plan .plan-cta .plan-buy .btn {
-  background: #88b7b3;
+  background: #66BFDF;
   padding: 10px 30px;
   font-size: 1em;
   font-weight: 300;
   color: white;
 }
 #pricing .plan .plan-cta .plan-buy .btn:hover {
-  background: #68a49f;
+  background: #66BFDF;
 }
 #pricing .plan.featured {
   padding: 1.5em 0 0;
@@ -1803,10 +1803,10 @@ section .overlay-text {
   content: '';
 }
 #testimonials .carousel blockquote a {
-  color: #88b7b3;
+  color: #66BFDF;
 }
 #testimonials .carousel blockquote a:hover {
-  color: #88b7b3;
+  color: #66BFDF;
   text-decoration: underline;
 }
 #portfolio .portfolio-item {
@@ -1897,7 +1897,7 @@ section .overlay-text {
   line-height: 35px;
   border: 1px solid #fff;
   border-radius: 50%;
-  color: #88b7b3;
+  color: #66BFDF;
   text-decoration: none;
 }
 .grid figcaption a.preview {
@@ -1909,7 +1909,7 @@ section .overlay-text {
 .grid figcaption a.link:hover,
 .grid figcaption a.preview:hover {
   background: #fff;
-  color: #68a49f;
+  color: #66BFDF;
   transition: background 0.1s linear 0.1s;
 }
 .grid figcaption span {
@@ -2061,7 +2061,7 @@ section .overlay-text {
   padding: 1em 0;
 }
 .contact-form footer button {
-  background: #88b7b3;
+  background: #66BFDF;
   border-radius: 4px;
   border: 0;
   color: white;
@@ -2070,7 +2070,7 @@ section .overlay-text {
   transition: all linear 0.2s;
 }
 .contact-form footer button:hover {
-  background: #68a49f;
+  background: #66BFDF;
 }
 .contact-form footer button:focus {
   outline: none;
@@ -2098,7 +2098,7 @@ footer.footer .footer-logo a {
   color: #c9cacc;
 }
 footer.footer .footer-logo a:hover {
-  color: #88b7b3;
+  color: #66BFDF;
   text-decoration: none;
 }
 footer.footer h2 {
@@ -2125,7 +2125,7 @@ footer.footer ul li a {
   color: #c9cacc;
 }
 footer.footer ul li a:hover {
-  color: #88b7b3;
+  color: #66BFDF;
   text-decoration: none;
 }
 footer.footer .copyright {
@@ -2152,7 +2152,7 @@ footer.footer .icon {
   font-size: 1em;
 }
 .icon:hover {
-  color: #88b7b3;
+  color: #66BFDF;
 }
 .icons .icon-wrapper {
   width: 140px;
@@ -2330,7 +2330,7 @@ footer.footer .icon {
   box-shadow: 0px 0px 0px 2px #b5cd60;
 }
 .modal-form input[type='submit'] {
-  background: #88b7b3;
+  background: #66BFDF;
   border: 0;
   color: white;
   font-weight: bold;
@@ -2735,7 +2735,7 @@ section.process {
 }
 
 .process--header {
-  background-color: #88b7b3;
+  background-color: #66BFDF;
   padding: 4em;
   color:white;
   -webkit-font-smoothing: antialiased;
@@ -2772,7 +2772,7 @@ section.process {
 .process--row .icon-wrapper {
   height: 4em;
   width: 4em;
-  background-color: #88b7b3;
+  background-color: #66BFDF;
   border-radius: 50%;
 }
 
