@@ -7,7 +7,7 @@ git add -A
 git commit -m "publish updates now"
 git push origin
 
-# to start middleman locally
+# To start middleman locally
 
 middleman
 
