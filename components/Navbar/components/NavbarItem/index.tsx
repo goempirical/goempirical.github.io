@@ -9,7 +9,6 @@ function NavbarItem({ isActive, title, to }: INavbarItemProps) {
   const activeBeforeClassNames = 'before:opacity-100';
 
   return (
-    // TODO: Correct font size. Is 18px, should be 16px.
     <div className={clsx(beforeClassNames, isActive ? activeBeforeClassNames : '', 'relative flex items-center justify-center')}>
       <Link href={to} passHref>
         <Text variation="a" className={clsx('text-base', { 'font-semibold': isActive })}>{title}</Text>
