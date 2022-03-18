@@ -42,7 +42,7 @@ function Navbar({ className, config }: INavbarProps) {
       className={
         clsx(
           'flex justify-center w-full sticky top-0 z-40 transition-transform',
-          isCollapsed ? '-translate-y-20' : 'translate-y-0',
+          isCollapsed ? '-translate-y-14' : 'translate-y-0',
           className,
         )
       }

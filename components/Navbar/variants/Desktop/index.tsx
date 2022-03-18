@@ -10,8 +10,8 @@ function NavbarDesktop({ config, isCollapsed }: INavbarVariantProps) {
   const { pathname } = useRouter();
 
   return (
-    <div className="flex flex-wrap gap-8 items-center lg:gap-5 max-w-u1280 px-5 py-16 w-full">
-      <div className={clsx('flex items-center transition-transform', { 'translate-y-11': isCollapsed })}>
+    <div className="flex flex-wrap gap-8 items-center lg:gap-5 max-w-u1280 px-5 py-12 w-full">
+      <div className={clsx('flex items-center transition-transform', { 'translate-y-8': isCollapsed })}>
         <Link href="/">
           {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
           <a className="flex items-center -mt-2">
@@ -19,7 +19,7 @@ function NavbarDesktop({ config, isCollapsed }: INavbarVariantProps) {
           </a>
         </Link>
       </div>
-      <div className={clsx('flex flex-1 gap-x-7 items-center justify-end transition-transform w-full', { 'translate-y-10': isCollapsed })}>
+      <div className={clsx('flex flex-1 gap-x-7 items-center justify-end transition-transform w-full', { 'translate-y-7': isCollapsed })}>
         {config.navigation.map((item) => (
           <NavbarItem
             key={item.to}

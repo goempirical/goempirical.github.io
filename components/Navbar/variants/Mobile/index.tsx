@@ -18,8 +18,8 @@ function NavbarMobile({ config, isCollapsed }: INavbarVariantProps) {
 
   return (
     <>
-      <div className={clsx('flex justify-between w-full px-5 py-16 lg:gap-5 gap-8 items-center z-50')}>
-        <div className={clsx('flex items-center transition-transform', { 'translate-y-11': isCollapsed })}>
+      <div className={clsx('flex justify-between w-full px-5 py-12 lg:gap-5 gap-8 items-center z-50')}>
+        <div className={clsx('flex items-center transition-transform', { 'translate-y-8': isCollapsed })}>
           <Link href="/">
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a className="flex items-center -mt-2">
@@ -27,7 +27,7 @@ function NavbarMobile({ config, isCollapsed }: INavbarVariantProps) {
             </a>
           </Link>
         </div>
-        <div className={clsx('flex items-center transition-transform', { 'translate-y-11': isCollapsed })}>
+        <div className={clsx('flex items-center transition-transform', { 'translate-y-7': isCollapsed })}>
           <button className="text-white" onClick={(() => setIsOpen(!isOpen))} type="button" title="Toggle menu">
             <HamburgerIcon />
           </button>

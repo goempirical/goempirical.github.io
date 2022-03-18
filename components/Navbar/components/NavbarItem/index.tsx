@@ -11,7 +11,7 @@ function NavbarItem({ isActive, title, to }: INavbarItemProps) {
   return (
     <div className={clsx(beforeClassNames, isActive ? activeBeforeClassNames : '', 'relative flex items-center justify-center')}>
       <Link href={to} passHref>
-        <Text variation="a" className={clsx('text-base', { 'font-semibold': isActive })}>{title}</Text>
+        <Text variation="a" className={clsx('text-base', { 'font-semibold': isActive, 'opacity-60': !isActive })}>{title}</Text>
       </Link>
     </div>
   );
