@@ -1,3 +1,5 @@
+import { ROUTES } from '@constants/routes';
+
 import { IFooterConfig } from './types';
 
 export const defaultConfig: IFooterConfig = {
@@ -25,33 +27,33 @@ export const defaultConfig: IFooterConfig = {
   navigation: [
     {
       title: 'Careers',
-      to: '/careers',
+      to: ROUTES.Careers,
       items: [
         {
           title: 'Section 1',
-          to: '/careers',
+          to: ROUTES.Careers,
         },
         {
           title: 'Section 2',
-          to: '/careers',
+          to: ROUTES.Careers,
         },
         {
           title: 'Opening careers',
-          to: '/careers',
+          to: ROUTES.Careers,
         },
       ],
     },
     {
       title: 'About us',
-      to: '/about-us',
+      to: ROUTES.AboutUs,
       items: [
         {
           title: 'Section 1',
-          to: '/about-us',
+          to: ROUTES.AboutUs,
         },
         {
           title: 'Section 2',
-          to: '/about-us',
+          to: ROUTES.AboutUs,
         },
       ],
     },

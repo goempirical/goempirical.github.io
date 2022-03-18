@@ -1,4 +1,3 @@
-import DefaultLayout from '@components/Layouts/Default';
 import Text from '@components/Text';
 
 const texts = {
@@ -13,17 +12,15 @@ const texts = {
 
 function Home() {
   return (
-    <DefaultLayout>
-      <div className="flex flex-col gap-5 p-10">
-        <Text variation="h1">{texts.h1}</Text>
-        <Text variation="h2">{texts.h2}</Text>
-        <Text variation="h3">{texts.h3}</Text>
-        <Text variation="h4">{texts.h4}</Text>
-        <Text variation="highlighted" className="max-w-2xl">{texts.highlighted}</Text>
-        <Text variation="p" className="max-w-2xl">{texts.paragraph}</Text>
-        <Text variation="quote" className="max-w-2xl">{texts.quote}</Text>
-      </div>
-    </DefaultLayout>
+    <div className="flex flex-col gap-5 p-10">
+      <Text variation="h1">{texts.h1}</Text>
+      <Text variation="h2">{texts.h2}</Text>
+      <Text variation="h3">{texts.h3}</Text>
+      <Text variation="h4">{texts.h4}</Text>
+      <Text variation="highlighted" className="max-w-2xl">{texts.highlighted}</Text>
+      <Text variation="p" className="max-w-2xl">{texts.paragraph}</Text>
+      <Text variation="quote" className="max-w-2xl">{texts.quote}</Text>
+    </div>
   );
 }
 

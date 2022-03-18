@@ -1,11 +1,7 @@
+import { TNavigationItem } from 'types/INavigation';
+
 /* eslint-disable no-unused-vars */
 type TSocialMedia = 'twitter' | 'facebook' | 'linkedin';
-
-export type TNavigation = {
-  title: string;
-  to: string;
-  items?: TNavigation[];
-}
 
 export interface IFooterConfig {
   contactMail?: {
@@ -19,7 +15,7 @@ export interface IFooterConfig {
       url: string;
     }
   }
-  navigation: TNavigation[];
+  navigation: TNavigationItem[];
 }
 
 export interface IFooterProps {
