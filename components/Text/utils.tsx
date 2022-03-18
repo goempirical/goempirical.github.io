@@ -9,7 +9,7 @@ interface IGetParsedChildrenProps {
 
 const defaultGetParsedChildrenConfig = {
   strong: {
-    className: 'relative before:absolute before:w-full before:h-1/4 before:md:h-2/6 before:bottom-1.5 before:left-0 before:bg-primary z-0 before:-z-10',
+    className: 'relative before:absolute before:w-full before:h-2/6 before:bottom-1/6 before:left-0 before:bg-primary z-0 before:-z-10',
   },
 };
 
