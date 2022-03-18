@@ -35,6 +35,6 @@ export const variationConfig: TTextVariationConfig = {
   },
   a: {
     component: 'a',
-    defaultClassNames: 'text-lg primary',
+    defaultClassNames: 'primary',
   },
 };

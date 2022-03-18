@@ -13,7 +13,7 @@ function Text({
   } = variationConfig[variation!];
 
   return (
-    <TextComponent className={clsx(className, defaultClassNames)} {...props}>
+    <TextComponent {...props} className={clsx(defaultClassNames, className)}>
       {children}
     </TextComponent>
   );
