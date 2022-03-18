@@ -1,16 +1,6 @@
-import { ElementType } from 'react';
+import { TTextVariationConfig } from './types';
 
-export type TTextVariations = 'h1' | 'h2' | 'h3' | 'h4' | 'highlighted' | 'p' | 'quote' | 'span';
-
-export type IVariationConfig = {
-  // eslint-disable-next-line no-unused-vars
-  [key in TTextVariations]: {
-    component: ElementType;
-    defaultClassNames: string;
-  }
-}
-
-export const variationConfig: IVariationConfig = {
+export const variationConfig: TTextVariationConfig = {
   h1: {
     component: 'h1',
     defaultClassNames: 'text-h1 text-display font-semibold',
@@ -42,5 +32,9 @@ export const variationConfig: IVariationConfig = {
   span: {
     component: 'span',
     defaultClassNames: '',
+  },
+  a: {
+    component: 'a',
+    defaultClassNames: 'text-lg primary',
   },
 };
