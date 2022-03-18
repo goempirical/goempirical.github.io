@@ -20,7 +20,7 @@ export function getParsedChildren({
     const textParts = children.split(/(\*.*?\*)/g);
     const newChildren = textParts.map((textPart) => {
       if (textPart.match(/((\*)(.*?)(\*))/g)) {
-        return <strong className={config?.strong.className}>{textPart.replace(/\*/g, '')}</strong>;
+        return <strong key={textPart} className={config?.strong.className}>{textPart.replace(/\*/g, '')}</strong>;
       }
 
       return textPart;

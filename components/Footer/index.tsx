@@ -47,7 +47,7 @@ function Footer({ config }: IFooterProps) {
               <Text variation="a" className="font-bold mb-3 text-base">{section.title}</Text>
             </Link>
             {section.items?.map((item) => (
-              <Link key={item.to} href={item.to} passHref>
+              <Link key={item.title} href={item.to} passHref>
                 <Text variation="a" className="text-base">{item.title}</Text>
               </Link>
             ))}

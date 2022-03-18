@@ -12,7 +12,7 @@ function TextSection({ className, items, title }: ITextSectionProps) {
           </div>
         )}
         {items.map((item) => (
-          <div className="flex gap-10 lg:gap-20 flex-wrap justify-center w-full">
+          <div key={item.title} className="flex gap-10 lg:gap-20 flex-wrap justify-center w-full">
             <div className="flex flex-auto md:flex-1 justify-start md:justify-end w-full lg:w-auto">
               <Text variation="highlighted" className="md:text-right translate-y-1">{item.highlight}</Text>
             </div>
