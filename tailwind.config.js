@@ -22,6 +22,9 @@ module.exports = {
         highlighted: ['3.5rem', '1'],
         quote: ['2.125rem', '1.3'],
       },
+      maxWidth: {
+        u1260: '1260px',
+      },
     },
   },
   plugins: [],

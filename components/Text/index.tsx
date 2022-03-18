@@ -1,22 +1,19 @@
-import { ReactNode } from 'react';
+/* eslint-disable react/jsx-props-no-spreading */
 import clsx from 'clsx';
 
-import { TTextVariations, variationConfig } from './constants';
+import { variationConfig } from './constants';
+import { ITextProps } from './types';
 
-export interface ITextProps {
-  children: ReactNode;
-  className?: string;
-  variation?: TTextVariations;
-}
-
-function Text({ children, className, variation }: ITextProps) {
+function Text({
+  children, className, variation, ...props
+}: ITextProps) {
   const {
     component: TextComponent,
     defaultClassNames,
   } = variationConfig[variation!];
 
   return (
-    <TextComponent className={clsx(className, defaultClassNames)}>
+    <TextComponent className={clsx(className, defaultClassNames)} {...props}>
       {children}
     </TextComponent>
   );
