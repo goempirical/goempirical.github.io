@@ -2,19 +2,23 @@
 import clsx from 'clsx';
 
 import { variationConfig } from './constants';
+import { getParsedChildren } from './utils';
 import { ITextProps } from './types';
 
 function Text({
-  children, className, variation, ...props
+  children, className, isMarkdown, variation, ...props
 }: ITextProps) {
   const {
     component: TextComponent,
     defaultClassNames,
   } = variationConfig[variation!];
+  const parsedChildren = isMarkdown
+    ? getParsedChildren({ children: children as string })
+    : children;
 
   return (
     <TextComponent {...props} className={clsx(defaultClassNames, className)}>
-      {children}
+      {parsedChildren}
     </TextComponent>
   );
 }
