@@ -13,5 +13,6 @@ export type TTextVariationConfig = {
 export interface ITextProps {
   children: ReactNode;
   className?: string;
+  isMarkdown?: boolean;
   variation?: TTextVariations;
 }
