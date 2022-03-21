@@ -21,6 +21,7 @@
       "@constants/*": ["constants/*"],
       "@interfaces/*": ["interfaces/*"],
       "@pages/*": ["pages/*"],
+      "@utils/*": ["utils/*"],
       "@public/*": ["public/*"],
     },
   },

@@ -5,6 +5,8 @@ import clsx from 'clsx';
 
 import { INavbarVariantProps } from '@components/Navbar/types';
 import NavbarItem from '@components/Navbar/components/NavbarItem';
+import empiricalLogo from '@public/assets/empirical_logo-color.svg';
+import { imageLoader } from '@utils/images';
 
 function NavbarDesktop({ config, isCollapsed }: INavbarVariantProps) {
   const { pathname } = useRouter();
@@ -15,7 +17,7 @@ function NavbarDesktop({ config, isCollapsed }: INavbarVariantProps) {
         <Link href="/">
           {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
           <a className="flex items-center -mt-2">
-            <Image src="/assets/empirical_logo-color.svg" alt="Empirical Logo" width={170} height={36} />
+            <Image src={empiricalLogo} alt="Empirical Logo" width={170} height={36} loader={imageLoader} />
           </a>
         </Link>
       </div>

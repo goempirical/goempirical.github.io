@@ -1,4 +1,7 @@
 import { ROUTES } from '@constants/routes';
+import facebookLogo from '@public/assets/social-media/facebook_logo.svg';
+import twitterLogo from '@public/assets/social-media/twitter_logo.svg';
+import linkedinLogo from '@public/assets/social-media/linkedin_logo.svg';
 
 import { IFooterConfig } from './types';
 
@@ -9,17 +12,17 @@ export const defaultConfig: IFooterConfig = {
   },
   socialMedia: {
     facebook: {
-      logo: '/assets/social-media/facebook_logo.svg',
+      logo: facebookLogo,
       linkTitle: "Empirical's Facebook Account",
       url: 'https://facebook.com',
     },
     twitter: {
-      logo: '/assets/social-media/twitter_logo.svg',
+      logo: twitterLogo,
       linkTitle: "Empirical's Twitter Account",
       url: 'https://twitter.com',
     },
     linkedin: {
-      logo: '/assets/social-media/linkedin_logo.svg',
+      logo: linkedinLogo,
       linkTitle: "Empirical's Linkedin Account",
       url: 'https://linkedin.com',
     },

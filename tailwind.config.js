@@ -12,6 +12,8 @@ module.exports = {
       colors: {
         primary: '#4A5CFF',
         secondary: '#080C1F',
+        'brand-yellow': '#FFCD15',
+        'brand-red': '#F43737',
       },
       // These values are from the Text-Styles frame on Figma. Suggestion: Normalize values.
       fontSize: {

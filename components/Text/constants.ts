@@ -3,11 +3,11 @@ import { TTextVariationConfig } from './types';
 export const variationConfig: TTextVariationConfig = {
   h1: {
     component: 'h1',
-    defaultClassNames: 'md:text-h1 font-display font-bold text-3xl',
+    defaultClassNames: 'md:text-h1 font-display font-bold text-4xl',
   },
   h2: {
     component: 'h2',
-    defaultClassNames: 'text-h2 font-display font-semibold',
+    defaultClassNames: 'md:text-h2 font-display font-semibold text-3xl',
   },
   h3: {
     component: 'h3',
