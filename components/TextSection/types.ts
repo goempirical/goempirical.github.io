@@ -1,6 +1,9 @@
+import { ReactNode } from 'react';
+
 export interface ITextSectionProps {
   className?: string;
-  highlight: string;
-  title: string;
   content: string;
+  highlightComponent?: ReactNode;
+  highlight?: string;
+  title?: string;
 }

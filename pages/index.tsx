@@ -1,6 +1,7 @@
 import Hero from '@components/Hero';
 import DefaultLayout from '@components/Layouts/Default';
 import Section from '@components/Section';
+import SpecialHighlight from '@components/SpecialHighlight';
 import Text from '@components/Text';
 import TextCard from '@components/TextCard';
 import TextSection from '@components/TextSection';
@@ -35,6 +36,16 @@ function Home() {
             />
           ))}
         </div>
+      </Section>
+      <Section title={texts.benefits.title}>
+        {texts.benefits.items.map((benefitsItem) => (
+          <TextSection
+            className="pr-8"
+            key={benefitsItem?.content}
+            highlightComponent={<SpecialHighlight className="md:p-16 p-4" text={benefitsItem.highlight} />}
+            content={benefitsItem.content}
+          />
+        ))}
       </Section>
     </DefaultLayout>
   );

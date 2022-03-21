@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 export const texts = {
   hero: {
     title: 'A *new kind* of product development partner',
@@ -44,6 +45,19 @@ export const texts = {
       {
         title: 'Empirical Fit ®',
         content: 'Each one vetted through a rigorous, proprietary process with the 6 Empirical Fit® dimensions.',
+      },
+    ],
+  },
+  benefits: {
+    title: 'The benefits',
+    items: [
+      {
+        highlight: 'Peace\n of\n mind',
+        content: `That you have partnered with a company that provides high performing, resilient and motivated teams, who are always ready to deliver quality and results.
+
+        That you increased your product development capacity efficiently (less time, less effort, better fit). That your product development needs are being handled by professionals that care about your product.
+
+        That we provide continuous support, we are in it for the long run and are committed to make it work! Lorem ipsum dolor sit amet consectetur adipisicng sed aliqua lorem ipsum dolor consectetur.`,
       },
     ],
   },

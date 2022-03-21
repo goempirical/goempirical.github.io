@@ -2,6 +2,9 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import Text from '@components/Text';
+import empiricalLogo from '@public/assets/empirical_logo-color.svg';
+import { imageLoader } from '@utils/images';
+
 import { IFooterProps } from './types';
 import { defaultConfig } from './contants';
 
@@ -18,7 +21,7 @@ function Footer({ config }: IFooterProps) {
           <Link href="/">
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a>
-              <Image src="/assets/empirical_logo-color.svg" alt="Empirical Logo" width="125px" height="24px" />
+              <Image src={empiricalLogo} alt="Empirical Logo" width="125px" height="24px" loader={imageLoader} />
             </a>
           </Link>
         </div>
@@ -34,7 +37,7 @@ function Footer({ config }: IFooterProps) {
               {Object.values(socialMedia).map((socialMediaItem) => (
                 <div className="flex items-center justify-center border rounded-full shrink-0 w-8 h-8" key={socialMediaItem.url}>
                   <a className="flex items-center justify-center" href={socialMediaItem.url} title={socialMediaItem.linkTitle} rel="noopener noreferrer" target="_blank">
-                    <Image src={socialMediaItem.logo} alt="" width={30} height={30} />
+                    <Image src={socialMediaItem.logo} alt="" width={30} height={30} loader={imageLoader} />
                   </a>
                 </div>
               ))}
