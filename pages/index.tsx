@@ -1,9 +1,11 @@
 import Hero from '@components/Hero';
+import { TIcons } from '@components/Icons/types';
 import DefaultLayout from '@components/Layouts/Default';
 import Section from '@components/Section';
 import SpecialHighlight from '@components/SpecialHighlight';
 import Text from '@components/Text';
 import TextCard from '@components/TextCard';
+import TextIcon from '@components/TextIcon';
 import TextSection from '@components/TextSection';
 import { texts } from '@constants/pages';
 
@@ -17,7 +19,7 @@ function Home() {
       <Section title={texts.ourClients.title}>
         {texts.ourClients.items.map((ourClientsItem) => (
           <TextSection
-            className="pr-8"
+            className="md:pr-8 md:max-w-none max-w-lg"
             key={ourClientsItem.title}
             title={ourClientsItem.title}
             highlight={ourClientsItem.highlight}
@@ -40,12 +42,25 @@ function Home() {
       <Section title={texts.benefits.title}>
         {texts.benefits.items.map((benefitsItem) => (
           <TextSection
-            className="pr-8"
+            className="md:pr-8 md:max-w-none max-w-lg"
             key={benefitsItem?.content}
             highlightComponent={<SpecialHighlight className="md:p-16 p-4" text={benefitsItem.highlight} />}
             content={benefitsItem.content}
           />
         ))}
+      </Section>
+      <Section title={texts.workingWithUs.title}>
+        <div className="flex flex-wrap gap-x-16 gap-y-12 justify-center">
+          {texts.workingWithUs.items.map((workingWithUsItem) => (
+            <TextIcon
+              key={workingWithUsItem.title}
+              className="flex-1 md:basis-1/4 basis-1/2 max-w-sm"
+              icon={workingWithUsItem.icon as TIcons}
+              title={workingWithUsItem.title}
+              content={workingWithUsItem.content}
+            />
+          ))}
+        </div>
       </Section>
     </DefaultLayout>
   );

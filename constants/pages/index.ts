@@ -61,4 +61,39 @@ export const texts = {
       },
     ],
   },
+  workingWithUs: {
+    title: 'Working with us',
+    items: [
+      {
+        icon: 'Star',
+        title: 'Experts',
+        content: 'We are product development experts with over 15 years of experience.',
+      },
+      {
+        icon: 'Globe',
+        title: 'Nearshore',
+        content: 'We are nearshore, remote first experts lorem ipsum dolor sti amet aliqua.',
+      },
+      {
+        icon: 'Handshake',
+        title: 'Solid relationships',
+        content: 'We establish solid, long standing relationships with a select pool [...]',
+      },
+      {
+        icon: 'Bridge',
+        title: 'Bridge',
+        content: 'We have been the bridge between U.S. companies and talent in Latinamerica.',
+      },
+      {
+        icon: 'Translate',
+        title: 'Multicultural',
+        content: 'We are truly multicultural and multinational lorem ipsum dolor sit amet sed.',
+      },
+      {
+        icon: 'Translate',
+        title: 'Multicultural',
+        content: 'We are truly multicultural and multinational lorem ipsum dolor sit amet sed.',
+      },
+    ],
+  },
 };
