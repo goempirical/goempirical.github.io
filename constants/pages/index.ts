@@ -1,3 +1,10 @@
+import feedmobLogo from '@public/assets/client-logos/feedmob.png';
+import momentLogo from '@public/assets/client-logos/moment.png';
+import robolinkLogo from '@public/assets/client-logos/robolink.png';
+import smithsonianLogo from '@public/assets/client-logos/smithsonian.png';
+import soloshotLogo from '@public/assets/client-logos/soloshot.png';
+import trackingHappinessLogo from '@public/assets/client-logos/tracking_happiness.png';
+
 /* eslint-disable max-len */
 export const texts = {
   hero: {
@@ -119,6 +126,34 @@ export const texts = {
           name: 'Person 2',
           company: 'Company 2',
         },
+      },
+    ],
+  },
+  clients: {
+    items: [
+      {
+        logo: robolinkLogo,
+        title: 'RoboLink',
+      },
+      {
+        logo: smithsonianLogo,
+        title: 'Smithsonian',
+      },
+      {
+        logo: soloshotLogo,
+        title: 'Soloshot',
+      },
+      {
+        logo: momentLogo,
+        title: 'Moment',
+      },
+      {
+        logo: trackingHappinessLogo,
+        title: 'Tracking Happiness',
+      },
+      {
+        logo: feedmobLogo,
+        title: 'Feedmob',
       },
     ],
   },

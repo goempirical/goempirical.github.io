@@ -1,5 +1,6 @@
+import Image from 'next/image';
+
 import Hero from '@components/Hero';
-import { TIcons } from '@components/Icons/types';
 import DefaultLayout from '@components/Layouts/Default';
 import Quote from '@components/Quote';
 import Section from '@components/Section';
@@ -9,6 +10,7 @@ import Text from '@components/Text';
 import TextCard from '@components/TextCard';
 import TextIcon from '@components/TextIcon';
 import TextSection from '@components/TextSection';
+import { TIcons } from '@components/Icons/types';
 import { texts } from '@constants/pages';
 
 function Home() {
@@ -64,7 +66,7 @@ function Home() {
           ))}
         </div>
       </Section>
-      <Section title={texts.testimonials.title}>
+      <Section title={texts.testimonials.title} className="mb-10">
         <Slider>
           {texts.testimonials.items.map((testimonialItem) => (
             <Quote
@@ -74,6 +76,20 @@ function Home() {
             />
           ))}
         </Slider>
+      </Section>
+      <Section className="bg-white bg-opacity-5 hidden md:flex">
+        <div className="flex items-center justify-center gap-10 flex-wrap">
+          {texts.clients.items.map((client) => (
+            <Image
+              key={client.logo.src}
+              className="h-10"
+              src={client.logo}
+              height={client.logo.height}
+              width={client.logo.width}
+              alt={client.title}
+            />
+          ))}
+        </div>
       </Section>
     </DefaultLayout>
   );
