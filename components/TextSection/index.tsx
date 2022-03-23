@@ -13,14 +13,14 @@ function TextSection({
 }: ITextSectionProps) {
   return (
     <div className={clsx('flex gap-10 lg:gap-20 flex-wrap justify-center w-full', className)}>
-      <div className="flex flex-auto md:flex-1 justify-start md:justify-end w-full lg:w-auto">
+      <div className="flex flex-auto md:flex-1 justify-center md:justify-end w-full lg:w-auto">
         {highlightComponent || (
-          <Text variation="highlighted" className="md:text-right translate-y-1">{highlight}</Text>
+          <Text variation="highlighted" className="md:text-right translate-y-1 text-center">{highlight}</Text>
         )}
       </div>
       <div className="flex flex-auto md:flex-1 flex-col gap-4">
-        {title && <Text variation="h3">{title}</Text>}
-        <Text variation="p" className="whitespace-pre-line opacity-80">{content}</Text>
+        {title && <Text variation="h3" className="md:text-left text-center">{title}</Text>}
+        <Text variation="p" className="whitespace-pre-line opacity-80 md:text-left text-justify">{content}</Text>
       </div>
     </div>
   );
