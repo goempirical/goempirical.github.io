@@ -96,4 +96,30 @@ export const texts = {
       },
     ],
   },
+  testimonials: {
+    title: 'Testimonials',
+    items: [
+      {
+        quote: 'Strong team. Solid Results! This team has been essential to the success of SouthDoctors.',
+        author: {
+          name: 'Mario Mireles',
+          company: 'South Doctors',
+        },
+      },
+      {
+        quote: 'Lorem ipsum sit dolor amet sed loprericum content morbenim culpus aderam postem orderum.',
+        author: {
+          name: 'Person 1',
+          company: 'Company 1',
+        },
+      },
+      {
+        quote: 'Loprericum content morbenim culpus aderam postem orderum. Lorem ipsum sit dolor amet sed.',
+        author: {
+          name: 'Person 2',
+          company: 'Company 2',
+        },
+      },
+    ],
+  },
 };

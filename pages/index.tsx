@@ -1,7 +1,9 @@
 import Hero from '@components/Hero';
 import { TIcons } from '@components/Icons/types';
 import DefaultLayout from '@components/Layouts/Default';
+import Quote from '@components/Quote';
 import Section from '@components/Section';
+import Slider from '@components/Slider';
 import SpecialHighlight from '@components/SpecialHighlight';
 import Text from '@components/Text';
 import TextCard from '@components/TextCard';
@@ -61,6 +63,17 @@ function Home() {
             />
           ))}
         </div>
+      </Section>
+      <Section title={texts.testimonials.title}>
+        <Slider>
+          {texts.testimonials.items.map((testimonialItem) => (
+            <Quote
+              key={testimonialItem.quote}
+              quote={testimonialItem.quote}
+              author={testimonialItem.author}
+            />
+          ))}
+        </Slider>
       </Section>
     </DefaultLayout>
   );
