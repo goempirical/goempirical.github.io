@@ -22,4 +22,39 @@ export const texts = {
       },
     ],
   },
+  ourApproach: {
+    title: 'Our approach',
+    items: [
+      {
+        icon: 'Gears',
+        title: 'Opportunities',
+        content: 'We bring you life changing opportunities',
+      },
+      {
+        icon: 'Chess',
+        title: 'Career growth plan',
+        content: 'We are selective when choosing our clients so we can provide you with meaningful, challenging, financially rewarding and fun engagements ',
+      },
+      {
+        icon: 'Plan',
+        title: 'Career growth plan',
+        content: 'We create and manage a career growth plan so you can achieve your full potential',
+      },
+      {
+        icon: 'Support',
+        title: 'Continuous support',
+        content: 'We provide you with continuous support to help both at a project and career levels',
+      },
+      {
+        icon: 'Community',
+        title: 'Community',
+        content: 'You are not alone, you are part of a diverse, supportive and fun community',
+      },
+      {
+        icon: 'Jigsaw',
+        title: 'Work life balance',
+        content: 'We know and celebrate that you have other interests in life. We take work life balance seriously',
+      },
+    ],
+  },
 };
