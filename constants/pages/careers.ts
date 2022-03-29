@@ -1,5 +1,11 @@
 import careersBg from '@public/assets/careers_bg.png';
 
+export const config = {
+  title: 'Careers | Empirical',
+  description: '',
+  socialMediaImage: '',
+};
+
 /* eslint-disable max-len */
 export const texts = {
   hero: {
