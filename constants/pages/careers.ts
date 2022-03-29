@@ -57,4 +57,25 @@ export const texts = {
       },
     ],
   },
+  howWeDoIt: {
+    title: 'How we do it',
+    content: 'Our process is simple, but thorough. It is exhaustive and only a few select candidates will get to work with us and our clients. But it will be worth it.',
+    items: [
+      {
+        stepNumber: 1,
+        title: 'English validation',
+        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      },
+      {
+        stepNumber: 2,
+        title: 'Technical interview',
+        content: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.',
+      },
+      {
+        stepNumber: 3,
+        title: 'Cultural fit assessment',
+        content: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim veniam, quis nostrud exercitation ullamco.',
+      },
+    ],
+  },
 };

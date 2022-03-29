@@ -26,6 +26,7 @@ module.exports = {
         quote: ['2.125rem', '1.3'],
       },
       maxWidth: {
+        '1.5xl': '39rem',
         u1280: '1280px',
       },
       padding: {
