@@ -29,13 +29,13 @@ function Footer({ config }: IFooterProps) {
           <Text className="font-bold text-base">Contact us</Text>
           {contactMail && (
             <a href={contactMail.to}>
-              <Text className="text-base opacity-70">{contactMail.title}</Text>
+              <Text className="text-base opacity-70 hover:opacity-100">{contactMail.title}</Text>
             </a>
           )}
           {Object.keys(socialMedia).length && (
             <div className="flex gap-x-3">
               {Object.values(socialMedia).map((socialMediaItem) => (
-                <div className="flex items-center justify-center border rounded-full shrink-0 w-8 h-8 opacity-70" key={socialMediaItem.url}>
+                <div className="flex items-center justify-center border rounded-full shrink-0 w-8 h-8 opacity-70 hover:opacity-100" key={socialMediaItem.url}>
                   <a className="flex items-center justify-center" href={socialMediaItem.url} title={socialMediaItem.linkTitle} rel="noopener noreferrer" target="_blank">
                     <Image src={socialMediaItem.logo} alt="" width={30} height={30} loader={imageLoader} />
                   </a>
@@ -47,11 +47,11 @@ function Footer({ config }: IFooterProps) {
         {navigation.map((section) => (
           <div className="flex flex-col gap-2 items-start flex-1 md:basis-0 basis-1/3" key={section.to}>
             <Link href={section.to} passHref>
-              <Text variation="a" className="font-bold mb-3 text-base opacity-70">{section.title}</Text>
+              <Text variation="a" className="font-bold mb-3 text-base">{section.title}</Text>
             </Link>
             {section.items?.map((item) => (
               <Link key={item.title} href={item.to} passHref>
-                <Text variation="a" className="text-base opacity-70">{item.title}</Text>
+                <Text variation="a" className="text-base opacity-70 hover:opacity-100">{item.title}</Text>
               </Link>
             ))}
           </div>

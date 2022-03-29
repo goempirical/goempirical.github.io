@@ -7,7 +7,7 @@ function TextCard({ className, content, title }: ITextCardProps) {
   return (
     <div className={clsx('flex flex-col justify-center px-12 pt-4 relative gap-4', decorationClassName, className)}>
       <Text variation="h4">{title}</Text>
-      <Text variation="p" className="max-w-sm opacity-80">{content}</Text>
+      <Text variation="p" className="max-w-sm opacity-70">{content}</Text>
     </div>
   );
 }
