@@ -78,4 +78,15 @@ export const texts = {
       },
     ],
   },
+  letsTalk: {
+    items: [
+      {
+        title: "Let's talk and work together",
+        link: {
+          title: 'Contact us',
+          href: 'https://google.com',
+        },
+      },
+    ],
+  },
 };
