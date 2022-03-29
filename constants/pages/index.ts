@@ -157,4 +157,15 @@ export const texts = {
       },
     ],
   },
+  letsTalk: {
+    items: [
+      {
+        title: "Let's talk",
+        link: {
+          title: 'Contact us',
+          href: 'https://google.com',
+        },
+      },
+    ],
+  },
 };

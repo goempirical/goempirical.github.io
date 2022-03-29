@@ -12,6 +12,7 @@ import TextIcon from '@components/TextIcon';
 import TextSection from '@components/TextSection';
 import { TIcons } from '@components/Icons/types';
 import { texts } from '@constants/pages';
+import CallToAction from '@components/CallToAction';
 
 function Home() {
   return (
@@ -66,7 +67,7 @@ function Home() {
           ))}
         </div>
       </Section>
-      <Section title={texts.testimonials.title} className="mb-10">
+      <Section title={texts.testimonials.title} className="md:mb-10">
         <Slider>
           {texts.testimonials.items.map((testimonialItem) => (
             <Quote
@@ -88,6 +89,13 @@ function Home() {
               width={client.logo.width}
               alt={client.title}
             />
+          ))}
+        </div>
+      </Section>
+      <Section>
+        <div className="flex items-center justify-center gap-10 flex-wrap py-5">
+          {texts.letsTalk.items.map((cta) => (
+            <CallToAction title={cta.title} link={cta.link} />
           ))}
         </div>
       </Section>
