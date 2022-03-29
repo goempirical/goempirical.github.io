@@ -6,6 +6,7 @@ import Section from '@components/Section';
 import Text from '@components/Text';
 import TextIcon from '@components/TextIcon';
 import TextSection from '@components/TextSection';
+import Step from '@components/Step';
 
 function Home() {
   return (
@@ -34,6 +35,20 @@ function Home() {
               icon={ourApproachItem.icon as TIcons}
               title={ourApproachItem.title}
               content={ourApproachItem.content}
+            />
+          ))}
+        </div>
+      </Section>
+      <Section title={texts.howWeDoIt.title} classNames={{ innerContainer: 'flex flex-col lg:gap-10 gap-14 max-w-u1280 w-full items-center' }}>
+        <Text variation="p" className="max-w-1.5xl text-center mb-5 sm:mb-20 opacity-70">{texts.howWeDoIt.content}</Text>
+        <div className="flex flex-wrap gap-x-5 gap-y-12 justify-center">
+          {texts.howWeDoIt.items.map((howWeDoItItem) => (
+            <Step
+              key={howWeDoItItem.title}
+              className="flex-1 md:basis-1/4 basis-1/2 max-w-md"
+              stepNumber={howWeDoItItem.stepNumber}
+              title={howWeDoItItem.title}
+              content={howWeDoItItem.content}
             />
           ))}
         </div>
