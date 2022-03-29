@@ -5,6 +5,12 @@ import smithsonianLogo from '@public/assets/client-logos/smithsonian.png';
 import soloshotLogo from '@public/assets/client-logos/soloshot.png';
 import trackingHappinessLogo from '@public/assets/client-logos/tracking_happiness.png';
 
+export const config = {
+  title: 'Empirical',
+  description: '',
+  socialMediaImage: '',
+};
+
 /* eslint-disable max-len */
 export const texts = {
   hero: {
