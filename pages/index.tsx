@@ -1,8 +1,8 @@
 import Image from 'next/image';
 
-import Hero from '@components/Hero';
+import CallToAction from '@components/CallToAction';
 import DefaultLayout from '@components/Layouts/Default';
-import Quote from '@components/Quote';
+import Hero from '@components/Hero';
 import Section from '@components/Section';
 import Slider from '@components/Slider';
 import SpecialHighlight from '@components/SpecialHighlight';
@@ -10,9 +10,9 @@ import Text from '@components/Text';
 import TextCard from '@components/TextCard';
 import TextIcon from '@components/TextIcon';
 import TextSection from '@components/TextSection';
+import Quote from '@components/Quote';
 import { TIcons } from '@components/Icons/types';
 import { texts } from '@constants/pages';
-import CallToAction from '@components/CallToAction';
 
 function Home() {
   return (
