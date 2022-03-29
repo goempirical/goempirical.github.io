@@ -7,6 +7,7 @@ import Text from '@components/Text';
 import TextIcon from '@components/TextIcon';
 import TextSection from '@components/TextSection';
 import Step from '@components/Step';
+import CallToAction from '@components/CallToAction';
 
 function Home() {
   return (
@@ -50,6 +51,13 @@ function Home() {
               title={howWeDoItItem.title}
               content={howWeDoItItem.content}
             />
+          ))}
+        </div>
+      </Section>
+      <Section>
+        <div className="flex items-center justify-center gap-10 flex-wrap py-5">
+          {texts.letsTalk.items.map((cta) => (
+            <CallToAction title={cta.title} link={cta.link} />
           ))}
         </div>
       </Section>
