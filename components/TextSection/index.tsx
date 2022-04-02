@@ -20,7 +20,7 @@ function TextSection({
       </div>
       <div className="flex flex-auto md:flex-1 flex-col gap-4">
         {title && <Text variation="h3" className="md:text-left text-center">{title}</Text>}
-        <Text variation="p" className="whitespace-pre-line opacity-80 md:text-left text-justify">{content}</Text>
+        <Text variation="p" className="whitespace-pre-line opacity-80 md:text-left text-center">{content}</Text>
       </div>
     </div>
   );
