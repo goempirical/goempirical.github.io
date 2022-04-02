@@ -35,7 +35,7 @@ npx serve out/
 
 ## Tools and libraries
 In this project the following tools and libraries are being used:
-- [`typescript](https://www.npmjs.com/package/typescript): TypeScript adds optional types to JavaScript that support tools for large-scale JavaScript applications.
+- [`typescript`](https://www.npmjs.com/package/typescript): TypeScript adds optional types to JavaScript that support tools for large-scale JavaScript applications.
 - [`clsx`](https://www.npmjs.com/package/clsx): A tiny utility for constructing `className` strings conditionally/
 - [`embla-carousel-react`](https://www.npmjs.com/package/embla-carousel-react): A lightweight, responsive and easy-to-use library for handling sliders and carousels.
 - [`tailwindcss`](https://www.npmjs.com/package/tailwindcss): A utility-first CSS framework for rapidly building custom user interfaces.
