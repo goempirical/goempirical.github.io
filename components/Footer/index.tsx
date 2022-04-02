@@ -16,8 +16,8 @@ function Footer({ config }: IFooterProps) {
   } = config || {};
   return (
     <footer className="flex justify-center w-full bg-white bg-opacity-5">
-      <div className="flex flex-wrap max-w-u1280 w-full px-5 py-16 lg:gap-5 gap-8 items-start">
-        <div className="flex lg:flex-1 w-full md:shrink-0">
+      <div className="flex flex-wrap max-w-u1280 w-full px-5 py-16 lg:gap-5 gap-8 sm:items-start items-center">
+        <div className="flex lg:flex-1 w-full md:shrink-0 items-start md:justify-start justify-center">
           <Link href="/">
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a>
@@ -25,7 +25,7 @@ function Footer({ config }: IFooterProps) {
             </a>
           </Link>
         </div>
-        <div className="flex flex-col gap-5 w-full md:flex-1 order-1 md:order-none items-start">
+        <div className="flex flex-col gap-5 w-full md:flex-1 order-1 md:order-none md:items-start items-center">
           <Text className="font-bold text-base">Contact us</Text>
           {contactMail && (
             <a href={contactMail.to}>
@@ -45,7 +45,7 @@ function Footer({ config }: IFooterProps) {
           )}
         </div>
         {navigation.map((section) => (
-          <div className="flex flex-col gap-2 items-start flex-1 md:basis-0 basis-1/3" key={section.to}>
+          <div className="flex flex-col gap-2 md:items-start items-center flex-1 md:basis-0 basis-full" key={section.to}>
             <Link href={section.to} passHref>
               <Text variation="a" className="font-bold mb-3 text-base">{section.title}</Text>
             </Link>
