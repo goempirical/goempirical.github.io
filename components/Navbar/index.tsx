@@ -11,7 +11,7 @@ function Navbar({ className, config }: INavbarProps) {
   const [isCollapsed, setIsCollapsed] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
-  const collapsedClassNames = 'backdrop-blur-lg bg-opacity-20 bg-secondary opacity-1 transition-opacity';
+  const collapsedClassNames = 'backdrop-blur-lg bg-opacity-20 dark:bg-opacity-20 dark:bg-secondary bg-white opacity-1 transition-opacity';
   const expandedClassNames = 'bg-opacity-0 opacity-0 transition-opacity';
 
   const handleScroll = () => {
@@ -47,7 +47,7 @@ function Navbar({ className, config }: INavbarProps) {
         )
       }
     >
-      <div className={clsx('w-full h-full absolute top-0 left-0 transition-transform', isCollapsed ? collapsedClassNames : expandedClassNames)} />
+      <div className={clsx('w-full h-full absolute top-0 left-0 transition-transform z-0', isCollapsed ? collapsedClassNames : expandedClassNames)} />
       {isMobile
         ? <NavbarMobile config={config} isCollapsed={isCollapsed} />
         : (

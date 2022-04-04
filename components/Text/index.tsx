@@ -11,7 +11,8 @@ const Text = forwardRef(
     children,
     className,
     isMarkdown,
-    variation, ...props
+    variation,
+    ...props
   }: ITextProps, ref) => {
     const {
       component: TextComponent,

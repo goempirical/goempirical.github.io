@@ -1,4 +1,4 @@
-import careersBg from '@public/assets/careers_bg.png';
+import aboutUsBg from '@public/assets/about-us_bg.png';
 
 export const config = {
   title: 'About Us | Empirical',
@@ -11,7 +11,7 @@ export const texts = {
   hero: {
     title: 'A company that *cares* about people and products',
     content: 'We care about our team members as much as we care about our clients. We believe that great products are only built under great working contexts. We created that context. And we are continually improving it. ',
-    bgImage: careersBg,
+    bgImage: aboutUsBg,
   },
   aboutUs: {
     title: 'About us',
