@@ -17,4 +17,7 @@ export const defaultConfig: INavbarConfig = {
       to: ROUTES.AboutUs,
     },
   ],
+  themeToggleButton: {
+    getTitle: (theme) => `Switch to ${theme} mode.`,
+  },
 };

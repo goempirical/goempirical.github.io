@@ -13,7 +13,7 @@ function AboutUs() {
   return (
     <Page config={config}>
       <DefaultLayout>
-        <Hero className="sm:pt-80 sm:pb-72 pt-48 pb-32 px-4 -mt-32" bgImage={texts.hero.bgImage}>
+        <Hero className="sm:pt-80 sm:pb-72 pt-48 pb-32 px-4 -mt-36" bgImage={texts.hero.bgImage}>
           <Text variation="h1" className="max-w-2xl text-center" isMarkdown>{texts.hero.title}</Text>
           <Text variation="p" className="max-w-xl text-center opacity-80">{texts.hero.content}</Text>
         </Hero>

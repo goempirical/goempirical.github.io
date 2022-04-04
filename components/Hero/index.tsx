@@ -18,7 +18,7 @@ function Hero({
           <Image src={bgImage} objectFit="cover" layout="fill" />
         </div>
       )}
-      <div className="flex flex-col gap-8 items-center justify-center max-w-u1280 w-full">
+      <div className="flex flex-col gap-8 items-center justify-center max-w-u1280 w-full px-4">
         {children || <Text variation="h1">{title}</Text>}
       </div>
     </section>

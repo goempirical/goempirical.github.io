@@ -1,4 +1,5 @@
-import { TNavigationItem } from 'types/INavigation';
+import { TIcons } from '@components/Icons/types';
+import { TNavigationItem } from '@interfaces/INavigation';
 
 /* eslint-disable no-unused-vars */
 type TSocialMedia = 'twitter' | 'facebook' | 'linkedin';
@@ -10,7 +11,7 @@ export interface IFooterConfig {
   },
   socialMedia?: {
     [key in TSocialMedia]?: {
-      logo: string;
+      icon: TIcons;
       linkTitle: string;
       url: string;
     }

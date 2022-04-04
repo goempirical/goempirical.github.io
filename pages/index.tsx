@@ -80,12 +80,12 @@ function Home() {
             ))}
           </Slider>
         </Section>
-        <Section className="bg-white bg-opacity-5 hidden md:flex">
+        <Section className="bg-black bg-opacity-5 dark:bg-white dark:bg-opacity-5 hidden md:flex">
           <div className="flex items-center justify-center gap-10 flex-wrap">
             {texts.clients.items.map((client) => (
               <Image
                 key={client.logo.src}
-                className="h-10"
+                className="h-10 grayscale dark:brightness-100 dark:contrast-100 brightness-200 contrast-0 hover:grayscale-0 hover:brightness-100 hover:contrast-100 transition-all"
                 src={client.logo}
                 height={client.logo.height}
                 width={client.logo.width}
@@ -97,7 +97,7 @@ function Home() {
         <Section>
           <div className="flex items-center justify-center gap-10 flex-wrap py-5">
             {texts.letsTalk.items.map((cta) => (
-              <CallToAction title={cta.title} link={cta.link} />
+              <CallToAction key={cta.title} title={cta.title} link={cta.link} />
             ))}
           </div>
         </Section>

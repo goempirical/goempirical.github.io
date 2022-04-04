@@ -6,18 +6,24 @@ import clsx from 'clsx';
 import { INavbarVariantProps } from '@components/Navbar/types';
 import NavbarItem from '@components/Navbar/components/NavbarItem';
 import empiricalLogo from '@public/assets/empirical_logo-color.svg';
+import empiricalLogoBlack from '@public/assets/empirical_logo-color--black.svg';
 import { imageLoader } from '@utils/images';
+import { useContext } from 'react';
+import { ConfigContext } from '@contexts/global';
+import ThemeToggleButton from '@components/Navbar/components/ThemeToggleButton';
 
 function NavbarDesktop({ config, isCollapsed }: INavbarVariantProps) {
+  const { config: { theme } } = useContext(ConfigContext);
+  const isDark = theme === 'dark';
   const { pathname } = useRouter();
 
   return (
-    <div className="flex flex-wrap gap-8 items-center lg:gap-5 max-w-u1280 px-5 py-12 w-full">
-      <div className={clsx('flex items-center transition-transform', { 'translate-y-8': isCollapsed })}>
+    <div className="flex flex-wrap gap-8 items-center lg:gap-5 max-w-u1280 px-5 py-12 w-full z-10">
+      <div className={clsx('flex items-center transition-transform', { 'translate-y-7': isCollapsed })}>
         <Link href="/">
           {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-          <a className="flex items-center -mt-2">
-            <Image src={empiricalLogo} alt="Empirical Logo" width={170} height={36} loader={imageLoader} />
+          <a className="flex items-center">
+            <Image src={isDark ? empiricalLogo : empiricalLogoBlack} alt="Empirical Logo" width={170} height={44} loader={imageLoader} />
           </a>
         </Link>
       </div>
@@ -30,6 +36,7 @@ function NavbarDesktop({ config, isCollapsed }: INavbarVariantProps) {
             isActive={pathname === item.to}
           />
         ))}
+        <ThemeToggleButton />
       </div>
     </div>
   );

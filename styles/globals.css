@@ -5,7 +5,14 @@
 html,
 body {
   @apply bg-secondary text-white font-body;
+  transition: background-color 0.3s, color 0.3s;
   box-sizing: border-box;
+
+}
+
+html.light,
+html.light body {
+  @apply bg-white text-black;
 }
 
 a {
