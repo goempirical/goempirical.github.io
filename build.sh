@@ -1,6 +1,7 @@
-bundle exec middleman build
-cp -R build/** ./
-rm -rf build
+rm -rf _next/
+cd source && npm install && npm run export && cd ..
+cp -R source/out/** ./
+rm -rf source/out
 git add -A
-git commit -m "publish updates now"
+git commit -m 'Static export publish'
 git push origin
