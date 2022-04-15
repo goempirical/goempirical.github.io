@@ -59,7 +59,7 @@ function Careers() {
         <Section>
           <div className="flex items-center justify-center gap-10 flex-wrap py-5">
             {texts.letsTalk.items.map((cta) => (
-              <CallToAction title={cta.title} link={cta.link} />
+              <CallToAction key={cta.title} title={cta.title} link={cta.link} />
             ))}
           </div>
         </Section>

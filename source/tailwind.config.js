@@ -29,6 +29,7 @@ module.exports = {
       maxWidth: {
         '1.5xl': '39rem',
         u1280: '1280px',
+        u360: '360px',
       },
       padding: {
         18: '4.25rem',

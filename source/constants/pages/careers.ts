@@ -10,7 +10,7 @@ export const config = {
 export const texts = {
   hero: {
     title: 'We *care about you*',
-    content: 'We are committed to your individual and professional succcess. We have been in your shoes and we have created the place where we wanted to work. Now we bring life changing opportunities to all our team members.',
+    content: 'We are committed to your individual and professional success. We have been in your shoes and we have created the place where we wanted to work. Now we bring life changing opportunities to all our team members.',
     bgImage: careersBg,
   },
   talentProfile: {

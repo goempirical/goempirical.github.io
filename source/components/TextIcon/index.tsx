@@ -20,7 +20,7 @@ function TextIcon({
       </div>
       <div className="flex flex-col items-center gap-2">
         <Text variation="h4" className="text-center">{title}</Text>
-        <Text variation="p" className="opacity-70 text-center max-w-xs">{content}</Text>
+        <Text variation="p" className="opacity-70 text-center max-w-u360">{content}</Text>
       </div>
     </div>
   );
