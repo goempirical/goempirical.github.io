@@ -81,7 +81,7 @@ export const texts = {
     items: [
       {
         highlight: 'We love \nwhat we do',
-        content: 'WWe love helping people and developing technology products. We are on a mission to help world class companies build amazing products and bring life changing opportunities to our team members.',
+        content: 'We love helping people and developing technology products. We are on a mission to help world class companies build amazing products and bring life changing opportunities to our team members.',
       },
     ],
   },

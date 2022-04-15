@@ -63,7 +63,15 @@ function Footer({ config }: IFooterProps) {
             {section.items?.map((item) => {
               if (item.external) {
                 return (
-                  <Text variation="a" href={item.to} target="_blank" className="text-base opacity-70 hover:opacity-100">{item.title}</Text>
+                  <a
+                    key={item.title}
+                    href={item.to}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-base opacity-70 hover:opacity-100"
+                  >
+                    {item.title}
+                  </a>
                 );
               }
               return (

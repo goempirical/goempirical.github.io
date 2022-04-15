@@ -12,7 +12,7 @@ function TextSection({
   title,
 }: ITextSectionProps) {
   return (
-    <div className={clsx('flex gap-10 lg:gap-20 flex-wrap justify-center w-full', className)}>
+    <div className={clsx('flex gap-10 lg:gap-20 flex-wrap justify-center items-center w-full', className)}>
       <div className="flex flex-auto md:flex-1 justify-center md:justify-end w-full lg:w-auto">
         {highlightComponent || (
           <Text variation="highlighted" className="md:text-right translate-y-1 text-center">{highlight}</Text>
