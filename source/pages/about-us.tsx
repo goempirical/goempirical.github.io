@@ -5,7 +5,7 @@ import Page from '@components/Page';
 import Section from '@components/Section';
 import SpecialHighlight from '@components/SpecialHighlight';
 import Text from '@components/Text';
-import TextCard from '@components/TextCard';
+// import TextCard from '@components/TextCard';
 import TextSection from '@components/TextSection';
 import { config, texts } from '@constants/pages/about-us';
 

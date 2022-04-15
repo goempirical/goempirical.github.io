@@ -10,9 +10,20 @@ export type TTextVariationConfig = {
   }
 }
 
-export interface ITextProps {
+export interface ICommonProps {
   children: ReactNode;
   className?: string;
   isMarkdown?: boolean;
   variation?: TTextVariations;
 }
+
+export interface IAnchorProps {
+  variation: 'a';
+  children: ReactNode;
+  className?: string;
+  isMarkdown?: boolean;
+  href?: string;
+  target?: string;
+}
+
+export type ITextProps = IAnchorProps | ICommonProps;
