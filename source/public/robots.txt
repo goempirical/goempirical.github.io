@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /*.html
+Sitemap: https://www.goempirical.com/sitemap.xml
