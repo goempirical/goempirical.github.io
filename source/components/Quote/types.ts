@@ -4,5 +4,6 @@ export interface IQuoteProps {
   author: {
     name: string;
     company: string;
+    link?: string;
   }
 }

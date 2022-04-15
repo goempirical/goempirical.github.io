@@ -1,5 +1,6 @@
 import BridgeIcon from './Bridge';
 import ChessIcon from './Chess';
+import DollarIcon from './Dollar';
 import ChevronIcon from './Chevron';
 import CommunityIcon from './Community';
 import FacebookIcon from './Facebook';
@@ -20,6 +21,7 @@ import { TIconList } from './types';
 export const Icons: TIconList = {
   Bridge: BridgeIcon,
   Chess: ChessIcon,
+  Dollar: DollarIcon,
   Chevron: ChevronIcon,
   Community: CommunityIcon,
   Facebook: FacebookIcon,

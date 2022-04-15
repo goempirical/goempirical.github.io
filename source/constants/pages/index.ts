@@ -15,20 +15,21 @@ export const config = {
 export const texts = {
   hero: {
     title: 'A *new kind* of product development partner',
-    content: 'We are product development experts passionate about helping established companies to build successful software/tech products. We provide technical and product leadership coupled with high perform[...]',
+    content: `We are a people-first company of product development experts.
+    We provide high performing dev teams and ongoing support to make them resilient, so you can focus on achieving your goals.`,
   },
   ourClients: {
     title: 'Our clients',
     items: [
       {
-        highlight: 'Bring \ninnovative \nsolutions',
+        highlight: 'Established \ntechnology \ncompanies',
         title: 'Who you are',
-        content: 'You are a stablished technology company, that have a proven business model, but you’re still defining product direction and making high level technical decisions. You are in the process of building a core development team and looking to establish strong software engineering practices. You are open to expanding your capacity as a service so you can leverage...',
+        content: 'You have a proven business model. You are expanding your core development team while establishing a strong software engineering foundation. You are open to expanding your product development capacity as a service so you can leverage outside expertise and improve team performance and resiliency.',
       },
       {
-        highlight: 'Partner with \nexperienced\n professionals',
+        highlight: 'Need to grow \ndevelopment\n capacity',
         title: 'Your pains',
-        content: 'Your product backlog is ever growing and you can’t release features and fix issues quickly enough. Your roadmap needs further definition, both from a product and technical perspective. You realize that you need more product development capacity but at the same time need to establish a solid foundation of software engineering practices. You are frustrated with the amount of effort and time it takes to hire...',
+        content: 'Your product backlog is ever growing, you need more product development capacity. You are frustrated with the time and effort it takes to hire (and retain) talent, staffing agencies pass along subpar resumes without understanding your needs and the shortage of qualified talent in the U.S. is quickly increasing your development costs.',
       },
     ],
   },
@@ -36,28 +37,28 @@ export const texts = {
     title: 'Approach',
     items: [
       {
-        title: 'Empathize and understand',
-        content: 'We seek first to understand your context, needs and goals. Lorem ipsum dolor sit amet.',
+        title: 'Connection and understanding',
+        content: 'We immerse in your context and goals, from a people, technology and business perspectives.',
       },
       {
-        title: 'Support',
-        content: 'We meet regularly with you and the team to provide support and continuous career [...]',
+        title: 'Rigurous selection process',
+        content: 'We build and provide the optimal team (one or multiple experts in their fields)',
       },
       {
-        title: 'Strategic',
-        content: 'We seek first to understand your context, needs and goals. Lorem ipsum dolor sit amet.',
+        title: 'Product development expertise',
+        content: 'We take a product development perspective to determine the best path forward.',
       },
       {
-        title: 'Collaborative',
-        content: 'We get to work and take a collaborative approach lorem ipsum dolor sit amet.',
+        title: 'Collaborative and proactive',
+        content: 'We become an extension of your team, working side by side to achieve your goals.',
       },
       {
-        title: 'Best path',
-        content: 'We take a product development perspective to determine the best path. Lorem ipsum dolor.',
+        title: 'Strategic thinking',
+        content: 'We help you think strategically about your next product, technology and team decisions.',
       },
       {
-        title: 'Empirical Fit ®',
-        content: 'Each one vetted through a rigorous, proprietary process with the 6 Empirical Fit® dimensions.',
+        title: 'Follow through',
+        content: 'We provide ongoing support to strive for individual, project and client success.',
       },
     ],
   },
@@ -66,11 +67,13 @@ export const texts = {
     items: [
       {
         highlight: 'Peace\n of\n mind',
-        content: `That you have partnered with a company that provides high performing, resilient and motivated teams, who are always ready to deliver quality and results.
+        content: `That you have partnered with a people first company that truly cares about you, your product, your needs and goals.
 
-        That you increased your product development capacity efficiently (less time, less effort, better fit). That your product development needs are being handled by professionals that care about your product.
+        That you are building high performing, resilient and motivated teams, who are always ready to deliver quality and results.
 
-        That we provide continuous support, we are in it for the long run and are committed to make it work! Lorem ipsum dolor sit amet consectetur adipisicng sed aliqua lorem ipsum dolor consectetur.`,
+        That you increased your product development capacity efficiently (less time, less effort, better fit).
+
+        That we provide continuous support and management, we are in it for the long run and are committed to your success! `,
       },
     ],
   },
@@ -79,33 +82,33 @@ export const texts = {
     items: [
       {
         icon: 'Star',
-        title: 'Experts',
+        title: 'Product expertise',
         content: 'We are product development experts with over 15 years of experience.',
       },
       {
         icon: 'Globe',
-        title: 'Nearshore',
-        content: 'We are nearshore, remote first experts lorem ipsum dolor sti amet aliqua.',
+        title: 'Latinamerica focus ',
+        content: 'We have been hiring top talent in Latinamerica since 2015.',
       },
       {
         icon: 'Handshake',
-        title: 'Solid relationships',
-        content: 'We establish solid, long standing relationships with a select pool [...]',
+        title: 'Partnerships',
+        content: 'We value long term relationships over short term transactions.',
       },
       {
         icon: 'Bridge',
-        title: 'Bridge',
-        content: 'We have been the bridge between U.S. companies and talent in Latinamerica.',
+        title: 'Collaboration',
+        content: 'We become an extension of your team to help you achieve your goals.',
       },
       {
         icon: 'Translate',
-        title: 'Multicultural',
-        content: 'We are truly multicultural and multinational lorem ipsum dolor sit amet sed.',
+        title: 'Multicultural and diverse',
+        content: 'We are truly multicultural and multinational.',
       },
       {
-        icon: 'Translate',
-        title: 'Multicultural',
-        content: 'We are truly multicultural and multinational lorem ipsum dolor sit amet sed.',
+        icon: 'Plan',
+        title: 'Results driven',
+        content: 'High present-to-hire rate, high performance, strong retention.',
       },
     ],
   },
@@ -113,24 +116,51 @@ export const texts = {
     title: 'Testimonials',
     items: [
       {
+        quote: 'What we asked of Empirical was extremely complex, but they delivered.',
+        author: {
+          company: 'Moment',
+          name: 'Kevin Korpi',
+          link: 'https://www.linkedin.com/in/kevkor',
+        },
+      },
+      {
+        quote: 'Empirical team produced clean, tested code and were and absolute pleasure to work with! They are one of my go-to referrals for early stage companies that want to build the first version of an app.',
+        author: {
+          company: 'Corgibytes',
+          name: 'Andrea Goulet',
+          link: 'https://www.linkedin.com/in/andreamgoulet',
+        },
+      },
+      {
+        quote: 'Working with Empirical has been a pleasure. They were professional and dedicated throughout the process.',
+        author: {
+          company: 'Clevos',
+          name: 'Matthew Sargeant',
+          link: 'https://www.linkedin.com/in/matthewsargeant',
+        },
+      },
+      {
+        quote: 'I started working with Empirical about 6 months ago to develop an online reservation system for my business and I couldn\'t be happier with the work the team provided.',
+        author: {
+          company: 'Purr',
+          name: 'Robert Prouty',
+          link: 'https://www.linkedin.com/in/robert-prouty-631a3394',
+        },
+      },
+      {
+        quote: 'You guys are rockstars. We couldn\'t have done it without your support.',
+        author: {
+          company: 'Swingby',
+          name: '@wesleysoo',
+          link: 'https://twitter.com/wesleysoo',
+        },
+      },
+      {
         quote: 'Strong team. Solid Results! This team has been essential to the success of SouthDoctors.',
         author: {
-          name: 'Mario Mireles',
           company: 'South Doctors',
-        },
-      },
-      {
-        quote: 'Lorem ipsum sit dolor amet sed loprericum content morbenim culpus aderam postem orderum.',
-        author: {
-          name: 'Person 1',
-          company: 'Company 1',
-        },
-      },
-      {
-        quote: 'Loprericum content morbenim culpus aderam postem orderum. Lorem ipsum sit dolor amet sed.',
-        author: {
-          name: 'Person 2',
-          company: 'Company 2',
+          name: 'Mario Mireles',
+          link: 'https://twitter.com/mmirelesv',
         },
       },
     ],
@@ -169,7 +199,7 @@ export const texts = {
         title: "Let's talk",
         link: {
           title: 'Contact us',
-          href: 'https://google.com',
+          href: 'https://goempirical.typeform.com/to/sTAks6',
         },
       },
     ],

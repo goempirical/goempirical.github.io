@@ -11,17 +11,17 @@ export const defaultConfig: IFooterConfig = {
     facebook: {
       icon: 'Facebook',
       linkTitle: "Empirical's Facebook Account",
-      url: 'https://facebook.com',
+      url: '',
     },
     twitter: {
       icon: 'Twitter',
       linkTitle: "Empirical's Twitter Account",
-      url: 'https://twitter.com',
+      url: '',
     },
     linkedin: {
       icon: 'LinkedIn',
       linkTitle: "Empirical's Linkedin Account",
-      url: 'https://linkedin.com',
+      url: 'https://www.linkedin.com/company/goempirical',
     },
   },
   navigation: [
@@ -30,16 +30,9 @@ export const defaultConfig: IFooterConfig = {
       to: ROUTES.Careers,
       items: [
         {
-          title: 'Section 1',
-          to: ROUTES.Careers,
-        },
-        {
-          title: 'Section 2',
-          to: ROUTES.Careers,
-        },
-        {
-          title: 'Opening careers',
-          to: ROUTES.Careers,
+          title: 'See all our opportunities',
+          to: 'https://goempirical.freshteam.com/jobs',
+          external: true,
         },
       ],
     },
@@ -48,11 +41,7 @@ export const defaultConfig: IFooterConfig = {
       to: ROUTES.AboutUs,
       items: [
         {
-          title: 'Section 1',
-          to: ROUTES.AboutUs,
-        },
-        {
-          title: 'Section 2',
+          title: 'Learn about us',
           to: ROUTES.AboutUs,
         },
       ],

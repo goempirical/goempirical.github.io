@@ -44,7 +44,8 @@ function AboutUs() {
             ))}
           </div>
         </Section>
-        <Section title={texts.ourApproach.title}>
+        {/* Commented out based on Niv comment on the shared Figma. */}
+        {/* <Section title={texts.ourApproach.title}>
           <div className="grid grid-cols-12 gap-y-7 gap-x-2 md:px-4 lg:px-16 w-full">
             {texts.ourApproach.items.map((ourApproachItem) => (
               <TextCard
@@ -55,7 +56,7 @@ function AboutUs() {
               />
             ))}
           </div>
-        </Section>
+        </Section> */}
         <Section title={texts.whyWeDoIt.title}>
           {texts.whyWeDoIt.items.map((whyWeDoItItem) => (
             <TextSection

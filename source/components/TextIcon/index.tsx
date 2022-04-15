@@ -16,11 +16,11 @@ function TextIcon({
   return (
     <div className={clsx('flex flex-col items-center gap-5', className)}>
       <div className="flex items-center justify-center text-primary border-primary p-2 border rounded-full h-20 w-20">
-        {renderIcon?.() || <Icon className="h-7 w-7" />}
+        {renderIcon?.() || Icon ? <Icon className="h-7 w-7" /> : null}
       </div>
       <div className="flex flex-col items-center gap-2">
         <Text variation="h4" className="text-center">{title}</Text>
-        <Text variation="p" className="opacity-70 text-center">{content}</Text>
+        <Text variation="p" className="opacity-70 text-center max-w-xs">{content}</Text>
       </div>
     </div>
   );

@@ -3,6 +3,7 @@ import { ComponentType } from 'react';
 
 export type TIcons = 'Bridge'
 | 'Chess'
+| 'Dollar'
 | 'Chevron'
 | 'Community'
 | 'Facebook'

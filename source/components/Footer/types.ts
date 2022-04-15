@@ -8,6 +8,7 @@ export interface IFooterConfig {
   contactMail?: {
     title: string,
     to: string,
+    external?: boolean,
   },
   socialMedia?: {
     [key in TSocialMedia]?: {

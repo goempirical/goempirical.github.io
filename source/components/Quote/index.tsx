@@ -1,5 +1,7 @@
-import Text from '@components/Text';
 import clsx from 'clsx';
+
+import Text from '@components/Text';
+
 import { IQuoteProps } from './types';
 
 function Quote({ author, className, quote }: IQuoteProps) {
@@ -8,8 +10,8 @@ function Quote({ author, className, quote }: IQuoteProps) {
       <Text variation="quote" className="text-center max-w-3xl">{quote}</Text>
       <div className="flex flex-col gap-1 items-center">
         <div className="h-[1px] w-32 bg-white bg-opacity-20 mb-4" />
-        <Text variation="span" className="text-base text-center font-bold">{author.name}</Text>
-        <Text variation="span" className="text-xs text-center">{author.company}</Text>
+        <Text variation="a" href={author.link} target="_blank" className="text-base text-center font-bold">{author.name}</Text>
+        <Text className="text-xs text-center" href={author.link}>{author.company}</Text>
       </div>
     </div>
   );

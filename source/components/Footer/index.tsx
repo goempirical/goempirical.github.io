@@ -43,6 +43,7 @@ function Footer({ config }: IFooterProps) {
             <div className="flex gap-x-3">
               {Object.values(socialMedia).map((socialMediaItem) => {
                 const Icon = Icons[socialMediaItem.icon];
+                if (!socialMediaItem.url) return null;
                 return (
                   <div className="flex items-center justify-center border-current border rounded-full shrink-0 w-8 h-8 opacity-50 hover:opacity-100 transition-opacity" key={socialMediaItem.url}>
                     <a className="flex items-center justify-center text-black dark:text-white" href={socialMediaItem.url} title={socialMediaItem.linkTitle} rel="noopener noreferrer" target="_blank">
@@ -59,11 +60,18 @@ function Footer({ config }: IFooterProps) {
             <Link href={section.to} passHref>
               <Text variation="a" className="font-bold mb-3 text-base">{section.title}</Text>
             </Link>
-            {section.items?.map((item) => (
-              <Link key={item.title} href={item.to} passHref>
-                <Text variation="a" className="text-base opacity-70 hover:opacity-100">{item.title}</Text>
-              </Link>
-            ))}
+            {section.items?.map((item) => {
+              if (item.external) {
+                return (
+                  <Text variation="a" href={item.to} target="_blank" className="text-base opacity-70 hover:opacity-100">{item.title}</Text>
+                );
+              }
+              return (
+                <Link key={item.title} href={item.to} passHref>
+                  <Text variation="a" className="text-base opacity-70 hover:opacity-100">{item.title}</Text>
+                </Link>
+              );
+            })}
           </div>
         ))}
       </div>
