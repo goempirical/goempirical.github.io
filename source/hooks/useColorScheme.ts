@@ -18,7 +18,7 @@ function useColorScheme() {
   useEffect(() => {
 
     if(currentColorScheme === null){
-      const storedValue = localStorage.getItem("theme") || 'dark';
+      const storedValue = getStoredValue();
       setCurrentColorScheme(storedValue);
     }
 
@@ -37,6 +37,17 @@ function useColorScheme() {
     currentColorScheme,
     setCurrentColorScheme,
   };
+}
+
+function getStoredValue(){
+  const storedValue = localStorage.getItem("theme");
+  if(storedValue === null || 
+    storedValue === undefined || 
+    (storedValue !== "dark" && storedValue !== "light") ){
+    return 'dark'
+  }
+  return storedValue;
+
 }
 
 export default useColorScheme;

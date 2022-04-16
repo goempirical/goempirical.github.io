@@ -18,6 +18,6 @@ export const defaultConfig: INavbarConfig = {
     },
   ],
   themeToggleButton: {
-    getTitle: (theme) => `Switch to ${theme} mode.`,
+    getTitle: (theme) => `Switch to ${theme} mode`,
   },
 };
