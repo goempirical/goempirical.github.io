@@ -77,7 +77,7 @@ export const texts = {
     ],
   },
   testimonials: {
-    title: 'Our team members say',
+    title: 'People love working here',
     items: [
       {
         quote: 'I love working at Empirical because it gives me the possibility of growing on a daily basis while also having fun.',
