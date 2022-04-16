@@ -5,17 +5,17 @@ import {
 } from 'react';
 
 export interface IConfig {
-  theme: 'dark' | 'light';
+  theme: 'dark' | 'light' | 'undefined';
 }
 
 interface IConfigContext {
   config: IConfig;
-  setCurrentColorScheme: Dispatch<SetStateAction<'light' | 'dark'>>
+  setCurrentColorScheme: Dispatch<SetStateAction<'light' | 'dark' | 'undefined'>>
 }
 
 export const ConfigContext = createContext<IConfigContext>({
   config: {
-    theme: 'dark',
+    theme: 'undefined',
   },
   setCurrentColorScheme: () => null,
 });
