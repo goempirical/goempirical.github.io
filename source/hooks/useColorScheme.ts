@@ -41,8 +41,7 @@ function useColorScheme() {
 
 function getStoredValue(){
   const storedValue = localStorage.getItem("theme");
-  if(storedValue === null || 
-    storedValue === undefined || 
+  if(!storedValue ||
     (storedValue !== "dark" && storedValue !== "light") ){
     return 'dark'
   }
