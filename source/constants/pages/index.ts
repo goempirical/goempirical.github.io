@@ -88,7 +88,7 @@ export const texts = {
       {
         icon: 'Globe',
         title: 'Talent from Latinamerica',
-        content: 'We have been hiring top talent in Latinamerica since 2015.',
+        content: 'We have experience hiring great talent in Latinamerica since 2010.',
       },
       {
         icon: 'Handshake',
@@ -103,7 +103,7 @@ export const texts = {
       {
         icon: 'Translate',
         title: 'Multicultural and diverse',
-        content: 'We are truly multicultural and multinational.',
+        content: 'We are truly multicultural and multinational. We embrace diversity.',
       },
       {
         icon: 'Plan',
