@@ -2,8 +2,10 @@ import CallToAction from '@components/CallToAction';
 import DefaultLayout from '@components/Layouts/Default';
 import Hero from '@components/Hero';
 import Page from '@components/Page';
+import Quote from '@components/Quote';
 import Section from '@components/Section';
 import SpecialHighlight from '@components/SpecialHighlight';
+import Slider from '@components/Slider';
 import Text from '@components/Text';
 // import TextCard from '@components/TextCard';
 import TextSection from '@components/TextSection';
@@ -57,6 +59,17 @@ function AboutUs() {
             ))}
           </div>
         </Section> */}
+        <Section title={texts.testimonials.title} className="md:mb-10">
+          <Slider>
+            {texts.testimonials.items.map((testimonialItem) => (
+              <Quote
+                key={testimonialItem.quote}
+                quote={testimonialItem.quote}
+                author={testimonialItem.author}
+              />
+            ))}
+          </Slider>
+        </Section>
         <Section title={texts.whyWeDoIt.title}>
           {texts.whyWeDoIt.items.map((whyWeDoItItem) => (
             <TextSection

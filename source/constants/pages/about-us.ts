@@ -76,6 +76,59 @@ export const texts = {
       },
     ],
   },
+  testimonials: {
+    title: 'Our team members say',
+    items: [
+      {
+        quote: 'I love working at Empirical because it gives me the possibility of growing on a daily basis while also having fun.',
+        author: {
+          company: 'Sr. Software Engineer',
+          name: 'Federico Nuccetelli',
+          link: 'https://www.linkedin.com/in/nuccetellifederico/',
+        },
+      },
+      {
+        quote: 'My skills are truly valued. The entire team values trust and respect. Love the flexibility and the culture.',
+        author: {
+          company: 'Accounting',
+          name: 'Emilse Pereyro',
+          link: 'https://www.linkedin.com/in/emilse-pereyro-33886b21a/',
+        },
+      },
+      {
+        quote: 'Empirical is a place for personal and professional growth, evolution, wealth of opportunities to combine work and personal aspects, a place to be heard and to expand personal capacity.',
+        author: {
+          company: 'Sr. Product Designer',
+          name: 'Rocio Tomsic',
+          link: 'https://www.linkedin.com/in/rociotomsic/',
+        },
+      },
+      {
+        quote: 'The flexibilty I have, I can work remotely, very flexible working hours/days, time-zones.',
+        author: {
+          company: 'Sr. Software Engineer',
+          name: 'Fernando Perez',
+          link: 'https://www.linkedin.com/in/fernandoagustinperez/',
+        },
+      },
+      {
+        quote: 'I can describe Empirical as professional, friendly, problem solved oriented, direct engagment, good comunication, great talented people all around.',
+        author: {
+          company: 'Sr. Software Engineer',
+          name: 'Pablo Frias',
+          link: 'https://www.linkedin.com/in/pablo-frias-55aa8010/',
+        },
+      },
+      {
+        quote: 'I really like the working environment. It is always very positive and laidback. I like how there is a feeling of trust.  Everyone working at Empirical has a very strong programming and/or designing level so I can do my best effort doing my job and trust everyone else will do the best effort at theirs.',
+        author: {
+          company: 'Sr. Project Manager',
+          name: 'Yael Schwartzman',
+          link: 'https://www.linkedin.com/in/yael-schwartzman-58051711/',
+        },
+      },
+    ],
+  },
   whyWeDoIt: {
     title: 'Why we do it',
     items: [
@@ -103,4 +156,5 @@ export const texts = {
       },
     ],
   },
+
 };
