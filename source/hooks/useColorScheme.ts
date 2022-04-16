@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 
 function useColorScheme() {
-  const [currentColorScheme, setCurrentColorScheme] = useState<'dark' | 'light'>('dark');
+  const [currentColorScheme, setCurrentColorScheme] = useState<'dark' | 'light'>(null);
 
   const handleColorSchemeChange = (mql: MediaQueryListEvent) => {
     const colorScheme = mql.matches ? 'light' : 'dark';
@@ -16,6 +16,12 @@ function useColorScheme() {
   }, []);
 
   useEffect(() => {
+
+    if(currentColorScheme === null){
+      const storedValue = localStorage.getItem("theme") || 'dark';
+      setCurrentColorScheme(storedValue);
+    }
+
     localStorage.setItem('theme', currentColorScheme);
 
     if (currentColorScheme === 'light') {
