@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 
 function useColorScheme() {
-  const [currentColorScheme, setCurrentColorScheme] = useState<'dark' | 'light' | null>(null);
+  const [currentColorScheme, setCurrentColorScheme] = useState<'dark' | 'light'>();
 
   const handleColorSchemeChange = (mql: MediaQueryListEvent) => {
     const colorScheme = mql.matches ? 'light' : 'dark';
