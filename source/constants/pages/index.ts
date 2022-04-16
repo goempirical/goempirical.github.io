@@ -108,7 +108,7 @@ export const texts = {
       {
         icon: 'Plan',
         title: 'Results driven',
-        content: 'High present-to-hire rate, high performance, strong retention.',
+        content: 'High speed, resilient, high performance and strong retention of talent.',
       },
     ],
   },
