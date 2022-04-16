@@ -26,19 +26,19 @@ export const texts = {
     title: 'Our values',
     items: [
       {
-        title: '1. People first',
+        title: 'People first',
         content: 'Build meaningful human connection with clients and employees, while embracing diversity and uniqueness.',
       },
       {
-        title: '2. Add value always',
+        title: 'Add value always',
         content: 'Put ourselves in our client\'s shoes to embrace challenges and find solutions. We collaborate, learn and iterate.',
       },
       {
-        title: '3. Lead with integrity',
+        title: 'Lead with integrity',
         content: 'Choose long term greater good over short term individual gain. Be professional, transparent and accountable.',
       },
       {
-        title: '4. Have fun!',
+        title: 'Have fun!',
         content: 'If we are not having fun we are doing it wrong. Trust and respect to create a positive and safe environment.',
       },
     ],
