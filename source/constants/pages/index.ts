@@ -87,7 +87,7 @@ export const texts = {
       },
       {
         icon: 'Globe',
-        title: 'Latinamerica focus ',
+        title: 'Talent from Latinamerica',
         content: 'We have been hiring top talent in Latinamerica since 2015.',
       },
       {
