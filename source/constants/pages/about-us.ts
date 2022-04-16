@@ -9,7 +9,7 @@ export const config = {
 /* eslint-disable max-len */
 export const texts = {
   hero: {
-    title: 'A company that *cares* about people and products',
+    title: 'A *company that cares* about people and products',
     content: 'We care about our team members as much as we care about our clients. We believe great products are built under great working environments. We created that environment and are continually improving it.',
     bgImage: aboutUsBg,
   },
