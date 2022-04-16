@@ -14,20 +14,19 @@ function Navbar({ className, config }: INavbarProps) {
   const collapsedClassNames = 'backdrop-blur-lg bg-opacity-20 dark:bg-opacity-20 dark:bg-secondary bg-white opacity-1 transition-opacity';
   const expandedClassNames = 'bg-opacity-0 opacity-0 transition-opacity';
 
-  
+  const handleScroll = () => {
+    if (!isCollapsed) {
+      setIsCollapsed(window.scrollY > 10);
+    } else {
+      setIsCollapsed(window.scrollY <= 10);
+    }
+  };
 
   const handleResize = () => {
     setIsMobile(window.innerWidth < 750);
   };
 
   useEffect(() => {
-    const handleScroll = () => {
-      if (!isCollapsed) {
-        setIsCollapsed(window.scrollY > 10);
-      } else {
-        setIsCollapsed(window.scrollY <= 10);
-      }
-    };
     window.addEventListener('scroll', handleScroll);
     window.addEventListener('resize', handleResize);
     handleScroll();
