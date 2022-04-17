@@ -1,4 +1,3 @@
-import { TIcons } from '@components/Icons/types';
 import { ReactNode } from 'react';
 
 export interface IImageCardProps {
