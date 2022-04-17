@@ -234,7 +234,7 @@ export const texts = {
       {
         image: nivCarmiImage,
         title: 'Niv Carmi',
-        content: 'Founder - Costa Rica',
+        content: 'Founder - San Diego, USA',
         link: 'https://www.linkedin.com/in/nivcarmi/',
       },
       {
