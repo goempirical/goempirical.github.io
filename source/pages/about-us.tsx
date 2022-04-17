@@ -67,7 +67,7 @@ function AboutUs() {
               <ImageCard
                 key={ourTeamItem.title}
                 className="flex-1 md:basis-1/4 basis-1/2 max-w-sm"
-                image={ourTeamItem.image}
+                image={ourTeamItem.image.src}
                 title={ourTeamItem.title}
                 content={ourTeamItem.content}
                 link={ourTeamItem.link}
