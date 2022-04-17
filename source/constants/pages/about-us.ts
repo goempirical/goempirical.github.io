@@ -1,4 +1,25 @@
 import aboutUsBg from '@public/assets/about-us_bg.png';
+import agustinSgarlataImage from '@public/assets/team/agustin_sgarlata.png';
+import agustinaGrebeImage from '@public/assets/team/agustina_grebe.png';
+import agustinaVelazcoImage from '@public/assets/team/agustina_velazco.png';
+import anaIlardoImage from '@public/assets/team/ana_ilardo.png';
+import braianDaneriImage from '@public/assets/team/braian_daneri.png';
+import damianDiazImage from '@public/assets/team/damian_diaz.png';
+import dilmerGonzalezImage from '@public/assets/team/dilmer_gonzalez.png';
+import emilsePereyroImage from '@public/assets/team/emilse_pereyro.png';
+import federicoNuccetelliImage from '@public/assets/team/federico_nuccetelli.png';
+import iniakiCormenzanaImage from '@public/assets/team/iniaki_cormenzana.png';
+import karlaVilchezImage from '@public/assets/team/karla_vilchez.png';
+import lucilaDiazSpolitaImage from '@public/assets/team/lucila_diaz_spolita.png';
+import marceloLuceroImage from '@public/assets/team/marcelo_lucero.png';
+import nivCarmiImage from '@public/assets/team/niv_carmi.png';
+import pabloFriasImage from '@public/assets/team/pablo_frias.png';
+import rocioTomsicImage from '@public/assets/team/rocio_tmosic.png';
+import sebaPereyroImage from '@public/assets/team/seba_pereyro.png';
+import silviaPenalozaImage from '@public/assets/team/silvia_penaloza.png';
+import sofiaCalvoImage from '@public/assets/team/sofia_calvo.png';
+import sofiaPavoneImage from '@public/assets/team/sofia_pavone.png';
+import yaelSchwartzmanImage from '@public/assets/team/yael_schwartzman.png';
 
 export const config = {
   title: 'About Us | Empirical',
@@ -128,6 +149,138 @@ export const texts = {
         },
       },
     ],
+  },
+  ourTeam: {
+    title: "Our team",
+    items: [
+      {
+        image: agustinSgarlataImage,
+        title: 'Agustin Sgarlata',
+        content: 'Sr. Software Engineer - Argentina',
+        link: 'https://www.linkedin.com/in/agust%C3%ADn-sgarlata-4753226/',
+      },
+      {
+        image: agustinaGrebeImage,
+        title: 'Agustina Grebe',
+        content: 'Product Designer - Argentina',
+        link: 'https://www.linkedin.com/in/agustina-grebe/',
+      },
+      {
+        image: agustinaVelazcoImage,
+        title: 'Agustina Velazco',
+        content: 'Sr. Product Designer - Argentina',
+        link: 'https://www.linkedin.com/in/agustinavel/',
+      },
+      {
+        image: anaIlardoImage,
+        title: 'Ana Ilardo',
+        content: 'Sr. Technical Recruiter - Argentina',
+        link: 'https://www.linkedin.com/in/analaurailardo/',
+      },
+      {
+        image: braianDaneriImage,
+        title: 'Braian Daneri',
+        content: 'Sr. Software Engineer - Argentina',
+        link: 'https://www.linkedin.com/in/braian-daneri/',
+      },
+      {
+        image: damianDiazImage,
+        title: 'Damian Diaz',
+        content: 'Sr. Software Engineer - Argentina',
+        link: 'https://www.linkedin.com/in/damianmdst/',
+      },
+      {
+        image: dilmerGonzalezImage,
+        title: 'Dilmer Gonzalez',
+        content: 'Sr. Software Engineer - Costa Rica',
+        link: 'https://www.linkedin.com/in/d%C3%ADlmer-j-gonz%C3%A1lez-h-38b8a530/',
+      },
+      {
+        image: emilsePereyroImage,
+        title: 'Emilse Pereyro',
+        content: 'Sr. Admin - Argentina',
+        link: 'https://www.linkedin.com/in/emilse-pereyro-33886b21a/',
+      },
+      {
+        image: federicoNuccetelliImage,
+        title: 'Federico Nuccetelli',
+        content: 'Sr. Software Engineer - Argentina',
+        link: 'https://www.linkedin.com/in/emilse-pereyro-33886b21a/',
+      },
+      {
+        image: iniakiCormenzanaImage,
+        title: 'Iñaki Cormenzana',
+        content: 'Sr. Project Manager - Argentina',
+        link: 'https://www.linkedin.com/in/#',
+      },
+      {
+        image: karlaVilchezImage,
+        title: 'Karla Vilchez',
+        content: 'Sr. Project Manager - Argentina',
+        link: 'https://www.linkedin.com/in/karla-vilchez-a0464546/?locale=en_US',
+      },
+      {
+        image: lucilaDiazSpolitaImage,
+        title: 'Lucila Diaz Spolita',
+        content: 'Sr. Product Designer - Argentina',
+        link: 'https://www.linkedin.com/in/luciladiazspolita/',
+      },
+      {
+        image: marceloLuceroImage,
+        title: 'Marcelo Lucero',
+        content: 'Sr. Software Engineer - Argentina',
+        link: 'https://www.linkedin.com/in/marceloglucero/',
+      },
+      {
+        image: nivCarmiImage,
+        title: 'Niv Carmi',
+        content: 'Founder - Costa Rica',
+        link: 'https://www.linkedin.com/in/nivcarmi/',
+      },
+      {
+        image: pabloFriasImage,
+        title: 'Pablo Frias',
+        content: 'Sr. Software Engineer - Argentina',
+        link: 'https://www.linkedin.com/in/pablo-frias-55aa8010/',
+      },
+      {
+        image: rocioTomsicImage,
+        title: 'Rocio Tomsic',
+        content: 'Sr. Product Designer - Argentina',
+        link: 'https://www.linkedin.com/in/rociotomsic/',
+      },
+      {
+        image: sebaPereyroImage,
+        title: 'Sebastian Pereyro',
+        content: 'Founder - San Diego, USA',
+        link: 'https://www.linkedin.com/in/spereyro',
+      },
+      {
+        image: silviaPenalozaImage,
+        title: 'Silvia Peñaloza',
+        content: 'Sr. Technical Recruiter - Argentina',
+        link: 'https://www.linkedin.com/in/silvia-pe%C3%B1aloza/',
+      },
+      {
+        image: sofiaCalvoImage,
+        title: 'Sofia Calvo',
+        content: 'Sr. Product Designer - Argentina',
+        link: 'https://www.linkedin.com/in/sofiafcalvo/',
+      },
+      
+      {
+        image: sofiaPavoneImage,
+        title: 'Sofia Pavone',
+        content: 'Sr. Project Manager - Uruguay',
+        link: 'https://www.linkedin.com/in/sofiapavone/',
+      },
+      {
+        image: yaelSchwartzmanImage,
+        title: 'Yael Schwartzman',
+        content: 'Sr. Project Manager - Mexico',
+        link: 'https://www.linkedin.com/in/yael-schwartzman-58051711/',
+      },
+    ]
   },
   whyWeDoIt: {
     title: 'Why we do it',
