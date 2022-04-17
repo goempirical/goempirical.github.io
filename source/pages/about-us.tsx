@@ -61,7 +61,7 @@ function AboutUs() {
             ))}
           </div>
         </Section> */}
-         <Section title={texts.ourTeam.title}>
+        <Section title={texts.ourTeam.title}>
           <div className="flex flex-wrap gap-x-16 gap-y-12 justify-center">
             {texts.ourTeam.items.map((ourTeamItem) => (
               <ImageCard
