@@ -267,11 +267,11 @@ export const texts = {
         content: 'Sr. Product Designer - Argentina',
         link: 'https://www.linkedin.com/in/sofiafcalvo/',
       },
-      
+
       {
         image: sofiaPavoneImage,
         title: 'Sofia Pavone',
-        content: 'Sr. Project Manager - Uruguay',
+        content: 'Sr. Technica Recruiter - Uruguay',
         link: 'https://www.linkedin.com/in/sofiapavone/',
       },
       {
