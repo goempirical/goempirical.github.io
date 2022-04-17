@@ -271,7 +271,7 @@ export const texts = {
       {
         image: sofiaPavoneImage,
         title: 'Sofia Pavone',
-        content: 'Sr. Technica Recruiter - Uruguay',
+        content: 'Sr. Technical Recruiter - Uruguay',
         link: 'https://www.linkedin.com/in/sofiapavone/',
       },
       {
