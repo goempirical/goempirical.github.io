@@ -8,7 +8,7 @@ import SpecialHighlight from '@components/SpecialHighlight';
 import Slider from '@components/Slider';
 import Text from '@components/Text';
 // import TextCard from '@components/TextCard';
-import TextIcon from '@components/TextIcon';
+// import TextIcon from '@components/TextIcon';
 import TextSection from '@components/TextSection';
 import { config, texts } from '@constants/pages/about-us';
 import ImageCard from '@components/ImageCard';
