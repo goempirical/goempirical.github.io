@@ -8,8 +8,10 @@ import SpecialHighlight from '@components/SpecialHighlight';
 import Slider from '@components/Slider';
 import Text from '@components/Text';
 // import TextCard from '@components/TextCard';
+// import TextIcon from '@components/TextIcon';
 import TextSection from '@components/TextSection';
 import { config, texts } from '@constants/pages/about-us';
+import ImageCard from '@components/ImageCard';
 
 function AboutUs() {
   return (
@@ -59,6 +61,20 @@ function AboutUs() {
             ))}
           </div>
         </Section> */}
+        <Section title={texts.ourTeam.title}>
+          <div className="flex flex-wrap gap-x-16 gap-y-12 justify-center">
+            {texts.ourTeam.items.map((ourTeamItem) => (
+              <ImageCard
+                key={ourTeamItem.title}
+                className="flex-1 md:basis-1/4 basis-1/2 max-w-sm"
+                image={ourTeamItem.image.src}
+                title={ourTeamItem.title}
+                content={ourTeamItem.content}
+                link={ourTeamItem.link}
+              />
+            ))}
+          </div>
+        </Section>
         <Section title={texts.testimonials.title} className="md:mb-10">
           <Slider>
             {texts.testimonials.items.map((testimonialItem) => (
