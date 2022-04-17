@@ -1,5 +1,3 @@
-import { ReactNode } from 'react';
-
 export interface IImageCardProps {
   className?: string;
   image: string;
