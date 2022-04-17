@@ -17,7 +17,7 @@ function ImageCard({
       </div>
       <div className="flex flex-col items-center gap-2">
         <a href={link} target="_blank" rel="noreferrer">
-        <Text variation="h4" className="text-center">{title}</Text>
+          <Text variation="h4" className="text-center">{title}</Text>
         </a>
         <Text variation="p" className="opacity-70 text-center max-w-u360">{content}</Text>
       </div>
