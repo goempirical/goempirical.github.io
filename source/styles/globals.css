@@ -24,6 +24,10 @@ a {
 }
 
 .clip-circle {
-  clip-path: circle(100px at center);
-  zoom: 100%;
+  clip-path: circle(120px at center);
+  -webkit-transform: scale(0.7);
+  -moz-transform: scale(0.7);
+  -o-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  transform: scale(0.7);
 }
