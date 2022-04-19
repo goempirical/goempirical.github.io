@@ -101,7 +101,7 @@ export const texts = {
     title: 'People love working here',
     items: [
       {
-        quote: 'I really like the working environment. It is always very positive and laidback. I like how there is a feeling of trust.  Everyone working at Empirical has a very strong programming and/or designing skills so I can do my focus on doing my best at work and trust everyone else will do the best at theirs.',
+        quote: 'I really like the working environment, always very positive and supportive. I like how there is a feeling of trust.  Everyone working at Empirical has very strong programming and/or designing skills so it is a real pleasure to work in this context.',
         author: {
           company: 'Sr. Project Manager',
           name: 'Yael Schwartzman',
