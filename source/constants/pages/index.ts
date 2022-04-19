@@ -34,7 +34,7 @@ export const texts = {
     ],
   },
   approach: {
-    title: 'Approach',
+    title: 'Our approach',
     items: [
       {
         title: 'Connection and understanding',
@@ -71,7 +71,7 @@ export const texts = {
 
         That you are building high performing, resilient and motivated teams, who are always ready to deliver quality and results.
 
-        That you increased your product development capacity efficiently (less time, less effort, better fit).
+        That you are increasing your product development capacity efficiently (less time, less effort, better fit).
 
         That we provide continuous support and management, we are in it for the long run and are committed to your success! `,
       },
@@ -108,7 +108,7 @@ export const texts = {
       {
         icon: 'Plan',
         title: 'Results driven',
-        content: 'High speed, resilient, high performance and strong retention of talent.',
+        content: 'High performing, resilient teams that care about your success.',
       },
     ],
   },
