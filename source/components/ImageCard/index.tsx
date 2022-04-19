@@ -8,7 +8,7 @@ function ImageCard({
   image,
   content,
   title,
-  link,
+  //link,
 }: IImageCardProps) {
   return (
     <div className={clsx('flex flex-col items-center', className)}>
