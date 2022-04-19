@@ -31,7 +31,7 @@ export const config = {
 export const texts = {
   hero: {
     title: 'A *company that cares* about people and products',
-    content: 'We care about our team members as much as we care about our clients. We believe great products are built under great working environments. We created that environment and are continually improving it.',
+    content: 'We care about our team members as much as we care about our clients. We believe great products are built under great working environments. We created that environment and are continuously improving it.',
     bgImage: aboutUsBg,
   },
   aboutUs: {
