@@ -101,6 +101,14 @@ export const texts = {
     title: 'People love working here',
     items: [
       {
+        quote: 'I really like the working environment. It is always very positive and laidback. I like how there is a feeling of trust.  Everyone working at Empirical has a very strong programming and/or designing level so I can do my best effort doing my job and trust everyone else will do the best effort at theirs.',
+        author: {
+          company: 'Sr. Project Manager',
+          name: 'Yael Schwartzman',
+          link: 'https://www.linkedin.com/in/yael-schwartzman-58051711/',
+        },
+      },
+      {
         quote: 'I love working at Empirical because it gives me the possibility of growing on a daily basis while also having fun.',
         author: {
           company: 'Sr. Software Engineer',
@@ -138,14 +146,6 @@ export const texts = {
           company: 'Sr. Software Engineer',
           name: 'Pablo Frias',
           link: 'https://www.linkedin.com/in/pablo-frias-55aa8010/',
-        },
-      },
-      {
-        quote: 'I really like the working environment. It is always very positive and laidback. I like how there is a feeling of trust.  Everyone working at Empirical has a very strong programming and/or designing level so I can do my best effort doing my job and trust everyone else will do the best effort at theirs.',
-        author: {
-          company: 'Sr. Project Manager',
-          name: 'Yael Schwartzman',
-          link: 'https://www.linkedin.com/in/yael-schwartzman-58051711/',
         },
       },
     ],
