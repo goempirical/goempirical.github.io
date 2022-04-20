@@ -5,8 +5,8 @@ import Link from 'next/link';
 import { ConfigContext } from '@contexts/global';
 import Text from '@components/Text';
 import { Icons } from '@components/Icons/constants';
-import empiricalLogo from '@public/assets/empirical_logo-color.svg';
-import empiricalLogoBlack from '@public/assets/empirical_logo-color--black.svg';
+import empiricalLogo from '@public/assets/logos/logo-white-font.svg';
+import empiricalLogoBlack from '@public/assets/logos/logo-dark-font.svg';
 import { imageLoader } from '@utils/images';
 
 import { IFooterProps } from './types';

@@ -5,8 +5,8 @@ import clsx from 'clsx';
 
 import { INavbarVariantProps } from '@components/Navbar/types';
 import NavbarItem from '@components/Navbar/components/NavbarItem';
-import empiricalLogo from '@public/assets/empirical_logo-color.svg';
-import empiricalLogoBlack from '@public/assets/empirical_logo-color--black.svg';
+import empiricalLogo from '@public/assets/logos/logo-white-font.svg';
+import empiricalLogoBlack from '@public/assets/logos/logo-dark-font.svg';
 import { imageLoader } from '@utils/images';
 import { useContext } from 'react';
 import { ConfigContext } from '@contexts/global';
@@ -23,7 +23,7 @@ function NavbarDesktop({ config, isCollapsed }: INavbarVariantProps) {
         <Link href="/">
           {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
           <a className="flex items-center">
-            <Image src={isDark ? empiricalLogo : empiricalLogoBlack} alt="Empirical Logo" width={170} height={44} loader={imageLoader} />
+            <Image src={isDark ? empiricalLogo : empiricalLogoBlack} alt="Empirical Logo" width={170} height={45} loader={imageLoader} />
           </a>
         </Link>
       </div>
