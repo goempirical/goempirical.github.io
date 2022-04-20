@@ -1,4 +1,5 @@
 /* eslint-disable react/jsx-props-no-spreading */
+/* eslint-disable  @typescript-eslint/no-non-null-assertion */
 import clsx from 'clsx';
 
 import { forwardRef } from 'react';

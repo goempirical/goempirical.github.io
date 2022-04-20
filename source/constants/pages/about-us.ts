@@ -1,4 +1,4 @@
-import aboutUsBg from '@public/assets/about-us_bg.png';
+import aboutUsBg from '@public/assets/backgrounds/about-us_bg.png';
 import agustinSgarlataImage from '@public/assets/team/agustin_sgarlata.png';
 import agustinaGrebeImage from '@public/assets/team/agustina_grebe.png';
 import agustinaVelazcoImage from '@public/assets/team/agustina_velazco.png';

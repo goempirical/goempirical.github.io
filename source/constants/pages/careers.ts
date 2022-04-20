@@ -1,4 +1,4 @@
-import careersBg from '@public/assets/careers_bg.png';
+import careersBg from '@public/assets/backgrounds/careers_bg.png';
 
 export const config = {
   title: 'Careers | Empirical',
