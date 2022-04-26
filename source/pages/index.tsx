@@ -26,7 +26,7 @@ function Home() {
   };
 
   const items:object[] = [];
-  texts.clients.items.forEach( function (item){
+  texts.clients.items.forEach(function (item){
     items.push(
     <div className="flex items-center justify-center gap-10 flex-wrap">
       <Image
