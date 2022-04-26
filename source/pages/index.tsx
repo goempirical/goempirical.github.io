@@ -19,26 +19,24 @@ import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 
 function Home() {
-  const handleDragStart = (e) => e.preventDefault();
-
-  const responsive = {
+ const responsive = {
     0: { items: 1 },
     568: { items: 3 },
     1024: { items: 6 },
-};
+  };
+
   let items =[];
   texts.clients.items.forEach( function (item){
     items.push(
     <div className="flex items-center justify-center gap-10 flex-wrap">
       <Image
-      key={item.logo.src}
-      className="gap-10 grayscale dark:brightness-100 dark:contrast-100 brightness-200 contrast-0"
-      src={item.logo}
-      height={item.logo.height}
-      width={item.logo.width}
-      alt={item.title}
-    />
-
+        key={item.logo.src}
+        className="gap-10 grayscale dark:brightness-100 dark:contrast-100 brightness-200 contrast-0"
+        src={item.logo}
+        height={item.logo.height}
+        width={item.logo.width}
+        alt={item.title}
+      />
     </div>
     )
   })
