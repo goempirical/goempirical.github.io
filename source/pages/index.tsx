@@ -15,7 +15,32 @@ import TextSection from '@components/TextSection';
 import { TIcons } from '@components/Icons/types';
 import { config, texts } from '@constants/pages';
 
+import AliceCarousel from 'react-alice-carousel';
+import 'react-alice-carousel/lib/alice-carousel.css';
+
 function Home() {
+  const responsive = {
+    0: { items: 1 },
+    568: { items: 3 },
+    1024: { items: 6 },
+  };
+
+  const items:object[] = [];
+  texts.clients.items.forEach((item) => {
+    items.push(
+      <div className="flex items-center justify-center gap-10 flex-wrap">
+        <Image
+          key={item.logo.src}
+          className="gap-10 grayscale dark:brightness-100 dark:contrast-100 brightness-200 contrast-0"
+          src={item.logo}
+          height={item.logo.height}
+          width={item.logo.width}
+          alt={item.title}
+        />
+      </div>,
+    );
+  });
+
   return (
     <Page config={config}>
       <DefaultLayout>
@@ -80,19 +105,17 @@ function Home() {
             ))}
           </Slider>
         </Section>
-        <Section className="bg-black bg-opacity-5 dark:bg-white dark:bg-opacity-5 hidden md:flex">
-          <div className="flex items-center justify-center gap-10 flex-wrap">
-            {texts.clients.items.map((client) => (
-              <Image
-                key={client.logo.src}
-                className="h-10 grayscale dark:brightness-100 dark:contrast-100 brightness-200 contrast-0 hover:grayscale-0 hover:brightness-100 hover:contrast-100 transition-all"
-                src={client.logo}
-                height={client.logo.height}
-                width={client.logo.width}
-                alt={client.title}
-              />
-            ))}
-          </div>
+        <Section className="flex flex-wrap bg-black bg-opacity-5 dark:bg-white dark:bg-opacity-5 md:flex items-center ">
+          <AliceCarousel
+            autoPlay
+            infinite
+            disableButtonsControls
+            autoPlayInterval={1000}
+            animationDuration={1000}
+            mouseTracking
+            items={items}
+            responsive={responsive}
+          />
         </Section>
         <Section>
           <div className="flex items-center justify-center gap-10 flex-wrap py-5">

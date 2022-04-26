@@ -1,9 +1,12 @@
-import feedmobLogo from '@public/assets/client-logos/feedmob.png';
+import cryptoChargedLogo from '@public/assets/client-logos/crypto_charged.png';
+import warecorpLogo from '@public/assets/client-logos/warecorp.png';
 import momentLogo from '@public/assets/client-logos/moment.png';
 import robolinkLogo from '@public/assets/client-logos/robolink.png';
 import smithsonianLogo from '@public/assets/client-logos/smithsonian.png';
 import soloshotLogo from '@public/assets/client-logos/soloshot.png';
-import trackingHappinessLogo from '@public/assets/client-logos/tracking_happiness.png';
+import gatedLogo from '@public/assets/client-logos/gated.png';
+import conservLogo from '@public/assets/client-logos/conserv.png';
+import dreamcartLogo from '@public/assets/client-logos/dreamcart.png';
 
 export const config = {
   title: 'Empirical',
@@ -168,6 +171,10 @@ export const texts = {
   clients: {
     items: [
       {
+        logo: cryptoChargedLogo,
+        title: 'CryptoCharged',
+      },
+      {
         logo: robolinkLogo,
         title: 'RoboLink',
       },
@@ -184,12 +191,20 @@ export const texts = {
         title: 'Moment',
       },
       {
-        logo: trackingHappinessLogo,
-        title: 'Tracking Happiness',
+        logo: dreamcartLogo,
+        title: 'Dreamcart',
       },
       {
-        logo: feedmobLogo,
-        title: 'Feedmob',
+        logo: gatedLogo,
+        title: 'Gated',
+      },
+      {
+        logo: conservLogo,
+        title: 'conserv',
+      },
+      {
+        logo: warecorpLogo,
+        title: 'Warecorp',
       },
     ],
   },
