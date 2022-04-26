@@ -37,7 +37,7 @@ function Home() {
           width={item.logo.width}
           alt={item.title}
         />
-      </div>
+      </div>,
     )
   })
 
