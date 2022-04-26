@@ -38,8 +38,8 @@ function Home() {
           alt={item.title}
         />
       </div>,
-    )
-  })
+    );
+  });
 
   return (
     <Page config={config}>
@@ -106,14 +106,16 @@ function Home() {
           </Slider>
         </Section>
         <Section className="flex flex-wrap bg-black bg-opacity-5 dark:bg-white dark:bg-opacity-5 md:flex items-center ">
-            <AliceCarousel
-              autoPlay
-              //autoPlayControls
-              infinite
-              disableButtonsControls
-              autoPlayInterval={1000}
-              animationDuration={1000}
-              mouseTracking items={items} responsive={responsive} />
+          <AliceCarousel
+            autoPlay
+            infinite
+            disableButtonsControls
+            autoPlayInterval={1000}
+            animationDuration={1000}
+            mouseTracking
+            items={items}
+            responsive={responsive}
+          />
         </Section>
         <Section>
           <div className="flex items-center justify-center gap-10 flex-wrap py-5">
