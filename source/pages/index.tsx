@@ -25,7 +25,7 @@ function Home() {
     1024: { items: 6 },
   };
 
-  let items =[];
+  let items:object[] =[];
   texts.clients.items.forEach( function (item){
     items.push(
     <div className="flex items-center justify-center gap-10 flex-wrap">
