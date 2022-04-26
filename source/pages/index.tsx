@@ -28,16 +28,16 @@ function Home() {
   const items:object[] = [];
   texts.clients.items.forEach((item) => {
     items.push(
-    <div className="flex items-center justify-center gap-10 flex-wrap">
-      <Image
-        key={item.logo.src}
-        className="gap-10 grayscale dark:brightness-100 dark:contrast-100 brightness-200 contrast-0"
-        src={item.logo}
-        height={item.logo.height}
-        width={item.logo.width}
-        alt={item.title}
-      />
-    </div>
+      <div className="flex items-center justify-center gap-10 flex-wrap">
+        <Image
+          key={item.logo.src}
+          className="gap-10 grayscale dark:brightness-100 dark:contrast-100 brightness-200 contrast-0"
+          src={item.logo}
+          height={item.logo.height}
+          width={item.logo.width}
+          alt={item.title}
+        />
+      </div>
     )
   })
 
