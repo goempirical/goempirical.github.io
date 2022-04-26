@@ -19,13 +19,13 @@ import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 
 function Home() {
- const responsive = {
+  const responsive = {
     0: { items: 1 },
     568: { items: 3 },
     1024: { items: 6 },
   };
 
-  let items:object[] =[];
+  const items:object[] = [];
   texts.clients.items.forEach( function (item){
     items.push(
     <div className="flex items-center justify-center gap-10 flex-wrap">
