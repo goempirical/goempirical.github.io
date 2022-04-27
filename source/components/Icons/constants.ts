@@ -17,10 +17,12 @@ import SupportIcon from './Support';
 import TranslateIcon from './Translate';
 import TwitterIcon from './Twitter';
 import { TIconList } from './types';
+import ClutchIcon from './Clutch';
 
 export const Icons: TIconList = {
   Bridge: BridgeIcon,
   Chess: ChessIcon,
+  Clutch:ClutchIcon,
   Dollar: DollarIcon,
   Chevron: ChevronIcon,
   Community: CommunityIcon,
@@ -37,4 +39,5 @@ export const Icons: TIconList = {
   Support: SupportIcon,
   Translate: TranslateIcon,
   Twitter: TwitterIcon,
+
 };

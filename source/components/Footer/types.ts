@@ -2,7 +2,7 @@ import { TIcons } from '@components/Icons/types';
 import { TNavigationItem } from '@interfaces/INavigation';
 
 /* eslint-disable no-unused-vars */
-type TSocialMedia = 'twitter' | 'facebook' | 'linkedin';
+type TSocialMedia = 'twitter' | 'facebook' | 'linkedin' | 'clutch';
 
 export interface IFooterConfig {
   contactMail?: {

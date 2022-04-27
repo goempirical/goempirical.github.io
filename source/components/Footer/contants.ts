@@ -23,6 +23,11 @@ export const defaultConfig: IFooterConfig = {
       linkTitle: "Empirical's Linkedin Account",
       url: 'https://www.linkedin.com/company/goempirical',
     },
+    clutch: {
+      icon: 'Clutch',
+      linkTitle: "Empirical's Reviews on Clutch",
+      url: 'https://clutch.co/profile/empirical#summary',
+    }
   },
   navigation: [
     {
@@ -30,7 +35,7 @@ export const defaultConfig: IFooterConfig = {
       to: ROUTES.Careers,
       items: [
         {
-          title: 'See all our opportunities',
+          title: 'See all opportunities',
           to: 'https://goempirical.freshteam.com/jobs',
           external: true,
         },
@@ -41,9 +46,14 @@ export const defaultConfig: IFooterConfig = {
       to: ROUTES.AboutUs,
       items: [
         {
-          title: 'Learn about us',
+          title: 'Learn more',
           to: ROUTES.AboutUs,
         },
+        {
+          title: 'Our blog',
+          to: `https://blog.goempirical.com/`,
+          external: true
+        }
       ],
     },
   ],

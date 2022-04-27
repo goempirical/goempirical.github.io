@@ -18,7 +18,8 @@ export type TIcons = 'Bridge'
 | 'Sun'
 | 'Support'
 | 'Translate'
-| 'Twitter';
+| 'Twitter'
+| 'Clutch';
 export interface IIcon {
   className?: string;
 }
