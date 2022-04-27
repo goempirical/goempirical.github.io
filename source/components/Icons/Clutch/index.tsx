@@ -1,10 +1,9 @@
-import { IIcon } from '../types';
 import clutchLogo from '@public/assets/social-media/clutch_logo.svg';
-
+import { IIcon } from '../types';
 
 function ClutchIcon({ className }: IIcon) {
   return (
-    <img src={clutchLogo.src} width={15}></img>
+    <img className={className} alt="Clutch Logo" src={clutchLogo.src} width={15} />
   );
 }
 

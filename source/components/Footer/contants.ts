@@ -27,7 +27,7 @@ export const defaultConfig: IFooterConfig = {
       icon: 'Clutch',
       linkTitle: "Empirical's Reviews on Clutch",
       url: 'https://clutch.co/profile/empirical#summary',
-    }
+    },
   },
   navigation: [
     {
@@ -51,9 +51,9 @@ export const defaultConfig: IFooterConfig = {
         },
         {
           title: 'Our blog',
-          to: `https://blog.goempirical.com/`,
-          external: true
-        }
+          to: 'https://blog.goempirical.com/',
+          external: true,
+        },
       ],
     },
   ],
