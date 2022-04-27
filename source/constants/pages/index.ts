@@ -7,6 +7,7 @@ import soloshotLogo from '@public/assets/client-logos/soloshot.png';
 import gatedLogo from '@public/assets/client-logos/gated.png';
 import conservLogo from '@public/assets/client-logos/conserv.png';
 import dreamcartLogo from '@public/assets/client-logos/dreamcart.png';
+import acneIntelligenceLogo from '@public/assets/client-logos/acne_intelligence.png';
 
 export const config = {
   title: 'Empirical',
@@ -171,6 +172,10 @@ export const texts = {
   clients: {
     items: [
       {
+        logo: acneIntelligenceLogo,
+        title: 'Acne Intelligence',
+      },
+      {
         logo: cryptoChargedLogo,
         title: 'CryptoCharged',
       },
@@ -200,7 +205,7 @@ export const texts = {
       },
       {
         logo: conservLogo,
-        title: 'conserv',
+        title: 'Conserv',
       },
       {
         logo: warecorpLogo,
