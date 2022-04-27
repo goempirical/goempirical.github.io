@@ -109,6 +109,7 @@ function Home() {
           <AliceCarousel
             autoPlay
             infinite
+            disableDotsControls
             disableButtonsControls
             autoPlayInterval={1000}
             animationDuration={1000}
