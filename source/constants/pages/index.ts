@@ -128,7 +128,7 @@ export const texts = {
         },
       },
       {
-        quote: 'Empirical team produced clean, tested code and were and absolute pleasure to work with! They are one of my go-to referrals for early stage companies that want to build the first version of an app.',
+        quote: 'Empirical team produced clean, tested code and were and absolute pleasure to work with! They are one of my go-to referrals for companies that want to build an app.',
         author: {
           company: 'Corgibytes',
           name: 'Andrea Goulet',
@@ -144,7 +144,7 @@ export const texts = {
         },
       },
       {
-        quote: 'I started working with Empirical about 6 months ago to develop an online reservation system for my business and I couldn\'t be happier with the work the team provided.',
+        quote: 'The quality was superb. ... Everything works like clockwork.',
         author: {
           company: 'Purr',
           name: 'Robert Prouty',
@@ -152,19 +152,43 @@ export const texts = {
         },
       },
       {
-        quote: 'You guys are rockstars. We couldn\'t have done it without your support.',
+        quote: 'They’re a personable and reliable team that I can trust.',
         author: {
-          company: 'Swingby',
-          name: '@wesleysoo',
-          link: 'https://twitter.com/wesleysoo',
+          company: 'Evice',
+          name: 'Christina Anderson',
+          link: 'https://www.linkedin.com/in/christina-anderson-8a3200170/',
         },
       },
       {
-        quote: 'Strong team. Solid Results! This team has been essential to the success of SouthDoctors.',
+        quote: 'The openness of communication and willingness to adjust along the way makes Empirical stand out.',
         author: {
-          company: 'South Doctors',
-          name: 'Mario Mireles',
-          link: 'https://twitter.com/mmirelesv',
+          company: 'Robolink',
+          name: 'Wes Hsu',
+          link: 'https://www.robolink.com/',
+        },
+      },
+      {
+        quote: 'We appreciate the level of ownership and care they put into their work.',
+        author: {
+          company: 'Indx',
+          name: 'Thomas Cotter',
+          link: 'https://www.linkedin.com/in/tcotter1/',
+        },
+      },
+      {
+        quote: 'Our collaboration genuinely felt like business partners.',
+        author: {
+          company: 'Casa del Acero',
+          name: 'Efren Romero',
+          link: 'https://www.linkedin.com/in/efrenromerob',
+        },
+      },
+      {
+        quote: 'Empirical is determined to deliver a solution that works.',
+        author: {
+          company: 'Clevos',
+          name: 'Matthew Sargeant',
+          link: 'https://www.linkedin.com/in/matthewsargeant',
         },
       },
     ],
