@@ -191,6 +191,14 @@ export const texts = {
           link: 'https://www.linkedin.com/in/matthewsargeant',
         },
       },
+      {
+        quote: 'We chose Empirical LLC as our product partner, and we\'re extremely pleased. They have a great hiring process, so you end up with very high-quality people.',
+        author: {
+          company: 'Conserv',
+          name: 'Austin Senseman',
+          link: 'https://www.linkedin.com/in/austinsenseman/',
+        },
+      },
     ],
   },
   clients: {

@@ -18,7 +18,7 @@ import rocioTomsicImage from '@public/assets/team/rocio_tmosic.png';
 import sebaPereyroImage from '@public/assets/team/seba_pereyro.png';
 import silviaPenalozaImage from '@public/assets/team/silvia_penaloza.png';
 import sofiaCalvoImage from '@public/assets/team/sofia_calvo.png';
-import sofiaPavoneImage from '@public/assets/team/sofia_pavone.png';
+import amandaLucasImage from '@public/assets/team/amanda_lucas.png';
 import yaelSchwartzmanImage from '@public/assets/team/yael_schwartzman.png';
 
 export const config = {
@@ -172,6 +172,12 @@ export const texts = {
         link: 'https://www.linkedin.com/in/agustinavel/',
       },
       {
+        image: amandaLucasImage,
+        title: 'Amanda Lucas',
+        content: 'Sr. Technical Recruiter - Argentina',
+        link: 'https://www.linkedin.com/in/amanda-lucas-13b926141/',
+      },
+      {
         image: anaIlardoImage,
         title: 'Ana Ilardo',
         content: 'Sr. Technical Recruiter - Argentina',
@@ -266,13 +272,6 @@ export const texts = {
         title: 'Sofia Calvo',
         content: 'Sr. Product Designer - Argentina',
         link: 'https://www.linkedin.com/in/sofiafcalvo/',
-      },
-
-      {
-        image: sofiaPavoneImage,
-        title: 'Sofia Pavone',
-        content: 'Sr. Technical Recruiter - Uruguay',
-        link: 'https://www.linkedin.com/in/sofiapavone/',
       },
       {
         image: yaelSchwartzmanImage,
