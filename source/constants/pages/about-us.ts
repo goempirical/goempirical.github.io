@@ -15,6 +15,7 @@ import marceloLuceroImage from '@public/assets/team/marcelo_lucero.png';
 import nivCarmiImage from '@public/assets/team/niv_carmi.png';
 import pabloFriasImage from '@public/assets/team/pablo_frias.png';
 import rocioTomsicImage from '@public/assets/team/rocio_tmosic.png';
+import rodrigoOvalleImage from '@public/assets/team/rodrigo_ovalle.png';
 import sebaPereyroImage from '@public/assets/team/seba_pereyro.png';
 import silviaPenalozaImage from '@public/assets/team/silvia_penaloza.png';
 import sofiaCalvoImage from '@public/assets/team/sofia_calvo.png';
@@ -254,6 +255,12 @@ export const texts = {
         title: 'Rocio Tomsic',
         content: 'Sr. Product Designer - Argentina',
         link: 'https://www.linkedin.com/in/rociotomsic/',
+      },
+      {
+        image: rodrigoOvalleImage,
+        title: 'Rodrigo Ovalle',
+        content: 'Sr. Software Engineer - Argentina',
+        link: '#',
       },
       {
         image: sebaPereyroImage,
