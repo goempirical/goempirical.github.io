@@ -257,12 +257,6 @@ export const texts = {
         link: 'https://www.linkedin.com/in/rociotomsic/',
       },
       {
-        image: rodrigoOvalleImage,
-        title: 'Rodrigo Ovalle',
-        content: 'Sr. Software Engineer - Argentina',
-        link: '#',
-      },
-      {
         image: sebaPereyroImage,
         title: 'Sebastian Pereyro',
         content: 'Founder - San Diego, USA',
