@@ -15,6 +15,7 @@ import marceloLuceroImage from '@public/assets/team/marcelo_lucero.png';
 import nivCarmiImage from '@public/assets/team/niv_carmi.png';
 import oscarDiazImage from '@public/assets/team/oscar_diaz.jpeg';
 import pabloFriasImage from '@public/assets/team/pablo_frias.png';
+import ricardoRomoImage from '@public/assets/team/ricardo_romo.jpeg';
 import rocioTomsicImage from '@public/assets/team/rocio_tmosic.png';
 import sebaPereyroImage from '@public/assets/team/seba_pereyro.png';
 import silviaPenalozaImage from '@public/assets/team/silvia_penaloza.png';
@@ -255,6 +256,12 @@ export const texts = {
         title: 'Pablo Frias',
         content: 'Sr. Software Engineer - Argentina',
         link: 'https://www.linkedin.com/in/pablo-frias-55aa8010/',
+      },
+      {
+        image: ricardoRomoImage,
+        title: 'Ricardo Romo',
+        content: 'Sr. Software Engineer - Mexico',
+        link: 'https://www.linkedin.com/in/ricardo-romo-gonzalez-56a57489/',
       },
       {
         image: rocioTomsicImage,
