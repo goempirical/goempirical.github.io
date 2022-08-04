@@ -248,7 +248,7 @@ export const texts = {
       {
         image: oscarDiazImage,
         title: 'Oscar Diaz',
-        content: 'Sr. Software Engineer - GUatemala',
+        content: 'Sr. Software Engineer - Guatemala',
         link: 'https://www.linkedin.com/in/odiazjs/',
       },
       {
