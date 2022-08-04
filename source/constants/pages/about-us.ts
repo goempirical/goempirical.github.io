@@ -8,12 +8,12 @@ import damianDiazImage from '@public/assets/team/damian_diaz.png';
 import dilmerGonzalezImage from '@public/assets/team/dilmer_gonzalez.png';
 import emilsePereyroImage from '@public/assets/team/emilse_pereyro.png';
 import federicoNuccetelliImage from '@public/assets/team/federico_nuccetelli.png';
-//import ivanSoriaImage from '@public/assets/team/ivan_soria.jpeg';
 import iniakiCormenzanaImage from '@public/assets/team/iniaki_cormenzana.png';
 import jimenaCastroImage from '@public/assets/team/jimena_castro.png';
 import lucilaDiazSpolitaImage from '@public/assets/team/lucila_diaz_spolita.png';
 import marceloLuceroImage from '@public/assets/team/marcelo_lucero.png';
 import nivCarmiImage from '@public/assets/team/niv_carmi.png';
+import oscarDiazImage from '@public/assets/team/oscar_diaz.jpeg';
 import pabloFriasImage from '@public/assets/team/pablo_frias.png';
 import rocioTomsicImage from '@public/assets/team/rocio_tmosic.png';
 import sebaPereyroImage from '@public/assets/team/seba_pereyro.png';
@@ -214,12 +214,6 @@ export const texts = {
         content: 'Sr. Software Engineer - Argentina',
         link: 'https://www.linkedin.com/in/federico-nuccetelli',
       },
-      // {
-      //   image: ivanSoriaImage,
-      //   title: 'Ivan Soria',
-      //   content: 'Sr. Software Engineer - Mexico',
-      //   link: 'https://www.linkedin.com/in/ivan-soria',
-      // },
       {
         image: iniakiCormenzanaImage,
         title: 'Iñaki Cormenzana',
@@ -249,6 +243,12 @@ export const texts = {
         title: 'Niv Carmi',
         content: 'Founder - San Diego, USA',
         link: 'https://www.linkedin.com/in/nivcarmi/',
+      },
+      {
+        image: oscarDiazImage,
+        title: 'Oscar Diaz',
+        content: 'Sr. Software Engineer - GUatemala',
+        link: 'https://www.linkedin.com/in/odiazjs/',
       },
       {
         image: pabloFriasImage,
