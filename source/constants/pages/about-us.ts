@@ -298,7 +298,7 @@ export const texts = {
       {
         image: steveProhaskaImage,
         title: 'Steve Prohaska',
-        content: 'Sales & Business Development - US',
+        content: 'Sales & Business Development - Santa Monica, USA',
         link: 'https://www.linkedin.com/in/yael-schwartzman-58051711/',
       },
       {
