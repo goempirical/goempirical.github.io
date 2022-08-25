@@ -8,6 +8,7 @@ import damianDiazImage from '@public/assets/team/damian_diaz.png';
 import dilmerGonzalezImage from '@public/assets/team/dilmer_gonzalez.png';
 import emilsePereyroImage from '@public/assets/team/emilse_pereyro.png';
 import federicoNuccetelliImage from '@public/assets/team/federico_nuccetelli.png';
+import ivanaPontetImage from '@public/assets/team/ivana_pontet.jpeg';
 import iniakiCormenzanaImage from '@public/assets/team/iniaki_cormenzana.png';
 import jimenaCastroImage from '@public/assets/team/jimena_castro.png';
 import lucilaDiazSpolitaImage from '@public/assets/team/lucila_diaz_spolita.png';
@@ -21,6 +22,7 @@ import sebaPereyroImage from '@public/assets/team/seba_pereyro.png';
 import silviaPenalozaImage from '@public/assets/team/silvia_penaloza.png';
 import sofiaCalvoImage from '@public/assets/team/sofia_calvo.png';
 import amandaLucasImage from '@public/assets/team/amanda_lucas.png';
+import steveProhaskaImage from '@public/assets/team/steve_pro.jpeg';
 import yaelSchwartzmanImage from '@public/assets/team/yael_schwartzman.png';
 
 export const config = {
@@ -216,6 +218,12 @@ export const texts = {
         link: 'https://www.linkedin.com/in/federico-nuccetelli',
       },
       {
+        image: ivanaPontetImage,
+        title: 'Ivana Pontet',
+        content: 'Sr. Project Manager - Uruguay',
+        link: 'https://www.linkedin.com/in/#',
+      },
+      {
         image: iniakiCormenzanaImage,
         title: 'Iñaki Cormenzana',
         content: 'Sr. Project Manager - Argentina',
@@ -286,6 +294,12 @@ export const texts = {
         title: 'Sofia Calvo',
         content: 'Sr. Product Designer - Argentina',
         link: 'https://www.linkedin.com/in/sofiafcalvo/',
+      },
+      {
+        image: steveProhaskaImage,
+        title: 'Steve Prohaska',
+        content: 'Sales & Business Development - US',
+        link: 'https://www.linkedin.com/in/yael-schwartzman-58051711/',
       },
       {
         image: yaelSchwartzmanImage,
