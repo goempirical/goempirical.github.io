@@ -170,12 +170,6 @@ export const texts = {
         link: 'https://www.linkedin.com/in/agustina-grebe/',
       },
       {
-        image: agustinaVelazcoImage,
-        title: 'Agustina Velazco',
-        content: 'Sr. Product Designer - Argentina',
-        link: 'https://www.linkedin.com/in/agustinavel/',
-      },
-      {
         image: amandaLucasImage,
         title: 'Amanda Lucas',
         content: 'Sr. Technical Recruiter - Argentina',
