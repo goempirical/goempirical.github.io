@@ -197,6 +197,12 @@ export const texts = {
         link: 'https://www.linkedin.com/in/damianmdst/',
       },
       {
+        image: derikYoungImage,
+        title: 'Derik Young',
+        content: 'Business Development - USA',
+        link: 'https://www.linkedin.com/in/derikyoung/',
+      },
+      {
         image: dilmerGonzalezImage,
         title: 'Dilmer Gonzalez',
         content: 'Sr. Software Engineer - Costa Rica',
