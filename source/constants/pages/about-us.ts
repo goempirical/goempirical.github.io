@@ -15,6 +15,7 @@ import lucilaDiazSpolitaImage from '@public/assets/team/lucila_diaz_spolita.png'
 import marceloLuceroImage from '@public/assets/team/marcelo_lucero.png';
 import nivCarmiImage from '@public/assets/team/niv_carmi.png';
 import oscarDiazImage from '@public/assets/team/oscar_diaz.jpeg';
+import pabloCabreraImage from '@public/assets/team/pablo_cabrera.jpeg';
 import pabloFriasImage from '@public/assets/team/pablo_frias.png';
 import ricardoRomoImage from '@public/assets/team/ricardo_romo.jpeg';
 import rocioTomsicImage from '@public/assets/team/rocio_tmosic.png';
@@ -252,6 +253,12 @@ export const texts = {
         title: 'Oscar Diaz',
         content: 'Sr. Software Engineer - Guatemala',
         link: 'https://www.linkedin.com/in/odiazjs/',
+      },
+      {
+        image: pabloCabreraImage,
+        title: 'Pablo Cabrera',
+        content: 'Sr. Software Engineer - Mexico',
+        link: 'https://www.linkedin.com/in/pablo-c-2056b9133/',
       },
       {
         image: pabloFriasImage,
