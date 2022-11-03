@@ -199,7 +199,7 @@ export const texts = {
       {
         image: derikYoungImage,
         title: 'Derik Young',
-        content: 'Business Development - USA',
+        content: 'Business Development - Loas Angeles, USA',
         link: 'https://www.linkedin.com/in/derikyoung/',
       },
       {
