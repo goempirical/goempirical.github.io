@@ -5,6 +5,7 @@ import agustinaVelazcoImage from '@public/assets/team/agustina_velazco.png';
 import anaIlardoImage from '@public/assets/team/ana_ilardo.png';
 import braianDaneriImage from '@public/assets/team/braian_daneri.png';
 import damianDiazImage from '@public/assets/team/damian_diaz.png';
+import derikYoungImage from '@public/assets/team/derik_young.png';
 import dilmerGonzalezImage from '@public/assets/team/dilmer_gonzalez.png';
 import emilsePereyroImage from '@public/assets/team/emilse_pereyro.png';
 import federicoNuccetelliImage from '@public/assets/team/federico_nuccetelli.png';
