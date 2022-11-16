@@ -26,6 +26,7 @@ import silviaPenalozaImage from '@public/assets/team/silvia_penaloza.png';
 import sofiaCalvoImage from '@public/assets/team/sofia_calvo.png';
 import amandaLucasImage from '@public/assets/team/amanda_lucas.png';
 import steveProhaskaImage from '@public/assets/team/steve_pro.jpeg';
+import valentinMariImage from '@public/assets/team/valentin_mari.jpeg';
 import yaelSchwartzmanImage from '@public/assets/team/yael_schwartzman.png';
 
 export const config = {
@@ -199,7 +200,7 @@ export const texts = {
       {
         image: derikYoungImage,
         title: 'Derik Young',
-        content: 'Business Development - Loas Angeles, USA',
+        content: 'Business Development - Los Angeles, USA',
         link: 'https://www.linkedin.com/in/derikyoung/',
       },
       {
@@ -315,6 +316,12 @@ export const texts = {
         title: 'Steve Prohaska',
         content: 'Sales & Business Development - Santa Monica, USA',
         link: 'https://www.linkedin.com/in/yael-schwartzman-58051711/',
+      },
+      {
+        image: valentinMariImage,
+        title: 'Valentin Mari',
+        content: 'Sr. Software Engineer - Argentina',
+        link: 'https://www.linkedin.com/in/valentinmari',
       },
       {
         image: yaelSchwartzmanImage,
