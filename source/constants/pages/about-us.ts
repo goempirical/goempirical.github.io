@@ -177,34 +177,16 @@ export const texts = {
         link: 'https://www.linkedin.com/in/amanda-lucas-13b926141/',
       },
       {
-        image: anaIlardoImage,
-        title: 'Ana Ilardo',
-        content: 'Sr. Technical Recruiter - Argentina',
-        link: 'https://www.linkedin.com/in/analaurailardo/',
-      },
-      {
         image: braianDaneriImage,
         title: 'Braian Daneri',
         content: 'Sr. Software Engineer - Argentina',
         link: 'https://www.linkedin.com/in/braian-daneri/',
       },
       {
-        image: damianDiazImage,
-        title: 'Damian Diaz',
-        content: 'Sr. Software Engineer - Argentina',
-        link: 'https://www.linkedin.com/in/damianmdst/',
-      },
-      {
         image: derikYoungImage,
         title: 'Derik Young',
         content: 'Business Development - Los Angeles, USA',
         link: 'https://www.linkedin.com/in/derikyoung/',
-      },
-      {
-        image: dilmerGonzalezImage,
-        title: 'Dilmer Gonzalez',
-        content: 'Sr. Software Engineer - Costa Rica',
-        link: 'https://www.linkedin.com/in/d%C3%ADlmer-j-gonz%C3%A1lez-h-38b8a530/',
       },
       {
         image: emilsePereyroImage,
