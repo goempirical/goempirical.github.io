@@ -19,7 +19,6 @@ import ricardoRomoImage from '@public/assets/team/ricardo_romo.jpeg';
 import rocioTomsicImage from '@public/assets/team/rocio_tmosic.png';
 import santiagoParraImage from '@public/assets/team/santiago_parra.jpeg';
 import sebaPereyroImage from '@public/assets/team/seba_pereyro.png';
-import silviaPenalozaImage from '@public/assets/team/silvia_penaloza.png';
 import sofiaCalvoImage from '@public/assets/team/sofia_calvo.png';
 import amandaLucasImage from '@public/assets/team/amanda_lucas.png';
 import steveProhaskaImage from '@public/assets/team/steve_pro.jpeg';
@@ -283,12 +282,6 @@ export const texts = {
         title: 'Sebastian Pereyro',
         content: 'Founder - San Diego, USA',
         link: 'https://www.linkedin.com/in/spereyro',
-      },
-      {
-        image: silviaPenalozaImage,
-        title: 'Silvia Peñaloza',
-        content: 'Sr. Technical Recruiter - Argentina',
-        link: 'https://www.linkedin.com/in/silvia-pe%C3%B1aloza/',
       },
       {
         image: sofiaCalvoImage,
