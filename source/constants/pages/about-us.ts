@@ -21,7 +21,6 @@ import santiagoParraImage from '@public/assets/team/santiago_parra.jpeg';
 import sebaPereyroImage from '@public/assets/team/seba_pereyro.png';
 import sofiaCalvoImage from '@public/assets/team/sofia_calvo.png';
 import amandaLucasImage from '@public/assets/team/amanda_lucas.png';
-import steveProhaskaImage from '@public/assets/team/steve_pro.jpeg';
 import valentinMariImage from '@public/assets/team/valentin_mari.jpeg';
 import yaelSchwartzmanImage from '@public/assets/team/yael_schwartzman.png';
 
@@ -288,12 +287,6 @@ export const texts = {
         title: 'Sofia Calvo',
         content: 'Sr. Product Designer - Argentina',
         link: 'https://www.linkedin.com/in/sofiafcalvo/',
-      },
-      {
-        image: steveProhaskaImage,
-        title: 'Steve Prohaska',
-        content: 'Sales & Business Development - Santa Monica, USA',
-        link: 'https://www.linkedin.com/in/yael-schwartzman-58051711/',
       },
       {
         image: valentinMariImage,
