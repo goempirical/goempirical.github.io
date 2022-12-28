@@ -1,12 +1,8 @@
 import aboutUsBg from '@public/assets/backgrounds/about-us_bg.png';
 import agustinSgarlataImage from '@public/assets/team/agustin_sgarlata.png';
 import agustinaGrebeImage from '@public/assets/team/agustina_grebe.png';
-import agustinaVelazcoImage from '@public/assets/team/agustina_velazco.png';
-import anaIlardoImage from '@public/assets/team/ana_ilardo.png';
 import braianDaneriImage from '@public/assets/team/braian_daneri.png';
-import damianDiazImage from '@public/assets/team/damian_diaz.png';
 import derikYoungImage from '@public/assets/team/derik_young.png';
-import dilmerGonzalezImage from '@public/assets/team/dilmer_gonzalez.png';
 import emilsePereyroImage from '@public/assets/team/emilse_pereyro.png';
 import federicoNuccetelliImage from '@public/assets/team/federico_nuccetelli.png';
 import ivanaPontetImage from '@public/assets/team/ivana_pontet.jpeg';
@@ -14,6 +10,7 @@ import iniakiCormenzanaImage from '@public/assets/team/iniaki_cormenzana.png';
 import jimenaCastroImage from '@public/assets/team/jimena_castro.png';
 import lucilaDiazSpolitaImage from '@public/assets/team/lucila_diaz_spolita.png';
 import marceloLuceroImage from '@public/assets/team/marcelo_lucero.png';
+import mauricioGiovaniniImage from '@public/assets/team/mauricio_giovanini.jpeg';
 import nivCarmiImage from '@public/assets/team/niv_carmi.png';
 import oscarDiazImage from '@public/assets/team/oscar_diaz.jpeg';
 import pabloCabreraImage from '@public/assets/team/pablo_cabrera.jpeg';
@@ -250,6 +247,12 @@ export const texts = {
         title: 'Marcelo Lucero',
         content: 'Sr. Software Engineer - Argentina',
         link: 'https://www.linkedin.com/in/marceloglucero/',
+      },
+      {
+        image: mauricioGiovaniniImage,
+        title: 'Mauricio Giovanini',
+        content: 'Sr. Firmware Engineer - Argentina',
+        link: 'https://www.linkedin.com/in/mgiovagnini/',
       },
       {
         image: nivCarmiImage,
