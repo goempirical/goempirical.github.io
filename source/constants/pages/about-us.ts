@@ -42,7 +42,7 @@ export const texts = {
     items: [
       {
         highlight: 'A people\n first\n company',
-        content: 'We are a team of product development experts who love helping established companies build successful software/tech products. We only work with companies who share our values and see us as long term partners. Our clients are in need of accelerating their development efforts but they are not always sure which positions to hire next, and/or have a hard time finding and retaining the right talent. We help clarify the needs and provide technical and product leadership coupled with high performing  and resilient development teams to help clients reach their goals.',
+        content: 'We are a team of product development experts who love helping established companies build successful software products. We only work with companies who share our values and see us as long term partners. Our clients are in need of accelerating their development efforts but they are not always sure which positions to hire next, and/or have a hard time finding and retaining the right talent. We help clarify the needs and provide technical and product leadership coupled with high performing  and resilient development teams to help clients reach their goals.',
       },
     ],
   },
