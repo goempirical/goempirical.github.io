@@ -199,6 +199,14 @@ export const texts = {
           link: 'https://www.linkedin.com/in/austinsenseman/',
         },
       },
+      {
+        quote: 'This is without a doubt the most complex product that Wurtec has ever attempted to develop. I have to say that what I saw today was quite impressive and your team is largely responsible for the great work. Thank you for your assistance and guidance making Wur-Com what it is.',
+        author: {
+          company: 'WurTec',
+          name: 'Steve Wurth',
+          link: 'https://www.linkedin.com/in/steve-wurth-8a624510/',
+        },
+      },
     ],
   },
   clients: {
