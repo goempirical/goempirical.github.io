@@ -2,7 +2,6 @@ import aboutUsBg from '@public/assets/backgrounds/about-us_bg.png';
 import agustinSgarlataImage from '@public/assets/team/agustin_sgarlata.png';
 import agustinaGrebeImage from '@public/assets/team/agustina_grebe.png';
 import braianDaneriImage from '@public/assets/team/braian_daneri.png';
-import derikYoungImage from '@public/assets/team/derik_young.png';
 import emilsePereyroImage from '@public/assets/team/emilse_pereyro.png';
 import federicoNuccetelliImage from '@public/assets/team/federico_nuccetelli.png';
 import ivanaPontetImage from '@public/assets/team/ivana_pontet.jpeg';
@@ -179,12 +178,6 @@ export const texts = {
         title: 'Braian Daneri',
         content: 'Sr. Software Engineer - Argentina',
         link: 'https://www.linkedin.com/in/braian-daneri/',
-      },
-      {
-        image: derikYoungImage,
-        title: 'Derik Young',
-        content: 'Business Development - Los Angeles, USA',
-        link: 'https://www.linkedin.com/in/derikyoung/',
       },
       {
         image: emilsePereyroImage,
