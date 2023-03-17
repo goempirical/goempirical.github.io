@@ -1,9 +1,11 @@
 import aboutUsBg from '@public/assets/backgrounds/about-us_bg.png';
+import adrianMedinaImage from '@public/assets/team/adrian_medina.jpeg';
 import agustinSgarlataImage from '@public/assets/team/agustin_sgarlata.png';
 import agustinaGrebeImage from '@public/assets/team/agustina_grebe.png';
 import braianDaneriImage from '@public/assets/team/braian_daneri.png';
 import emilsePereyroImage from '@public/assets/team/emilse_pereyro.png';
 import federicoNuccetelliImage from '@public/assets/team/federico_nuccetelli.png';
+import guillermoSmuttImage from '@public/assets/team/guillermo_smutt.jpeg';
 import ivanaPontetImage from '@public/assets/team/ivana_pontet.jpeg';
 import iniakiCormenzanaImage from '@public/assets/team/iniaki_cormenzana.png';
 import jimenaCastroImage from '@public/assets/team/jimena_castro.png';
@@ -156,6 +158,12 @@ export const texts = {
     title: "Our team",
     items: [
       {
+        image: adrianMedinaImage,
+        title: 'Adrian Medina',
+        content: 'Sr. Software Engineer - Uruguay',
+        link: 'https://www.linkedin.com/in/adrianemedinam/',
+      },
+      {
         image: agustinSgarlataImage,
         title: 'Agustin Sgarlata',
         content: 'Sr. Software Engineer - Argentina',
@@ -190,6 +198,12 @@ export const texts = {
         title: 'Federico Nuccetelli',
         content: 'Sr. Software Engineer - Argentina',
         link: 'https://www.linkedin.com/in/federico-nuccetelli',
+      },
+      {
+        image: guillermoSmuttImage,
+        title: 'Guillermo Smutt',
+        content: 'Sr. Product Designer - Argentina',
+        link: 'https://www.linkedin.com/in/guillermo-smutt/',
       },
       {
         image: ivanaPontetImage,
