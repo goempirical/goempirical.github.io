@@ -4,18 +4,18 @@ import agustinSgarlataImage from '@public/assets/team/agustin_sgarlata.png';
 import agustinaGrebeImage from '@public/assets/team/agustina_grebe.png';
 import braianDaneriImage from '@public/assets/team/braian_daneri.png';
 import emilsePereyroImage from '@public/assets/team/emilse_pereyro.png';
+import estevaoNetoImage from '@public/assets/team/estevao_neto.jpeg';
 import federicoNuccetelliImage from '@public/assets/team/federico_nuccetelli.png';
-import guillermoSmuttImage from '@public/assets/team/guillermo_smutt.jpeg';
 import ivanaPontetImage from '@public/assets/team/ivana_pontet.jpeg';
 import iniakiCormenzanaImage from '@public/assets/team/iniaki_cormenzana.png';
 import jimenaCastroImage from '@public/assets/team/jimena_castro.png';
 import lucilaDiazSpolitaImage from '@public/assets/team/lucila_diaz_spolita.png';
 import marceloLuceroImage from '@public/assets/team/marcelo_lucero.png';
-import mauricioGiovaniniImage from '@public/assets/team/mauricio_giovanini.jpeg';
 import nivCarmiImage from '@public/assets/team/niv_carmi.png';
 import oscarDiazImage from '@public/assets/team/oscar_diaz.jpeg';
 import pabloCabreraImage from '@public/assets/team/pablo_cabrera.jpeg';
 import pabloFriasImage from '@public/assets/team/pablo_frias.png';
+import rhaynelParraImage from '@public/assets/team/rhaynel_parra.jpeg';
 import ricardoRomoImage from '@public/assets/team/ricardo_romo.jpeg';
 import rocioTomsicImage from '@public/assets/team/rocio_tmosic.png';
 import santiagoParraImage from '@public/assets/team/santiago_parra.jpeg';
@@ -194,16 +194,16 @@ export const texts = {
         link: 'https://www.linkedin.com/in/emilse-pereyro-33886b21a/',
       },
       {
+        image: estevaoNetoImage,
+        title: 'Estevao Neto',
+        content: 'Software Engineer - Brazil',
+        link: 'https://www.linkedin.com/in/estev%C3%A3o-n-456aa91a9/',
+      },
+      {
         image: federicoNuccetelliImage,
         title: 'Federico Nuccetelli',
         content: 'Sr. Software Engineer - Argentina',
         link: 'https://www.linkedin.com/in/federico-nuccetelli',
-      },
-      {
-        image: guillermoSmuttImage,
-        title: 'Guillermo Smutt',
-        content: 'Sr. Product Designer - Argentina',
-        link: 'https://www.linkedin.com/in/guillermo-smutt/',
       },
       {
         image: ivanaPontetImage,
@@ -236,12 +236,6 @@ export const texts = {
         link: 'https://www.linkedin.com/in/marceloglucero/',
       },
       {
-        image: mauricioGiovaniniImage,
-        title: 'Mauricio Giovanini',
-        content: 'Sr. Firmware Engineer - Argentina',
-        link: 'https://www.linkedin.com/in/mgiovagnini/',
-      },
-      {
         image: nivCarmiImage,
         title: 'Niv Carmi',
         content: 'Founder - San Diego, USA',
@@ -264,6 +258,12 @@ export const texts = {
         title: 'Pablo Frias',
         content: 'Sr. Software Engineer - Argentina',
         link: 'https://www.linkedin.com/in/pablo-frias-55aa8010/',
+      },
+      {
+        image: rhaynelParraImage,
+        title: 'Rhaynel Parra',
+        content: 'Sr. Software Engineer - Uruguay',
+        link: 'https://www.linkedin.com/in/rhynl/',
       },
       {
         image: ricardoRomoImage,
