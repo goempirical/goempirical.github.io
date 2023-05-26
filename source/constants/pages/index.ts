@@ -8,6 +8,7 @@ import gatedLogo from '@public/assets/client-logos/gated.png';
 import conservLogo from '@public/assets/client-logos/conserv.png';
 import dreamcartLogo from '@public/assets/client-logos/dreamcart.png';
 import acneIntelligenceLogo from '@public/assets/client-logos/acne_intelligence.png';
+import freeBeeLogo from '@public/assets/client-logos/freebee.png';
 
 export const config = {
   title: 'Empirical',
@@ -211,6 +212,10 @@ export const texts = {
   },
   clients: {
     items: [
+      {
+        logo: freeBeeLogo,
+        title: 'FreeBee',
+      },
       {
         logo: acneIntelligenceLogo,
         title: 'Acne Intelligence',
