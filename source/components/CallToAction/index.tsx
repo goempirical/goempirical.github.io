@@ -6,7 +6,7 @@ import { ICallToActionProps } from './types';
 
 function CallToAction({ className, link, title }: ICallToActionProps) {
   return (
-    <div className={clsx('flex flex-col gap-6 items-center', className)}>
+    <div className={clsx('flex flex-col gap-6 items-center above', className)}>
       {title && <Text variation="h1" className="text-center">{title}</Text>}
       <a
         href={link.href}

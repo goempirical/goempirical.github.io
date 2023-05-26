@@ -17,7 +17,13 @@ function Careers() {
         <Hero className="sm:pt-80 sm:pb-72 pt-48 pb-32 px-4 -mt-36" bgImage={texts.hero.bgImage}>
           <Text variation="h1" className="max-w-xl text-center" isMarkdown>{texts.hero.title}</Text>
           <Text variation="p" className="max-w-xl text-center opacity-80">{texts.hero.content}</Text>
+          <div className="flex items-center justify-center gap-10 flex-wrap py-5">
+            {texts.letsTalk.items.map((cta) => (
+              <CallToAction key={cta.title} title="" link={cta.link} />
+            ))}
+          </div>
         </Hero>
+
         <Section title={texts.talentProfile.title}>
           {texts.talentProfile.items.map((talentProfileItem) => (
             <TextSection

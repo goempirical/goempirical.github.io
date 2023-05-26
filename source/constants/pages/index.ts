@@ -258,6 +258,17 @@ export const texts = {
       },
     ],
   },
+  letsTalkHero: {
+    items: [
+      {
+        title: "",
+        link: {
+          title: 'Let\'s talk',
+          href: 'https://goempirical.typeform.com/to/sTAks6',
+        },
+      },
+    ],
+  },
   letsTalk: {
     items: [
       {

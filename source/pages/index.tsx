@@ -47,6 +47,11 @@ function Home() {
         <Hero className="py-20 md:py-40 px-4">
           <Text variation="h1" className="max-w-xl text-center" isMarkdown>{texts.hero.title}</Text>
           <Text variation="p" className="max-w-xl text-center opacity-80 whitespace-pre-line">{texts.hero.content}</Text>
+          <div className="flex items-center justify-center gap-10 flex-wrap py-5">
+            {texts.letsTalkHero.items.map((cta) => (
+              <CallToAction key="" title={cta.title} link={cta.link} />
+            ))}
+          </div>
         </Hero>
         <Section title={texts.ourClients.title}>
           {texts.ourClients.items.map((ourClientsItem) => (

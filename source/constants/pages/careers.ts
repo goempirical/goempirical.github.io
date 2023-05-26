@@ -90,7 +90,7 @@ export const texts = {
       {
         title: "Let's talk and work together",
         link: {
-          title: 'View Opportunities',
+          title: 'View Current Openings',
           href: 'https://goempirical.freshteam.com/jobs',
         },
       },

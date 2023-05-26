@@ -23,6 +23,10 @@ a {
   box-sizing: inherit;
 }
 
+.above {
+  z-index: 100
+}
+
 .clip-circle {
   clip-path: circle(120px at center);
   -webkit-transform: scale(0.7);
