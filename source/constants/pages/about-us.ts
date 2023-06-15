@@ -5,6 +5,7 @@ import agustinaGrebeImage from '@public/assets/team/agustina_grebe.png';
 import braianDaneriImage from '@public/assets/team/braian_daneri.png';
 import emilsePereyroImage from '@public/assets/team/emilse_pereyro.png';
 import estevaoNetoImage from '@public/assets/team/estevao_neto.jpeg';
+import germanCutraroImage from '@public/assets/team/german_cutraro.jpeg';
 import federicoNuccetelliImage from '@public/assets/team/federico_nuccetelli.png';
 import ivanaPontetImage from '@public/assets/team/ivana_pontet.jpeg';
 import iniakiCormenzanaImage from '@public/assets/team/iniaki_cormenzana.png';
@@ -204,6 +205,12 @@ export const texts = {
         title: 'Federico Nuccetelli',
         content: 'Sr. Software Engineer - Argentina',
         link: 'https://www.linkedin.com/in/federico-nuccetelli',
+      },
+      {
+        image: germanCutraroImage,
+        title: 'German Cutraro',
+        content: 'Sr. Software Engineer - Argentina',
+        link: 'https://www.linkedin.com/in/germancutraro',
       },
       {
         image: ivanaPontetImage,
