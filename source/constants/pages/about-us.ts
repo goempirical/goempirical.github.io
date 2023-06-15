@@ -9,15 +9,15 @@ import germanCutraroImage from '@public/assets/team/german_cutraro.jpeg';
 import federicoNuccetelliImage from '@public/assets/team/federico_nuccetelli.png';
 import ivanaPontetImage from '@public/assets/team/ivana_pontet.jpeg';
 import iniakiCormenzanaImage from '@public/assets/team/iniaki_cormenzana.png';
-import jimenaCastroImage from '@public/assets/team/jimena_castro.png';
+//import jimenaCastroImage from '@public/assets/team/jimena_castro.png';
 import lucilaDiazSpolitaImage from '@public/assets/team/lucila_diaz_spolita.png';
 import marceloLuceroImage from '@public/assets/team/marcelo_lucero.png';
 import nivCarmiImage from '@public/assets/team/niv_carmi.png';
-import oscarDiazImage from '@public/assets/team/oscar_diaz.jpeg';
-import pabloCabreraImage from '@public/assets/team/pablo_cabrera.jpeg';
+//import oscarDiazImage from '@public/assets/team/oscar_diaz.jpeg';
+//import pabloCabreraImage from '@public/assets/team/pablo_cabrera.jpeg';
 import pabloFriasImage from '@public/assets/team/pablo_frias.png';
 import rhaynelParraImage from '@public/assets/team/rhaynel_parra.jpeg';
-import ricardoRomoImage from '@public/assets/team/ricardo_romo.jpeg';
+//import ricardoRomoImage from '@public/assets/team/ricardo_romo.jpeg';
 import rocioTomsicImage from '@public/assets/team/rocio_tmosic.png';
 import santiagoParraImage from '@public/assets/team/santiago_parra.jpeg';
 import sebaPereyroImage from '@public/assets/team/seba_pereyro.png';
@@ -224,12 +224,12 @@ export const texts = {
         content: 'Sr. Project Manager - Argentina',
         link: 'https://www.linkedin.com/in/#',
       },
-      {
-        image: jimenaCastroImage,
-        title: 'Jimena Castro',
-        content: 'Sr. Product Designer - Argentina',
-        link: 'https://www.linkedin.com/in/jimena-castro',
-      },
+      // {
+      //   image: jimenaCastroImage,
+      //   title: 'Jimena Castro',
+      //   content: 'Sr. Product Designer - Argentina',
+      //   link: 'https://www.linkedin.com/in/jimena-castro',
+      // },
       {
         image: lucilaDiazSpolitaImage,
         title: 'Lucila Diaz Spolita',
@@ -248,18 +248,18 @@ export const texts = {
         content: 'Founder - San Diego, USA',
         link: 'https://www.linkedin.com/in/nivcarmi/',
       },
-      {
-        image: oscarDiazImage,
-        title: 'Oscar Diaz',
-        content: 'Sr. Software Engineer - Guatemala',
-        link: 'https://www.linkedin.com/in/odiazjs/',
-      },
-      {
-        image: pabloCabreraImage,
-        title: 'Pablo Cabrera',
-        content: 'Sr. Software Engineer - Mexico',
-        link: 'https://www.linkedin.com/in/pablo-c-2056b9133/',
-      },
+      // {
+      //   image: oscarDiazImage,
+      //   title: 'Oscar Diaz',
+      //   content: 'Sr. Software Engineer - Guatemala',
+      //   link: 'https://www.linkedin.com/in/odiazjs/',
+      // },
+      // {
+      //   image: pabloCabreraImage,
+      //   title: 'Pablo Cabrera',
+      //   content: 'Sr. Software Engineer - Mexico',
+      //   link: 'https://www.linkedin.com/in/pablo-c-2056b9133/',
+      // },
       {
         image: pabloFriasImage,
         title: 'Pablo Frias',
@@ -272,12 +272,12 @@ export const texts = {
         content: 'Sr. Software Engineer - Uruguay',
         link: 'https://www.linkedin.com/in/rhynl/',
       },
-      {
-        image: ricardoRomoImage,
-        title: 'Ricardo Romo',
-        content: 'Sr. Software Engineer - Mexico',
-        link: 'https://www.linkedin.com/in/ricardo-romo-gonzalez-56a57489/',
-      },
+      // {
+      //   image: ricardoRomoImage,
+      //   title: 'Ricardo Romo',
+      //   content: 'Sr. Software Engineer - Mexico',
+      //   link: 'https://www.linkedin.com/in/ricardo-romo-gonzalez-56a57489/',
+      // },
       {
         image: rocioTomsicImage,
         title: 'Rocio Tomsic',
