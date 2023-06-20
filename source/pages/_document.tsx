@@ -2,15 +2,15 @@ import Document, {
   Html, Head, Main, NextScript,
 } from 'next/document';
 
-const gtag = `https://www.googletagmanager.com/gtag/js?id=G-DDC6WY53TZ`;
+const gtag = 'https://www.googletagmanager.com/gtag/js?id=G-DDC6WY53TZ';
 class MyDocument extends Document {
   render() {
     return (
       <Html>
         <Head>
-          {/* Google Analytics Measurement ID*/}
+          { /* Google Analytics Measurement ID*/}
           <script async src={gtag} />
-          {/* Inject the GA tracking code with the Measurement ID */}
+          { /* Inject the GA tracking code with the Measurement ID */}
           <script
             dangerouslySetInnerHTML={{
               __html: `
