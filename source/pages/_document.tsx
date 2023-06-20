@@ -8,7 +8,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          { /* Google Analytics Measurement ID*/}
+          { /* Google Analytics Measurement ID */}
           <script async src={gtag} />
           { /* Inject the GA tracking code with the Measurement ID */}
           <script
