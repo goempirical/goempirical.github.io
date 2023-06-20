@@ -1,5 +1,4 @@
 import Image from 'next/image';
-
 import CallToAction from '@components/CallToAction';
 import DefaultLayout from '@components/Layouts/Default';
 import Hero from '@components/Hero';
@@ -25,7 +24,7 @@ function Home() {
     1024: { items: 6 },
   };
 
-  const items:object[] = [];
+  const items: object[] = [];
   texts.clients.items.forEach((item) => {
     items.push(
       <div className="flex items-center justify-center gap-10 flex-wrap">
