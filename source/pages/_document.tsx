@@ -2,6 +2,11 @@ import Document, {
   Html, Head, Main, NextScript,
 } from 'next/document';
 
+declare global {
+  interface Window { dataLayer: any; }
+}
+
+
 class MyDocument extends Document {
   render() {
     return (
@@ -10,7 +15,7 @@ class MyDocument extends Document {
           <script async src="https://www.googletagmanager.com/gtag/js?id=G-DDC6WY53TZ"></script>
           <script>
             window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
+            function gtag(){window.dataLayer.push(arguments)}
             gtag('js', new Date());
             gtag('config', 'G-DDC6WY53TZ');
           </script>
