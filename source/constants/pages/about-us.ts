@@ -3,6 +3,7 @@ import adrianMedinaImage from '@public/assets/team/adrian_medina.jpeg';
 import agustinSgarlataImage from '@public/assets/team/agustin_sgarlata.png';
 import agustinaGrebeImage from '@public/assets/team/agustina_grebe.png';
 import braianDaneriImage from '@public/assets/team/braian_daneri.png';
+import chrisRochesterImage from '@public/assets/team/chris_rochester.jpeg';
 import emilsePereyroImage from '@public/assets/team/emilse_pereyro.png';
 import estevaoNetoImage from '@public/assets/team/estevao_neto.jpeg';
 import germanCutraroImage from '@public/assets/team/german_cutraro.jpeg';
@@ -187,6 +188,12 @@ export const texts = {
         title: 'Braian Daneri',
         content: 'Sr. Software Engineer - Argentina',
         link: 'https://www.linkedin.com/in/braian-daneri/',
+      },
+      {
+        image: chrisRochesterImage,
+        title: 'Chris Rochester',
+        content: 'Sr. Software Engineer - Costa Rica',
+        link: 'https://www.linkedin.com/in/chris-rochester-b170a5138/',
       },
       {
         image: emilsePereyroImage,
