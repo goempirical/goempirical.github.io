@@ -123,7 +123,7 @@ export const texts = {
       {
         icon: 'Star',
         title: 'Tech Leadership',
-        content: 'Our tech leadership will strategically guide you through challenges, leveraging their expertise to ensure success.'
+        content: 'Our tech leadership will strategically guide you through challenges, leveraging our years of experience to ensure success.'
       },
       {
         icon: 'Star',
@@ -148,7 +148,7 @@ export const texts = {
       {
         icon: 'Translate',
         title: 'Project Management',
-        content: 'Aligning technical aspects with your goals, keeping projects on track and within budget for total success.'
+        content: 'Aligning technical aspects with your goals, keeping projects on track and within budget.'
       },
     ],
   },
