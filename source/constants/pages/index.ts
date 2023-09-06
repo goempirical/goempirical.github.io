@@ -117,14 +117,22 @@ export const texts = {
       },
     ],
   },
+  services: {
+    title: 'Our Services',
+    items: [
+      {
+        title: 'Tech Leadership',
+        content: "Our experienced team of tech leaders will help support your organization's technology endeavors. We'll help ensure that your technology initiatives align with your business goals and are executed seamlessly.",
+      },
+      {
+        title: 'Staff Augmentation',
+        content: "We understand that finding the right talent can be challenging, so we're here to provide top tech talent to expand your existing team. Whether you need developers, designers, or other experts, our talented team members can seamlessly integrate into your projects. Think of us as your extended team.",
+      },
+    ],
+  },
   expertises: {
     title: 'Expertise',
     items: [
-      {
-        icon: 'Star',
-        title: 'Tech Leadership',
-        content: 'Our tech leadership will strategically guide you through challenges, leveraging our years of experience to ensure success.'
-      },
       {
         icon: 'Star',
         title: 'Software Development',
@@ -138,17 +146,22 @@ export const texts = {
       {
         icon: 'Handshake',
         title: 'Quality Assurance',
-        content: 'Meticulous oversight ensures your software meets the highest standards, safeguarding project success.'
+        content: 'Meticulous testing parctices ensures your software meets the highest standards, safeguarding project success.'
       },
       {
         icon: 'Bridge',
         title: 'DevOps',
-        content: 'Streamlining processes, ensuring rapid, reliable and secure software infrastructure and delivery.'
+        content: 'Automating and streamlining the software development and deployment process, ensuring faster and more reliable releases.'
       },
       {
         icon: 'Translate',
         title: 'Project Management',
         content: 'Aligning technical aspects with your goals, keeping projects on track and within budget.'
+      },
+      {
+        icon: 'Translate',
+        title: 'Product Management',
+        content: 'Supporting and overseeing the development and success of your products, from its initial concept to its launch and ongoing improvements.'
       },
     ],
   },

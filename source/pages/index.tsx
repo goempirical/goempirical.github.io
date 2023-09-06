@@ -98,6 +98,16 @@ function Home() {
             ))}
           </div>
         </Section>
+        <Section title={texts.services.title}>
+          <div className="flex flex-wrap gap-12 justify-center">
+            {texts.services.items.map((servicesItem) => (
+              <div key={servicesItem.title} className="flex flex-col flex-1 basis-1/2 max-w-lg">
+                <Text variation="h3" className="text-primary font-bold">{servicesItem.title}</Text>
+                <Text variation="p" className="opacity-70">{servicesItem.content}</Text>
+              </div>
+            ))}
+          </div>
+        </Section>
         <Section title={texts.expertises.title}>
           <div className="flex flex-wrap gap-12 justify-center">
             {texts.expertises.items.map((expertiseItem) => (
