@@ -33,7 +33,7 @@ function AboutUs() {
                   classNames={{ textPart: 'text-6xl sm:text-8xl leading-tight sm:leading-none' }}
                   text={aboutUsItem.highlight}
                 />
-            )}
+              )}
               content={aboutUsItem.content}
             />
           ))}

@@ -98,6 +98,30 @@ function Home() {
             ))}
           </div>
         </Section>
+        <Section title={texts.expertises.title}>
+          <div className="flex flex-wrap gap-12 justify-center">
+            {texts.expertises.items.map((expertiseItem) => (
+              <TextCard
+                key={expertiseItem.title}
+                className="md:col-span-6 col-span-12 px-4"
+                title={expertiseItem.title}
+                content={expertiseItem.content}
+              />
+            ))}
+          </div>
+        </Section>
+        <Section title={texts.industries.title}>
+          <div className="flex flex-wrap gap-12 justify-center">
+            {texts.industries.items.map((industryItem) => (
+              <TextCard
+                key={industryItem.title}
+                className="md:col-span-6 col-span-12 px-4"
+                title={industryItem.title}
+                content={industryItem.content}
+              />
+            ))}
+          </div>
+        </Section>
         <Section title={texts.testimonials.title} className="md:mb-10">
           <Slider>
             {texts.testimonials.items.map((testimonialItem) => (

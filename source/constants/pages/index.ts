@@ -117,6 +117,106 @@ export const texts = {
       },
     ],
   },
+  expertises: {
+    title: 'Expertise',
+    items: [
+      {
+        icon: 'Star',
+        title: 'Tech Leadership',
+        content: 'Our tech leadership will strategically guide you through challenges, leveraging their expertise to ensure success.'
+      },
+      {
+        icon: 'Star',
+        title: 'Software Development',
+        content: 'Developing with a blend of technical expertise with strategic vision to create software aligned with your goals.'
+      },
+      {
+        icon: 'Globe',
+        title: 'UI/UX Design',
+        content: 'Designing exceptional digital experiences for your products.'
+      },
+      {
+        icon: 'Handshake',
+        title: 'Quality Assurance',
+        content: 'Meticulous oversight ensures your software meets the highest standards, safeguarding project success.'
+      },
+      {
+        icon: 'Bridge',
+        title: 'DevOps',
+        content: 'Streamlining processes, ensuring rapid, reliable and secure software infrastructure and delivery.'
+      },
+      {
+        icon: 'Translate',
+        title: 'Project Management',
+        content: 'Aligning technical aspects with your goals, keeping projects on track and within budget for total success.'
+      },
+    ],
+  },
+  industries: {
+    title: 'Industries',
+    items: [
+      {
+        icon: 'Star',
+        title: 'Education',
+        content: '',
+      },
+      {
+        icon: 'Star',
+        title: 'Marketing',
+        content: '',
+      },
+      {
+        icon: 'Globe',
+        title: 'Blockchain /  Crypto',
+        content: '',
+      },
+      {
+        icon: 'Handshake',
+        title: 'Robotics',
+        content: '',
+      },
+      {
+        icon: 'Bridge',
+        title: 'Ridesharing',
+        content: '',
+      },
+      {
+        icon: 'Translate',
+        title: 'Media Streaming',
+        content: '',
+      },
+      {
+        icon: 'Translate',
+        title: 'Skin Care',
+        content: '',
+      },
+      {
+        icon: 'Translate',
+        title: 'Food',
+        content: '',
+      },
+      {
+        icon: 'Translate',
+        title: 'Museums',
+        content: '',
+      },
+      {
+        icon: 'Translate',
+        title: 'Photography',
+        content: '',
+      },
+      {
+        icon: 'Translate',
+        title: 'Lifestyle',
+        content: '',
+      },
+      {
+        icon: 'Translate',
+        title: 'Moving',
+        content: '',
+      },
+    ],
+  },
   testimonials: {
     title: 'Testimonials',
     items: [
