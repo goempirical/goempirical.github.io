@@ -126,7 +126,7 @@ export const texts = {
       },
       {
         title: 'Staff Augmentation',
-        content: "We understand that finding the right talent can be challenging, so we're here to provide top tech talent to expand your existing team. Whether you need developers, designers, or other experts, our talented team members can seamlessly integrate into your projects. Think of us as your extended team.",
+        content: "We provide top tech talent to expand your existing team. Whether you need engineer, designers, or other experts, our talented team members can seamlessly integrate into your projects. We partner with you as your extended team.",
       },
     ],
   },
