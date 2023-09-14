@@ -133,14 +133,14 @@ export const texts = {
     title: 'Expertise',
     items: [
       {
-        icon: 'Translate',
-        title: 'Product Management',
-        content: 'Supporting and overseeing the development and success of your products, from its initial concept to its launch and ongoing improvements.'
-      },
-      {
         icon: 'Star',
         title: 'Software Development',
         content: 'Developing with a blend of technical expertise with strategic vision to create software aligned with your goals.'
+      },
+      {
+        icon: 'Translate',
+        title: 'Product Management',
+        content: 'Supporting and overseeing the development and success of your products, from its initial concept to its launch and ongoing improvements.'
       },
       {
         icon: 'Globe',
