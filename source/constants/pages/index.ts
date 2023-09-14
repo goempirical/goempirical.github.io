@@ -19,9 +19,9 @@ export const config = {
 /* eslint-disable max-len */
 export const texts = {
   hero: {
-    title: 'A *new kind* of product development partner',
+    title: 'A *new kind* of software development partner',
     content: `We are a people-first company of product development experts.
-    We provide high performing dev teams and ongoing support to make them resilient, so you can focus on achieving your goals.`,
+    We provide software product and tech leadership coupled with high performing teams and ongoing support, so you can focus on achieving your goals.`,
   },
   ourClients: {
     title: 'Our clients',
