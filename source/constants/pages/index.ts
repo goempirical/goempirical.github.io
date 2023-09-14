@@ -20,8 +20,7 @@ export const config = {
 export const texts = {
   hero: {
     title: 'A *new kind* of software development partner',
-    content: `We are a people-first company of product development experts.
-    We provide software product and tech leadership coupled with high performing teams and ongoing support, so you can focus on achieving your goals.`,
+    content: `We are a people-first company and we provide software product and tech leadership coupled with high performing teams and ongoing support, so you can focus on achieving your goals.`,
   },
   ourClients: {
     title: 'Our clients',
@@ -88,7 +87,7 @@ export const texts = {
       {
         icon: 'Star',
         title: 'Product expertise',
-        content: 'We are product development experts with over 15 years of experience.',
+        content: 'We are software product development experts with over 15 years of experience.',
       },
       {
         icon: 'Globe',
@@ -121,8 +120,8 @@ export const texts = {
     title: 'Our Services',
     items: [
       {
-        title: 'Tech Leadership',
-        content: "Our experienced team of tech leaders will help support your organization's technology endeavors. We'll help ensure that your technology initiatives align with your business goals and are executed seamlessly.",
+        title: 'Product and Tech Leadership',
+        content: "Our experienced team of product and tech leaders will help support your organization's product and technology endeavors. We'll help ensure that your product and technology initiatives align with your business goals and are executed seamlessly.",
       },
       {
         title: 'Staff Augmentation',
@@ -133,6 +132,11 @@ export const texts = {
   expertises: {
     title: 'Expertise',
     items: [
+      {
+        icon: 'Translate',
+        title: 'Product Management',
+        content: 'Supporting and overseeing the development and success of your products, from its initial concept to its launch and ongoing improvements.'
+      },
       {
         icon: 'Star',
         title: 'Software Development',
@@ -157,12 +161,7 @@ export const texts = {
         icon: 'Translate',
         title: 'Project Management',
         content: 'Aligning technical aspects with your goals, keeping projects on track and within budget.'
-      },
-      {
-        icon: 'Translate',
-        title: 'Product Management',
-        content: 'Supporting and overseeing the development and success of your products, from its initial concept to its launch and ongoing improvements.'
-      },
+      }
     ],
   },
   industries: {
