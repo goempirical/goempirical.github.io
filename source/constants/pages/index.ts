@@ -20,7 +20,7 @@ export const config = {
 export const texts = {
   hero: {
     title: 'A *new kind* of product development partner',
-    content: `We are a people-first company and we provide software product and tech leadership coupled with high performing teams and ongoing support, so you can focus on achieving your goals.`,
+    content: `We are a people-first company and we provide product management and tech leadership coupled with high performing teams and ongoing support, so you can focus on achieving your goals.`,
   },
   ourClients: {
     title: 'Our clients',
