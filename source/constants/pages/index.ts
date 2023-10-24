@@ -9,6 +9,7 @@ import conservLogo from '@public/assets/client-logos/conserv.png';
 import dreamcartLogo from '@public/assets/client-logos/dreamcart.png';
 import acneIntelligenceLogo from '@public/assets/client-logos/acne_intelligence.png';
 import freeBeeLogo from '@public/assets/client-logos/freebee.png';
+import indexBg from '@public/assets/backgrounds/index_bg_2.png';
 
 export const config = {
   title: 'Empirical',
@@ -21,6 +22,7 @@ export const texts = {
   hero: {
     title: 'A *new kind* of product development partner',
     content: `We are a people-first company and we provide product management and tech leadership coupled with high performing teams and ongoing support, so you can focus on achieving your goals.`,
+    bgImage: indexBg,
   },
   ourClients: {
     title: 'Our clients',

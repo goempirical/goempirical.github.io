@@ -43,7 +43,8 @@ function Home() {
   return (
     <Page config={config}>
       <DefaultLayout>
-        <Hero className="py-20 md:py-40 px-4">
+        {/* <Hero className="py-20 md:py-40 px-4"> */}
+        <Hero className="sm:pt-80 sm:pb-72 pt-48 pb-32 px-4 -mt-36" bgImage={texts.hero.bgImage}>
           <Text variation="h1" className="max-w-xl text-center" isMarkdown>{texts.hero.title}</Text>
           <Text variation="p" className="max-w-xl text-center opacity-80 whitespace-pre-line">{texts.hero.content}</Text>
           <div className="flex items-center justify-center gap-10 flex-wrap py-5">

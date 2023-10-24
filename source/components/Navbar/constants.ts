@@ -5,11 +5,11 @@ import { INavbarConfig } from './types';
 export const defaultConfig: INavbarConfig = {
   navigation: [
     {
-      title: 'Home',
+      title: 'For Companies',
       to: ROUTES.Home,
     },
     {
-      title: 'Careers',
+      title: 'For Talent',
       to: ROUTES.Careers,
     },
     {
