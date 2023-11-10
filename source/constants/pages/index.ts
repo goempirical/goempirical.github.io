@@ -28,13 +28,18 @@ export const texts = {
     title: 'Our clients',
     items: [
       {
-        highlight: 'Established \ntechnology \ncompanies',
-        title: 'Who you are',
-        content: 'You have a proven business model. You are expanding your core development team while establishing a strong software engineering foundation. You are open to expanding your product development capacity as a service so you can leverage outside expertise and improve team performance and resiliency.',
+        highlight: 'Innovative \ntechnology \ncompanies',
+        title: 'Current situation',
+        content: 'You have a proven business model. You are expanding your core development team while establishing a strong product and software engineering foundation. You are open to expanding your product development capacity as a service so you can leverage outside expertise and improve leadership, team performance and resiliency.',
+      },
+      {
+        highlight: 'Improving product or technology leadership',
+        title: 'Support on a leadership role',
+        content: 'Your company is in a transformative growth phase, requiring high-level strategic technological guidance but not yet ready to commit to a full-time executive.',
       },
       {
         highlight: 'Increasing \ndevelopment\n capacity',
-        title: 'Your pains',
+        title: 'Strugling with team augmentation',
         content: 'Your product backlog is ever growing, you need more product development capacity. You are frustrated with the time and effort it takes to hire (and retain) talent, staffing agencies pass along subpar resumes without understanding your needs and the shortage of qualified talent in the U.S. is quickly increasing your development costs.',
       },
     ],

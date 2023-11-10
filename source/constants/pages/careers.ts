@@ -54,8 +54,8 @@ export const texts = {
       },
       {
         icon: 'Community',
-        title: 'Community',
-        content: 'You are not alone, you are part of a diverse, supportive and fun community. ',
+        title: 'Talent Community',
+        content: 'You are not alone, you are part of a diverse, supportive and fun community.',
       },
       {
         icon: 'Jigsaw',
@@ -88,10 +88,17 @@ export const texts = {
   letsTalk: {
     items: [
       {
-        title: "Let's talk and work together",
+        title: "Apply for a Job",
         link: {
           title: 'View Current Openings',
           href: 'https://goempirical.freshteam.com/jobs',
+        },
+      },
+      {
+        title: "Join Our Talent Community",
+        link: {
+          title: 'Apply to Talent Community',
+          href: 'https://goempirical.freshteam.com/jobs/Xgx6hi6AkcOp/join-our-talent-community',
         },
       },
     ],

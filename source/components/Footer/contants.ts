@@ -31,12 +31,17 @@ export const defaultConfig: IFooterConfig = {
   },
   navigation: [
     {
-      title: 'Careers',
+      title: 'For Talent',
       to: ROUTES.Careers,
       items: [
         {
-          title: 'See all opportunities',
+          title: 'View Current Openings',
           to: 'https://goempirical.freshteam.com/jobs',
+          external: true,
+        },
+        {
+          title: 'Apply to Talent Community',
+          to: 'https://goempirical.freshteam.com/jobs/Xgx6hi6AkcOp/join-our-talent-community',
           external: true,
         },
       ],

@@ -16,6 +16,10 @@ export const defaultConfig: INavbarConfig = {
       title: 'About us',
       to: ROUTES.AboutUs,
     },
+    // {
+    //   title: 'Apply to Talent Community',
+    //   to: ROUTES.Community,
+    // },
   ],
   themeToggleButton: {
     getTitle: (theme) => `Switch to ${theme} mode`,
