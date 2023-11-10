@@ -39,7 +39,7 @@ export const texts = {
       },
       {
         highlight: 'Increasing \ndevelopment\n capacity',
-        title: 'Strugling with team augmentation',
+        title: 'Struggling with team augmentation',
         content: 'Your product backlog is ever growing, you need more product development capacity. You are frustrated with the time and effort it takes to hire (and retain) talent, staffing agencies pass along subpar resumes without understanding your needs and the shortage of qualified talent in the U.S. is quickly increasing your development costs.',
       },
     ],
