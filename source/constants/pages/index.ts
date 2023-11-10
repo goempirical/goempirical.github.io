@@ -131,7 +131,7 @@ export const texts = {
         content: "Our experienced team of product and tech leaders will help support your organization's product and technology endeavors. We'll help ensure that your product and technology initiatives align with your business goals and are executed seamlessly.",
       },
       {
-        title: 'Staff Augmentation',
+        title: 'Nearshore Team Augmentation',
         content: "We provide top tech talent to expand your existing team. Whether you need engineer, designers, or other experts, our talented team members can seamlessly integrate into your projects. We partner with you as your extended team.",
       },
     ],
