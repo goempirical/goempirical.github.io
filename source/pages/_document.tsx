@@ -23,6 +23,8 @@ class MyDocument extends Document {
               `,
             }}
           />
+          <meta name="image" property="og:image" content="https://drive.google.com/uc?export=view&id=1OsVePjy4gOfibIAnGz7OdB-32M7FVqRp" />
+          <meta name="author" content="Empirical LLC" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
           <link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;600;700;800&family=Red+Hat+Text:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet" />
