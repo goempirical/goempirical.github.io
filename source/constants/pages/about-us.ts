@@ -167,12 +167,6 @@ export const texts = {
         link: 'https://www.linkedin.com/in/adrianemedinam/',
       },
       {
-        image: agustinSgarlataImage,
-        title: 'Agustin Sgarlata',
-        content: 'Sr. Software Engineer - Argentina',
-        link: 'https://www.linkedin.com/in/agust%C3%ADn-sgarlata-4753226/',
-      },
-      {
         image: agustinaGrebeImage,
         title: 'Agustina Grebe',
         content: 'Product Designer - Argentina',
@@ -232,18 +226,6 @@ export const texts = {
         content: 'Sr. Project Manager - Argentina',
         link: 'https://www.linkedin.com/in/#',
       },
-      // {
-      //   image: jimenaCastroImage,
-      //   title: 'Jimena Castro',
-      //   content: 'Sr. Product Designer - Argentina',
-      //   link: 'https://www.linkedin.com/in/jimena-castro',
-      // },
-      {
-        image: lucilaDiazSpolitaImage,
-        title: 'Lucila Diaz Spolita',
-        content: 'Sr. Product Designer - Argentina',
-        link: 'https://www.linkedin.com/in/luciladiazspolita/',
-      },
       {
         image: marceloLuceroImage,
         title: 'Marcelo Lucero',
@@ -256,18 +238,6 @@ export const texts = {
         content: 'Founder - San Diego, USA',
         link: 'https://www.linkedin.com/in/nivcarmi/',
       },
-      // {
-      //   image: oscarDiazImage,
-      //   title: 'Oscar Diaz',
-      //   content: 'Sr. Software Engineer - Guatemala',
-      //   link: 'https://www.linkedin.com/in/odiazjs/',
-      // },
-      // {
-      //   image: pabloCabreraImage,
-      //   title: 'Pablo Cabrera',
-      //   content: 'Sr. Software Engineer - Mexico',
-      //   link: 'https://www.linkedin.com/in/pablo-c-2056b9133/',
-      // },
       {
         image: pabloFriasImage,
         title: 'Pablo Frias',
@@ -279,18 +249,6 @@ export const texts = {
         title: 'Rhaynel Parra',
         content: 'Sr. Software Engineer - Uruguay',
         link: 'https://www.linkedin.com/in/rhynl/',
-      },
-      // {
-      //   image: ricardoRomoImage,
-      //   title: 'Ricardo Romo',
-      //   content: 'Sr. Software Engineer - Mexico',
-      //   link: 'https://www.linkedin.com/in/ricardo-romo-gonzalez-56a57489/',
-      // },
-      {
-        image: rocioTomsicImage,
-        title: 'Rocio Tomsic',
-        content: 'Sr. Product Designer - Argentina',
-        link: 'https://www.linkedin.com/in/rociotomsic/',
       },
       {
         image: santiagoParraImage,
