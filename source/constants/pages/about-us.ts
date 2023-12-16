@@ -1,6 +1,6 @@
 import aboutUsBg from '@public/assets/backgrounds/about-us_bg.png';
 import adrianMedinaImage from '@public/assets/team/adrian_medina.jpeg';
-import agustinSgarlataImage from '@public/assets/team/agustin_sgarlata.png';
+//import agustinSgarlataImage from '@public/assets/team/agustin_sgarlata.png';
 import agustinaGrebeImage from '@public/assets/team/agustina_grebe.png';
 import braianDaneriImage from '@public/assets/team/braian_daneri.png';
 import chrisRochesterImage from '@public/assets/team/chris_rochester.jpeg';
@@ -11,7 +11,7 @@ import federicoNuccetelliImage from '@public/assets/team/federico_nuccetelli.png
 import ivanaPontetImage from '@public/assets/team/ivana_pontet.jpeg';
 import iniakiCormenzanaImage from '@public/assets/team/iniaki_cormenzana.png';
 //import jimenaCastroImage from '@public/assets/team/jimena_castro.png';
-import lucilaDiazSpolitaImage from '@public/assets/team/lucila_diaz_spolita.png';
+//import lucilaDiazSpolitaImage from '@public/assets/team/lucila_diaz_spolita.png';
 import marceloLuceroImage from '@public/assets/team/marcelo_lucero.png';
 import nivCarmiImage from '@public/assets/team/niv_carmi.png';
 //import oscarDiazImage from '@public/assets/team/oscar_diaz.jpeg';
@@ -19,13 +19,14 @@ import nivCarmiImage from '@public/assets/team/niv_carmi.png';
 import pabloFriasImage from '@public/assets/team/pablo_frias.png';
 import rhaynelParraImage from '@public/assets/team/rhaynel_parra.jpeg';
 //import ricardoRomoImage from '@public/assets/team/ricardo_romo.jpeg';
-import rocioTomsicImage from '@public/assets/team/rocio_tmosic.png';
+//import rocioTomsicImage from '@public/assets/team/rocio_tmosic.png';
 import santiagoParraImage from '@public/assets/team/santiago_parra.jpeg';
 import sebaPereyroImage from '@public/assets/team/seba_pereyro.png';
 import sofiaCalvoImage from '@public/assets/team/sofia_calvo.png';
 import amandaLucasImage from '@public/assets/team/amanda_lucas.png';
 import valentinMariImage from '@public/assets/team/valentin_mari.jpeg';
-import yaelSchwartzmanImage from '@public/assets/team/yael_schwartzman.png';
+import valentinaOppenImage from '@public/assets/team/valentina_oppen.jpeg';
+//import yaelSchwartzmanImage from '@public/assets/team/yael_schwartzman.png';
 
 export const config = {
   title: 'About Us | Empirical',
@@ -316,10 +317,10 @@ export const texts = {
         link: 'https://www.linkedin.com/in/valentinmari',
       },
       {
-        image: yaelSchwartzmanImage,
-        title: 'Yael Schwartzman',
-        content: 'Sr. Project Manager - Mexico',
-        link: 'https://www.linkedin.com/in/yael-schwartzman-58051711/',
+        image: valentinaOppenImage,
+        title: 'Valentina Oppen',
+        content: 'Sr. Software Engineer - Argentina',
+        link: 'https://www.linkedin.com/in/valentina-oppen-75a1856b/',
       },
     ]
   },
