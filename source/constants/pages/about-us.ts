@@ -9,7 +9,7 @@ import germanCutraroImage from '@public/assets/team/german_cutraro.jpeg';
 import federicoNuccetelliImage from '@public/assets/team/federico_nuccetelli.png';
 import ivanaPontetImage from '@public/assets/team/ivana_pontet.jpeg';
 import iniakiCormenzanaImage from '@public/assets/team/iniaki_cormenzana.png';
-import lucasZibellImage from '@public/assets/team/lucas_zibell.jpeg';
+import lucasZibellImage from '@public/assets/team/lucas_zibell.png';
 import marceloLuceroImage from '@public/assets/team/marcelo_lucero.png';
 import nivCarmiImage from '@public/assets/team/niv_carmi.png';
 import pabloFriasImage from '@public/assets/team/pablo_frias.png';
