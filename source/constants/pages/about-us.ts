@@ -18,7 +18,7 @@ import sebaPereyroImage from '@public/assets/team/seba_pereyro.png';
 import sofiaCalvoImage from '@public/assets/team/sofia_calvo.png';
 import amandaLucasImage from '@public/assets/team/amanda_lucas.png';
 import valentinMariImage from '@public/assets/team/valentin_mari.jpeg';
-//import valentinaOppenImage from '@public/assets/team/valentina_oppen.jpeg';
+import valentinaOppenImage from '@public/assets/team/valentina_oppen.jpeg';
 
 
 export const config = {
@@ -267,12 +267,12 @@ export const texts = {
         content: 'Sr. Software Engineer - Argentina',
         link: 'https://www.linkedin.com/in/valentinmari',
       },
-      // {
-      //   image: valentinaOppenImage,
-      //   title: 'Valentina Oppen',
-      //   content: 'Sr. Software Engineer - Argentina',
-      //   link: 'https://www.linkedin.com/in/valentina-oppen-75a1856b/',
-      // },
+      {
+        image: valentinaOppenImage,
+        title: 'Valentina Oppen',
+        content: 'Sr. Software Engineer - Argentina',
+        link: 'https://www.linkedin.com/in/valentina-oppen-75a1856b/',
+      },
     ]
   },
   whyWeDoIt: {
