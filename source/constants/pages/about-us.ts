@@ -18,7 +18,7 @@ import sebaPereyroImage from '@public/assets/team/seba_pereyro.png';
 import sofiaCalvoImage from '@public/assets/team/sofia_calvo.png';
 import amandaLucasImage from '@public/assets/team/amanda_lucas.png';
 import valentinMariImage from '@public/assets/team/valentin_mari.jpeg';
-import valentinaOppenImage from '@public/assets/team/valentina_oppen.jpeg';
+import valentinaOppenImage from '@public/assets/team/valentina_oppen.png';
 
 
 export const config = {
