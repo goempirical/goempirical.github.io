@@ -1,4 +1,5 @@
 rm -rf _next/
+rm -rf assets/
 rm index.html
 cd source && npm install && npm run export && cd ..
 cp -R source/out/** ./
